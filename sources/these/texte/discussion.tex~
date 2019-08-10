@@ -1,0 +1,44 @@
+\section{Discussion}
+
+
+We find strong support for a model where the selective pressure changes preferentially during transitions between antigenic clusters. This suggests that evolution of human H3 consists of periods of amino acid variation according to a relatively constant set of rules, interspersed with periods where the rules governing variation change \citep{Blackburne2008}.
+
+
+Other potentialy important issue is the necessity of studying whole genome and not only the main antigen HA. For instance, during the deadly epidemic of 1951 in England and Canada, HA did not change of antigenicity \citep{Viboud2006b} and the higher epidemic maybe due to reassortment in 1951 leading to a new better polymerase \citep{Nelson2008}. Fujian, importance of being in the appropriate genetic context
+These two mode of evolution are clearly intermixed at the molecular level. For instance, reassortments are often invoked for the appearance of new subtypes, with segment of avian origin (antigenic shift) introduced in an otherwise human adapted virus \citep{Kilbourne2006}  as well as for antigenic drift \citep{Nelson2008, Schweiger2006}.
+
+ We want a minimal model able to explain subtypes remplacement or not regarding initial conditions \citep{Kilbourne2006}, 
+and the reccurence of influenza~A observed Tristan Da Cunha \citep{Mathews2007} .
+
+\subsection*{A biased picture}
+
+\subsubsection*{evolutionary data bias:}
+One confusing issue with these advances in our understanding of the ecology and evolution of influenza~A in humans is that most of the data comes from yearly samplings of the temperate area where the main evolutionary events does not take place. The evolutionary scenario inferred from this data (e.g. the phylogenetic tree of subtype H3N2 possesses a single trunk) can thus be biased due to the sampling effect of a tropical reservoir where different strains possibly co-circulate. 
+
+In fact sampling bias and lack of resolution of the current data could even be the cause of the punctuated evolution recently proposed, and some authors called for a more continuous evolution of influenza~A main antigen \citep{Shih2007}.
+Caution should also be taken with data analysis as immune-mediated interactions between subtypes may affect viral evolution \citep{Wolf2006, Rambaut2008}.
+
+\subsubsection*{epidemiological data bias:}
+The East and South-East Asian circulation network revealed by \citet{Russell2008} also remains to be taken with cautions as for other regions than those of the network, there were few sequences (no data for tropical africa) and it was not possible to conclusively differentiate between persistence and seeding. 
+Study of mortality patterns for Brazil, \citep{Alonso2007a} reveals year-round influenza activity near the equator from where starts a southward traveling wave of influenza. The influenza wave goes against patterns in population sizes and movement of people and thus highlight the importance of environmental factors \citep{Dowell2001}.
+The East and South-East Asia seeding hypothesis of \citet{Russell2008} raise the question of how new strains from East-South East Asia probably introduced first in the south city of Brazil (Brazil is connected to North America, and Europe mainly with intense passenger air traffic toward large cities in the southern regions like Sao Paulo and Rio de Janeiro) travel north and then south again creating the southward traveling wave of influenza observed \citep{Alonso2007a}
+
+Some controversies also remains on the kind of epidemiological dynamics obvserved in the tropical areas. If the amplitude of epidemics globally decrease from temperate area to the equator \citep{Viboud2006}, it is less clear if the annual and semiannual epidemic cycle generally observed \citep{Alonso2007a, Wong2006} are year round persistent or if they mostly consist of clear epidemic peaks inter-spaced by big troughs and fade-outs as tend to support \citet{Russell2008} data's.
+
+It is important to keep in mind that we often only possess indirect epidemiological data (for instance Influenza-Like-Illness ILI or Pneumonia and Influenza death) and that a fraction of the activity observed are not necessarily related to influenza and may be caused by other respiratory pathogens \citep{Earn2002}         
+
+%%%%%%chelou : persistence et remplacement par souche d'asiatique
+%
+%This results clearly highlight the important of environmental factors. The existnece of a true reservoir for the Brazilian equatorial area either well connected with the others tropical area or epidemiologicaly disconnected with parallel evolution taking place or simply 
+%
+%
+%
+%from north to south brazil 2.4 month lag in the timing of influneza epidemics IC 95\Alph\% 1.5 3.3 months
+%In the southeast region, influenza was isolated year-round, but 70 percent of the isolates were found between May and
+%August, and a large peak occurred in May.
+%
+%
+\subsubsection*{conceptual bias:}
+RNA virus are considered particularly prone to immune evasion mainly due to their high mutational rate, short replication times and immense population sizes \citep{Holmes2003}. Influenza is a classical example of such an evader. Influenza epidemiolgy is clearly driven by evolutionary process of large scale invasion of the human population and, immune evasion. Invasion leads to pandemics and introduction of new types and subtypes from avian reservoir (mostly by antigenic shift). Evasion leads to the recurrence of the previously introduced types and subtypes (antigenic drift). 
+Nevertheless it is being more recognised that RNA virus evolution could be more constrained that previously thought \citep{Holmes2003, Belshaw2008}. Indeed, our view of influenza~A recurrence may be simply wrong. For instance, \citet{Recker2007} has proposed that due to some constraints, the number of antigenic type available to influenza~A virus could be small and finite. The genetic evolution constantly recreates this types making possible to separate the ecology and the evolution of the virus. \citet{Recker2007} has combined a co-circulation of limited cross reactive antigenic types in a reservoir population (that can present complex dynamic \citep{Gupta1998}) with the sampling bias to due our only temperate data to show that their alternative perspective on the evolutionary dynamics of influenza is also consistent with reality and influenza A H3N2 HA phylogenetic tree.
+

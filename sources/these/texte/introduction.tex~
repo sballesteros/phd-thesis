@@ -1,0 +1,98 @@
+\section{Introduction}
+
+Currently two subtypes of influenza type A virus (H3N2 and H1N1) co-circulate in human populations along with the influenza type B virus. In temperate zones and during inter-pandemic periods, their dynamics lead to annual epidemics of variable amplitude caused by alternating types and subtypes \citep{Nelson2007}. These epidemics are responsible for 250000 to 500000 death annually \citep{WHO2003}. 
+
+\subsection{Paradigms shift in the evolution of influenza~A main antigen, a short history.}
+
+The recurrence of influenza~A epidemics has originally been explained by a different mechanism of those of childhood diseases. If childhood disease recurrence critically depends on new births to explain the renewal of the susceptible individuals' pool, leading to a young age of first infection \citep{Roy1990}, influenza depends on the evolution of its main surface glycoprotein (mainly haemagglutinin, HA but also Neuraminidase, NA) to be able to reinfect previously infected hosts. For instance, in Brazil, a birth rates declined of nearly twofold in all states has not produced noticeable changes in seasonal patterns of influenza \citep{Alonso2007a} contrary to what have been observed for measles \citep{Earn2000}. Grenfell \textit{(personal communication)} speak of a signature of "SIRSness".
+ %doner les age moyen de premiere infection dans pease 1987 ???
+This "continuous antigenic drift" \citep{Pease1987}  scenario, where virus continuously escape immunity as mutation accumulate has recently been challenged by new sequence data and theoretical developments. 
+
+From the theoretical side, multi-strains models tracking the infection history of the hosts has been difficult to use due to the exponential growth of state variable as the number of strains increase \citep{Andreasen1997}. Nevertheless, by using a status based approach \citep{Gog2002a}, that is taking the point of view of the virus, combined with the assumption that a previous infection reduces infectivity and that co-infections are allowed, \citet {Gog2002} have produced a model where the number of states variables grow linearly with the number of strains. It has thus been possible to study how immunologically cross-reactive strains sequentially invade a partially susceptible hosts population.
+This model \citep{Gog2002} has shown that if we assume a linear antigenic space where small mutation generate immune-escape mutant, the continuous genetic evolution results in the appearance of antigenic cluster at the phenotype level. Self-organization of the strains, results in a punctuated antigenic evolution from a continuous genetic change. \citet{Smith2004} have mapped the antigenic and genetic evolution of Influenza virus from real data and have confirmed the theoretical results of \citep{Gog2002}, with antigenic cluster emerging and replacing each other within 2 to 8 years (3.3 years on average). 
+
+Uses of computationally intensive individual based models have enabled to relax the hypothesis of a linear antigenic space \citep{Ferguson2003, Girvan2002}. Such a gain in realism has resulted in an intuitive explosion of strains diversity due to a positive feedback: as the antigenic diversity of co-circulating strains increases, so should their mean infection prevalence, thereby increasing production of further variants.
+The key theoretical question has thus been to explain how the strain diversity could be restricted to be compatible with the phylogenetic tree of H3N2 subtype HA. HA phylogenetic tree possesses a single trunk and is strongly temporal in structure with high rates of lineage extinction, so that genetic diversity at any time is limited \citep{Grenfell2004}.
+\citet{Ferguson2003} has proposed the existence of a period of temporary immunity, possibly mediated by T cells, that protect the hosts from super-infection by any others influenza strain. As expected intuitively, introducing a density dependant factor, along with a form of heterogeneity \citep{Tria2005} produces results consistent with reality. Others theoretical studies tend to confirm the existence of strain transcendent temporary immunity e.g \citep{Andreasen2006} nevertheless, it remains difficult to prove conclusively experimentally its physiological support. It is also unclear whether or not this models generate antigenic clusters \citep{Koelle2006}.
+
+Very recently \citet{Koelle2006} has been able to reproduce the phylogenetic tree of H3N2 main antigen (HA) without invoking the temporary strain transcending immunity of \citet{Ferguson2003}. \citet{Koelle2006}  model emphasizes antigenic clusters and a degenerated genotype to phenotype link. \citet{Koelle2006} consider that the evolution of the main antigen of influenza~A  consists of long periods of stasis (where antigenic clusters do not change their antigenic properties but evolve genetically with neutral or almost neutral mutations)  punctuated by bursts of positive selection that precipitates antigenic clusters transitions (due to rare escape mutation). This epochal evolution appears to be present in data directly \citep{Wolf2006}. Within this scope, each rare mutations with strong antigenic effect is expected to produce a higher epidemic followed by an eventual refractory periods a pattern also observed in epidemiological time series \citep{Koelle2006}. 
+An indirect clues of the succession of antigenic clusters has recently appeared with the dramatic rise in the frequency of resistance to adamantane drugs by influenza~A (H3N2) viruses \citep{Simonsen2007a}.
+%
+%travailler
+Confirmation by moleculat evolution \citep{Blackburne2008}. 
+"This suggests that the movement between the antigenic clusters, corresponds to changes in the nature of the interaction between virus and host." contrary to but not neccary inspite of "the "influential sites" model of antigenic change".
+"We find strong support for a model where the selective pressure changes preferentially during transitions between antigenic clusters. This suggests that evolution of human H3 consists of periods of amino acid variation according to a relatively constant set of rules, interspersed with periods where the rules governing variation change.
+%fin
+%
+\citet{Koelle2006} model is quite complex as it includes seasonal forcing, spatial effect and various kind of mutations. It results in systematic extinction during summer trought and thus depends on influx of external strains to get yearly reccurence of influenza. This forbid influenza A main antigen evolution to be a purely local process for instance in a given reservoire (see below) and it is difficult to distengle the effect of selective sweep from the one of local extinction followed by reintroductions (Aguilee).
+
+Within the same paradigm, \citet{Goekaydin2007} has proposed a new theory based on the reinfection threshold \citep{Gomes2004a, Gomes2005}. \citet{Goekaydin2007} assume that during period of evolutionary statis when a cluster dominates, reinfections are possible. When a new cluster appears (corresponding to the bursts of positive selection of \citet{Koelle2006}), the interplay of stochasticity and transient dynamics due to the proximity of the reinfection threshold result in the replacement of the old cluster by the new one in accord to what is observed for influenza~A.  Without reinfection, the model results in the stochastic extinction of both clusters rendering local persistence of influenza impossible.
+Direct reinfection of previously infected hosts has been previously neglected. Nevertheless, only 66.9 \% (IC95\%=[58.3-74.5]) (\textit{Carrat to appear}) of infected individuals appears to be symptomatic. We do not know to what extent asymptomatic hosts participate to influenza transmission. Some individual reinfected could be asymptomatic and still participating to influenza transmission explaining why reinfection is difficult to observed directly.  %peut etre mettre en discussion   
+
+\subsection{The geography of influenza~A evolution}
+
+A fundamental issue along with the new evolutionary paradigm of \citet{Koelle2006} and \citet{Wolf2006} is whether epidemics are the consequence of low-level persistence of viruses from the previous epidemic or whether they are seeded from epidemics in other regions and, if so, from where \citep{Russell2008}.
+
+Recent data analyzed by phylogenetic and coalescent based approach strongly suggest that influenza~A epidemics in temperate areas are part of a source-sink system. The tropical area is the source and the temperate area the sink where yearly epidemics take place and then fade out \citep{Alonso2007a, Nelson2007c, Holmes2005, Nelson2006, Viboud2006, Rambaut2008}. New epidemics of the temperate area are then triggered by new strains reintroduced from the tropics. This source-sink model explains the paradox of there being frequent positive selection on HA across seasons at a global scale \citep{Fitch1997} but little evidence for antigenic drift at the scale of individual seasonal epidemics in those temperate populations studied so far \citep{Lavenu2006, Nelson2006, Holmes2005}. 
+Hence, the observation of antigenic change in temperate populations is a secondary effect of strong selection within, and gene flow from, the source population \citep{Rambaut2008}.
+
+\citet{Russell2008} has gone further on the characterisation of the source of seeding. From 2002 to 2007, influenza A (H3N2) virus epidemics worldwide were seeded each year by viruses with HA that originated in East and South-East Asia (and not only China as previously supposed) 6 to 9 month earlier than they appeared in other regions with long delays to South america typically of an additional 6 to 9 months. This delay is corelated with air travel main road with few direct connections from East and South-East Asia to south america \citep{Russell2008}. 
+\citet{Russell2008} found no evidence of viral persistence in East-South East Asia but instead found that persistence was due to a regional metapopulation dynamics with asynchrony favoured by delayed environmental forcing such as temperature and or rainfalls. The mostly one-way nature of this hierarchy suggests that, once A (H3N2) viruses leave East and South-East Asia, they are unlikely to contribute to long-term viral evolution. 
+
+
+\subsection{A minimal model for influenza~A ?}
+
+\citet{Koelle2006} model reposes on specific assumption (like a status based framework with reduced infectivity) and comports various processes making causal links difficult to establish. For instance, \citet{Adams2007a} has shown within a history based framework that the shape of the function relating antigenic distance to cross-immunity was primordial to determine evolutionary outcomes. By considering a host population in which two strains are endemic and ask when it can be invaded by a third strain, \citet{Adams2007a} have shown that if the function relating antigenic distance to cross-immunity is strictly concave or linear invasion is always possible. However, if the function is strictly convex and
+has an initial gradient of zero, invasion depends on the degree of antigenic similarity between strains and the
+basic reproductive number \citep{Adams2007a}.
+The significance of the shape of the function relating antigenic similarity and cross-immunity in models with very sophisticated, irregular and discrete antigenic spaces such as sets of neutral networks \citep{Koelle2006} remains an open question \citep{Adams2007a}.
+
+Despite all this uncertainty, \citet{Koelle2006} model suggest a simple model for the evolution of influenza~A main antigen.
+Instead of the classical $SIRS$ model of \citet{Pease1987} or \citet{Dushoff2004}, the work of \citet{Koelle2006} suggest a serial $SIR$ model. The rare immune-escape mutant with strong antigenic effect provoke the discrete $R \rightarrow S$ transition. 
+This new model change the way we understand influenza recurrence. Such a minimal model is necessary to study higher order process like subtypes co-circulation or invasion and thus a precise test of its implication is needed. 
+
+In this paper, we take the working hypothesis that influenza A evolution mostly takes place in a tropical reservoir (possibly East and South-East Asia) and admit that other areas are unlikely to contribute to long-term viral evolution \citep{Russell2008}. 
+We seek to determine to what extent a serial $SIR$ model can be a minimal model for influenza A in such a source population.
+We ask four main questions : 
+
+\begin{itemize}
+	\item To what extend \citet{Koelle2006} results depends on the status based framework and the reduced infectivity assumption ? %pas de comparaison de status et history model pour dynamique transiante de meme pour reduced susceptibility or infectivity
+	\item \citet{Koelle2006} consider three types of mutation : neutral, almost neutral, and escape mutation. In order to get recurrent influenza epidemics, can we really neglect the almost neutral mutation (reminiscent of the previous $SIRS$ model) and only considering a serial $SIR$ model as suggested by \citet{Koelle2006}?
+	\item  With immigration, how many times after a fadeout is necessary before a second epidemics can takes place. Is this compatible with \citep{Russell2008} East and South-East Asia metapopulation reservoir? Does reinfections of \citep{Goekaydin2007} are really necessary for recurrence even in the presence of these strains reintroduction due to spatial effect?
+	\item As we can consider drift and shift within the same framework, can our minimal model answer why have there been two apparent exclusions when new subtypes are introduced (H1N1 $\rightarrow$ H2N2 and H2N2 $\rightarrow$ H3N2) and one case of coexistence (H3N2 and H1N1)?
+\end{itemize}
+	
+	
+%-----------------NE PAS OUBLIER 
+%    *  Different viral subtypes show different evolutionary pattens: compared with A/H1N1, A/H3N2 shows more frequent and pronounced seasonal peaks in diversity, in both northern and southern hemispheres
+%    * Immune-mediated interactions between subtypes may affect viral evolution
+%    * Reassortment plays an important role in generating novel diversity
+%    * Other viral proteins besides the haemagglutinin (HA) antigen are subject to strong positive selection, suggesting that co-evolution of proteins is important
+%    * The spatio-temporal patterns of antigenic evolution are consistent with the existence of a tropical "reservoir" for influenza, within which there is strong selection for antigenic change.
+
+
+
+%the genomic evolution of influenza A virus is characterized by a complex interplay between frequent reassortment and periodic selective sweeps.
+
+%Bayesian skyline plot show that the absolute amount of genetic diversity, even at seasonal peaks, is small compared to other rapidly evolving viruses that infect far fewer people, suggesting that strong natural selection, in addition to periodic bottlenecks, reduces the level of diversity that co-circulates at any time. 
+
+%strong natural selection occurs in the tropics
+
+
+%Most TMRCAs fall well before the start of the season from which
+%they were sampled, such that multiple lineages persist across multiple
+%epidemic troughs, consistent with our source–sink model. 
+
+%It is therefore crucial to consider the process of antigenic drift within the context of frequent
+%reassortment and genome-wide epistatic interactions
+%Although the increased rates of evolution in HA support models in
+%which this protein is subject to strong selection for immune escape,
+%the high rates of evolutionary change in other virion-associated pro-
+%teins (that have different phylogenetic histories to HA) indicate that
+%they are likewise subject to strong positive selection. It is possible that
+%a significant component of this adaptation involves optimizing the
+%functional compatibility of segments; for example, a new HA variant
+%may not increase fitness unless it is linked to functionally compatible
+%segments.
+
+

@@ -1,0 +1,14 @@
+\select@language {UKenglish}
+\contentsline {section}{\numberline {1}Models used}{1}
+\contentsline {subsection}{\numberline {1.1}A minimal model for two subtypes of influenza A interacting via a short period of full cross-immunity}{1}
+\contentsline {subsection}{\numberline {1.2}Stochastic metapopulation model with age structure}{3}
+\contentsline {subsection}{\numberline {1.3}Numerical Methods}{4}
+\contentsline {section}{\numberline {2}Parameter inference}{5}
+\contentsline {subsection}{\numberline {2.1}Methods}{5}
+\contentsline {subsection}{\numberline {2.2}Result for Ile de France data}{5}
+\contentsline {subsection}{\numberline {2.3}Result for Israel data}{8}
+\contentsline {section}{\numberline {3}Additional figures}{9}
+\contentsline {subsection}{\numberline {3.1}Single subtype model}{9}
+\contentsline {subsection}{\numberline {3.2}Two subtypes models}{11}
+\contentsline {subsection}{\numberline {3.3}Metapopulation model}{13}
+\contentsline {section}{\numberline {4}Periods bifurcations}{17}

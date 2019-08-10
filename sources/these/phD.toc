@@ -1,0 +1,113 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Introduction}{9}
+\contentsline {section}{\numberline {1.1}Origine des principales maladies infectieuses humaines: les transitions \IeC {\'e}pid\IeC {\'e}miologiques}{9}
+\contentsline {subsection}{\numberline {1.1.1}Premi\IeC {\`e}re transition: la r\IeC {\'e}volution n\IeC {\'e}olithique}{9}
+\contentsline {subsection}{\numberline {1.1.2}Seconde et troisi\IeC {\`e}me transition: contact entre les civilisations et d\IeC {\'e}cimations trans-oc\IeC {\'e}aniques}{11}
+\contentsline {subsection}{\numberline {1.1.3}Quatri\IeC {\`e}me transition: le monde moderne \IeC {\`a} travers l'exemple de la grippe}{12}
+\contentsline {section}{\numberline {1.2}\IeC {\'E}volution des maladies infectieuses \IeC {\`a} travers diff\IeC {\'e}rentes \IeC {\'e}chelles spatio-temporelles}{18}
+\contentsline {subsection}{\numberline {1.2.1}Diff\IeC {\'e}rentes trajectoires \IeC {\'e}volutives}{18}
+\contentsline {subsection}{\numberline {1.2.2}Contraintes \IeC {\'e}cologiques}{18}
+\contentsline {subsection}{\numberline {1.2.3}Prise en compte de la dynamique intra-h\IeC {\^o}te}{21}
+\contentsline {subsection}{\numberline {1.2.4}Prise en compte de la variation antig\IeC {\'e}nique}{23}
+\contentsline {subsection}{\numberline {1.2.5}Devenir des variants antig\IeC {\'e}niques \IeC {\`a} l'\IeC {\'e}chelle de la population d'h\IeC {\^o}tes}{27}
+\contentsline {section}{\numberline {1.3}Un cas d'\IeC {\'e}cole: la grippe}{30}
+\contentsline {subsection}{\numberline {1.3.1}L'\IeC {\'e}volution comme processus \IeC {\'e}cologique}{31}
+\contentsline {subsection}{\numberline {1.3.2}L'\IeC {\^a}ge d'or de la g\IeC {\'e}n\IeC {\'e}tique}{33}
+\contentsline {subsection}{\numberline {1.3.3}Les mod\IeC {\`e}les multi souches}{35}
+\contentsline {subsection}{\numberline {1.3.4}Les clusters antig\IeC {\'e}niques}{42}
+\contentsline {subsection}{\numberline {1.3.5}Une \IeC {\'e}volution antig\IeC {\'e}nique graduelle ou ponctu\IeC {\'e}e ?}{50}
+\contentsline {subsection}{\numberline {1.3.6}Dynamique source-puits et apport des analyses \IeC {\`a} l'\IeC {\'e}chelle g\IeC {\'e}nomique}{53}
+\contentsline {subsection}{\numberline {1.3.7}Recyclage antig\IeC {\'e}nique}{55}
+\contentsline {section}{\numberline {1.4}Objectif de la th\IeC {\`e}se}{59}
+\contentsline {chapter}{\numberline {2}Influenza A gradual and epochal evolution: insights from simple models}{63}
+\contentsline {section}{\numberline {2.1}Introduction}{64}
+\contentsline {section}{\numberline {2.2}Methods}{67}
+\contentsline {subsection}{\numberline {2.2.1}Different assumptions for the modelling of partial cross-immunity for co-circulating antigenic clusters; deterministic framework}{67}
+\contentsline {subsubsection}{Status based model with reduced susceptibility \textit {(SBRS)} and co-infections}{68}
+\contentsline {subsubsection}{Status based model with reduced infectivity \textit {(SBRI)} and co-infections}{68}
+\contentsline {subsubsection}{History based model}{69}
+\contentsline {subsection}{\numberline {2.2.2}Stochastic models}{73}
+\contentsline {subsection}{\numberline {2.2.3}Parameter values}{73}
+\contentsline {section}{\numberline {2.3}Results}{74}
+\contentsline {subsection}{\numberline {2.3.1}Invasion condition of the mutant cluster}{74}
+\contentsline {subsection}{\numberline {2.3.2}Invasion and extinction}{76}
+\contentsline {subsubsection}{Deterministic framework}{76}
+\contentsline {subsubsection}{Stochastic framework}{80}
+\contentsline {subsection}{\numberline {2.3.3}External re-introductions}{80}
+\contentsline {subsubsection}{Modelling re-introduction}{80}
+\contentsline {subsection}{\numberline {2.3.4}Re-invasion time-scales}{82}
+\contentsline {section}{\numberline {2.4}Discussion}{85}
+\contentsline {subsection}{\numberline {2.4.1}Is the $SBRI$ model particularly appropriate?}{85}
+\contentsline {subsection}{\numberline {2.4.2}Toward a minimal theory for influenza}{87}
+\contentsline {subsubsection}{Gradual antigenic drift within antigenic clusters}{87}
+\contentsline {subsubsection}{Functional constraints}{90}
+\contentsline {subsubsection}{Multiple infections before acquiring immunity}{91}
+\contentsline {section}{\numberline {2.5}Acknowledgments}{92}
+\contentsline {chapter}{\numberline {3}Chaotic but regular recurrent influenza epidemics: from theory to observation}{94}
+\contentsline {section}{\numberline {3.1}Introduction}{95}
+\contentsline {section}{\numberline {3.2}Theory}{97}
+\contentsline {subsection}{\numberline {3.2.1}A minimal model for influenza A}{97}
+\contentsline {subsection}{\numberline {3.2.2}UPCA dynamics in influenza epidemics}{100}
+\contentsline {section}{\numberline {3.3}Corroborations from observations}{102}
+\contentsline {section}{\numberline {3.4}Robustness}{104}
+\contentsline {section}{\numberline {3.5}Discussion}{106}
+\contentsline {chapter}{\numberline {4}The transition from invasion to persistence for influenza antigenic units}{111}
+\contentsline {section}{\numberline {4.1}Introduction}{112}
+\contentsline {section}{\numberline {4.2}A general framework for co-circulating cross-reactive IAU subject to gradual antigenic drift}{115}
+\contentsline {subsection}{\numberline {4.2.1}A history-based model with two levels of immunity $(SIRX)$}{116}
+\contentsline {subsection}{\numberline {4.2.2}Invasion condition for the 2-IAU $SIRX$ model}{117}
+\contentsline {section}{\numberline {4.3}Transient dynamics of the $SIRX$ model}{120}
+\contentsline {subsection}{\numberline {4.3.1}Endemic equilibrium of the 1-IAU $SIRX$ model}{120}
+\contentsline {subsection}{\numberline {4.3.2}Invasion-replacement dynamics with the 2-IAU $SIRX$ model}{120}
+\contentsline {subsection}{\numberline {4.3.3}Metapopulation dynamics and seasonality}{124}
+\contentsline {subsubsection}{Invasion-replacement in the stochastic metapopulation model}{124}
+\contentsline {subsubsection}{Sequential effect}{126}
+\contentsline {subsection}{\numberline {4.3.4}Functional constraints and evolutionary trade-off between immune escape and transmission}{129}
+\contentsline {section}{\numberline {4.4}Temporary period of IAU-transcending immunity}{129}
+\contentsline {subsection}{\numberline {4.4.1}Biological hypothesis}{129}
+\contentsline {subsection}{\numberline {4.4.2}Extension of the simple $SIRX$ model}{133}
+\contentsline {subsection}{\numberline {4.4.3}Invasion threshold for the $SIRXQ_{1/12}$ model}{134}
+\contentsline {subsection}{\numberline {4.4.4}Transient dynamics}{134}
+\contentsline {subsection}{\numberline {4.4.5}Metapopulation dynamics}{135}
+\contentsline {section}{\numberline {4.5}Discussion}{137}
+\contentsline {subsection}{\numberline {4.5.1}The $SIRX$ framework for drifting co-circulating IAUs}{137}
+\contentsline {subsection}{\numberline {4.5.2}Noisy gradual antigenic drift or punctuated immune escape}{140}
+\contentsline {chapter}{\numberline {5}Discussion}{143}
+\contentsline {section}{\numberline {5.1}R\IeC {\'e}sum\IeC {\'e} des principaux r\IeC {\'e}sultats}{144}
+\contentsline {section}{\numberline {5.2}Perspectives}{147}
+\contentsline {chapter}{\numberline {A}Supporting Information: Influenza A gradual and epochal evolution: insights from simple models}{153}
+\contentsline {section}{\numberline {A.1}Reaction scheme for the $SBRI$ model}{153}
+\contentsline {section}{\numberline {A.2}Critical community size for influenza}{155}
+\contentsline {section}{\numberline {A.3}Complementary results for the theoretical parameters set}{157}
+\contentsline {section}{\numberline {A.4}A model for within cluster antigenic drift}{161}
+\contentsline {section}{\numberline {A.5}Functional constraints}{164}
+\contentsline {chapter}{\numberline {B}Supporting Information: Chaotic but regular recurrent influenza epidemics: from theory to observation}{166}
+\contentsline {section}{\numberline {B.1}Models}{167}
+\contentsline {subsection}{\numberline {B.1.1}A minimal model for two subtypes of influenza A interacting via a short period of full cross-immunity}{167}
+\contentsline {subsection}{\numberline {B.1.2}Stochastic metapopulation model with age structure}{168}
+\contentsline {subsection}{\numberline {B.1.3}Numerical Methods}{169}
+\contentsline {section}{\numberline {B.2}Parameter inference}{170}
+\contentsline {subsection}{\numberline {B.2.1}Methods}{170}
+\contentsline {subsection}{\numberline {B.2.2}Results for Ile de France data}{170}
+\contentsline {subsection}{\numberline {B.2.3}Results for Israel data}{173}
+\contentsline {section}{\numberline {B.3}Additional figures}{173}
+\contentsline {section}{\numberline {B.4}Periods bifurcations}{179}
+\contentsline {chapter}{\numberline {C}Supporting Information: The transition from invasion to persistence for influenza antigenic units}{182}
+\contentsline {section}{\numberline {C.1}Justification of the $SIRX$ model}{183}
+\contentsline {subsection}{\numberline {C.1.1}History based models}{183}
+\contentsline {subsection}{\numberline {C.1.2}Status based model}{187}
+\contentsline {subsection}{\numberline {C.1.3}Comparison of status based and history based framework: effect of cross-immune boosting}{191}
+\contentsline {section}{\numberline {C.2}Reinfection limits}{193}
+\contentsline {section}{\numberline {C.3}Additional figures}{194}
+\contentsline {subsection}{\numberline {C.3.1}Transient dynamics: determinist models}{194}
+\contentsline {subsection}{\numberline {C.3.2}Effect of functional constraints}{198}
+\contentsline {subsection}{\numberline {C.3.3}Metapopulation dynamics: stochastic models}{199}
+\contentsline {chapter}{\numberline {D}Reinfection as a potential phenomenon for influenza pandemics: Tristan da Cunha 1971 epidemic as a case study}{205}
+\contentsline {section}{\numberline {D.1}Introduction}{205}
+\contentsline {section}{\numberline {D.2}Hypothesis Test}{207}
+\contentsline {section}{\numberline {D.3}Results}{209}
+\contentsline {section}{\numberline {D.4}Discussion}{212}
+\contentsline {section}{\numberline {D.5}Materials and Methods}{215}
+\contentsline {subsection}{\numberline {D.5.1}Data}{215}
+\contentsline {subsection}{\numberline {D.5.2}Models}{217}
+\contentsline {subsection}{\numberline {D.5.3}Simulation and model selection}{218}

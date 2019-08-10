@@ -1,0 +1,211 @@
+\section{models}
+
+\newpage
+\begin{scriptsize}
+\begin{align}
+\dot{R_\varnothing} & = \mu - \beta_1 R_\varnothing (I_\varnothing^1 + I_1^1 + I_2^1 + I_{\overset{*}{2}}^1 + I_{12}^1 + I_{1\overset{*}{2}}^1) - \beta_2 R_\varnothing (I_\varnothing^2 + I_1^2 + I_{\overset{*}{1}}^2 + I_2^2 + I_{12}^2 + I_{\overset{*}{1}2}^2) -\mu R_\varnothing \label{eq_immunitiQ}\\
+\dot{R_1} & = -s \beta_1 R_1 (I_\varnothing^1 + I_1^1 + I_2^1 + I_{\overset{*}{2}}^1 + I_{12}^1 + I_{1\overset{*}{2}}^1)  -\beta_2 R_1 (I_\varnothing^2 + I_1^2 + I_{\overset{*}{1}}^2 + I_2^2 + I_{12}^2 + I_{\overset{*}{1}2}^2) -\mu R_1 + g_1 R_{\overset{*}{1}} \notag \\
+\dot{R_2} & = -s \beta_2 R_2 (I_\varnothing^2 + I_1^2 + I_{\overset{*}{1}}^2 + I_2^2 + I_{12}^2 + I_{\overset{*}{1}2}^2)  -\beta_1 R_2 (I_\varnothing^1 + I_1^1 + I_2^1 + I_{\overset{*}{2}}^1 + I_{12}^1 + I_{1\overset{*}{2}}^1) -\mu R_2 + g_2 R_{\overset{*}{2}} \notag \\
+\dot{R_{\overset{*}{1}}} & = (1-\sigma_x) q Q_\varnothing^1 -\beta_2 R_{\overset{*}{1}} (I_\varnothing^2 + I_1^2 + I_{\overset{*}{1}}^2 + I_2^2 + I_{12}^2 + I_{\overset{*}{1}2}^2) + s (1-\sigma_x) Q_1^1 -\mu R_{\overset{*}{1}} -g_1 R_{\overset{*}{1}}\notag \\
+\dot{R_{\overset{*}{2}}} & = (1-\sigma_x) q Q_\varnothing^2 -\beta_1 R_{\overset{*}{2}} (I_\varnothing^1 + I_1^1 + I_2^1 + I_{\overset{*}{2}}^1 + I_{12}^1 + I_{1\overset{*}{2}}^1) + s (1-\sigma_x) Q_2^1 -\mu R_{\overset{*}{2}} -g_2 R_{\overset{*}{2}}\notag \\
+\dot{R_{12}} & = -s \beta_1 R_{12} (I_\varnothing^1 + I_1^1 + I_2^1 + I_{\overset{*}{2}}^1 + I_{12}^1 + I_{1\overset{*}{2}}^1) -s \beta_2 R_{12} (I_\varnothing^2 + I_1^2 + I_{\overset{*}{1}}^2 + I_2^2 + I_{12}^2 + I_{\overset{*}{1}2}^2) -\mu R_{12} + g_1 R_{{\overset{*}{1}}2} + g_2 R_{1{\overset{*}{2}}}\notag \\
+\dot{R_{{\overset{*}{1}}2}} & = \sigma_x q Q_\varnothing^1 -s \beta_2 R_{{\overset{*}{1}}2} (I_\varnothing^2 + I_1^2 + I_{\overset{*}{1}}^2 + I_2^2 + I_{12}^2 + I_{\overset{*}{1}2}^2) + s q Q_{12}^1 + s \sigma_x q Q_1^1 + q Q_2^1 -\mu R_{{\overset{*}{1}}2} -g_1 R_{{\overset{*}{1}}2} + g_2 R_{{\overset{*}{1}}{\overset{*}{2}}}\notag \\
+\dot{R_{1{\overset{*}{2}}}} & = \sigma_x q Q_\varnothing^2 -s \beta_1 R_{1{\overset{*}{2}}} (I_\varnothing^1 + I_1^1 + I_2^1 + I_{\overset{*}{2}}^1 + I_{12}^1 + I_{1\overset{*}{2}}^1) + s q Q_{12}^2 + s \sigma_x q Q_2^2 + q Q_1^2 -\mu R_{1{\overset{*}{2}}} -g_2 R_{1{\overset{*}{2}}} + g_1 R_{{\overset{*}{1}}{\overset{*}{2}}} \notag \\
+\dot{R_{{\overset{*}{1}}{\overset{*}{2}}}} & = q Q_{\overset{*}{1}}^2 + q Q_{\overset{*}{2}}^1 + s q Q_{\overset{*}{1}2}^2 + s q Q_{1\overset{*}{2}}^1 - \mu R_{{\overset{*}{1}}{\overset{*}{2}}} - g_1 R_{{\overset{*}{1}}{\overset{*}{2}}} -g_2 R_{{\overset{*}{1}}{\overset{*}{2}}} \notag \\
+\dot{I_\varnothing^1} & = \beta_1 R_\varnothing (I_\varnothing^1 + I_1^1 + I_2^1 + I_{\overset{*}{2}}^1 + I_{12}^1 + I_{1\overset{*}{2}}^1) -v I_\varnothing^1 -u I_\varnothing^1 \notag \\  
+\dot{I_1^1} & = s \beta_1 R_1 (I_\varnothing^1 + I_1^1 + I_2^1 + I_{\overset{*}{2}}^1 + I_{12}^1 + I_{1\overset{*}{2}}^1) -v I_1^1 -u I_1^1 \notag \\	
+\dot{I_2^1} & = \beta_1 R_2 (I_\varnothing^1 + I_1^1 + I_2^1 + I_{\overset{*}{2}}^1 + I_{12}^1 + I_{1\overset{*}{2}}^1) -v I_2^1 -u I_2^1 \notag \\
+\dot{I_{\overset{*}{2}}^1} & = \beta_1 R_{\overset{*}{2}} (I_\varnothing^1 + I_1^1 + I_2^1 + I_{\overset{*}{2}}^1 + I_{12}^1 + I_{1\overset{*}{2}}^1) -v I_{\overset{*}{2}}^1 -u I_{\overset{*}{2}}^1 \notag \\
+\dot{I_{12}^1} & = s \beta_1 R_{12} (I_\varnothing^1 + I_1^1 + I_2^1 + I_{\overset{*}{2}}^1 + I_{12}^1 + I_{1\overset{*}{2}}^1) -v I_{12}^1  -u I_{12}^1 \notag \\
+\dot{I_{1\overset{*}{2}}^1} & = s \beta_1 R_{1{\overset{*}{2}}} (I_\varnothing^1 + I_1^1 + I_2^1 + I_{\overset{*}{2}}^1 + I_{12}^1 + I_{1\overset{*}{2}}^1)  -v I_{1\overset{*}{2}}^1 -u I_{1\overset{*}{2}}^1 \notag \\
+\dot{I_\varnothing^2} & = \beta_2 R_\varnothing (I_\varnothing^2 + I_1^2 + I_{\overset{*}{1}}^2 + I_2^2 + I_{12}^2 + I_{\overset{*}{1}2}^2) -v I_\varnothing^2 -u I_\varnothing^2 \notag \\
+\dot{I_1^2} & = \beta_2 R_1 (I_\varnothing^2 + I_1^2 + I_{\overset{*}{1}}^2 + I_2^2 + I_{12}^2 + I_{\overset{*}{1}2}^2) -v I_1^2 -u I_1^2 \notag \\
+\dot{I_{\overset{*}{1}}^2} & = \beta_2 R_{\overset{*}{1}} (I_\varnothing^2 + I_1^2 + I_{\overset{*}{1}}^2 + I_2^2 + I_{12}^2 + I_{\overset{*}{1}2}^2) -v I_{\overset{*}{1}}^2 -u I_{\overset{*}{1}}^2 \notag \\
+\dot{I_2^2} & = s \beta_2 R_2 (I_\varnothing^2 + I_1^2 + I_{\overset{*}{1}}^2 + I_2^2 + I_{12}^2 + I_{\overset{*}{1}2}^2) -v I_2^2 -u I_2^2 \notag \\
+\dot{I_{12}^2} & = s \beta_2 R_{12} (I_\varnothing^2 + I_1^2 + I_{\overset{*}{1}}^2 + I_2^2 + I_{12}^2 + I_{\overset{*}{1}2}^2) -v I_{12}^2 -u I_{12}^2 \notag \\
+\dot{I_{\overset{*}{1}2}^2} & = s \beta_2 R_{{\overset{*}{1}}2} (I_\varnothing^2 + I_1^2 + I_{\overset{*}{1}}^2 + I_2^2 + I_{12}^2 + I_{\overset{*}{1}2}^2) + s \beta_2 R_{{\overset{*}{1}}2} I^2 -v I_{\overset{*}{1}2}^2 -u I_{\overset{*}{1}2}^2 \notag \\
+\dot{Q_\varnothing^1} & = v I_\varnothing^1 -q Q_\varnothing^1 -u Q_\varnothing^1 \notag \\
+\dot{Q_1^1} & = v I_1^1 -q Q_1^1 -u Q_1^1 \notag \\
+\dot{Q_2^1} & = v I_2^1 -q Q_2^1 -u Q_2^1 \notag \\
+\dot{Q_{\overset{*}{2}}^1} & = v I_{\overset{*}{2}}^1 -q Q_{\overset{*}{2}}^1 -u Q_{\overset{*}{2}}^1 \notag \\
+\dot{Q_{12}^1} & = v I_{12}^1 -q Q_{12}^1 -u Q_{12}^1 \notag \\
+\dot{Q_{1\overset{*}{2}}^1} & = v I_{1\overset{*}{2}}^1 -q Q_{1\overset{*}{2}}^1 -u Q_{1\overset{*}{2}}^1 \notag \\
+\dot{Q_\varnothing^2} & = v I_\varnothing^2  -q Q_\varnothing^2 -u Q_\varnothing^2 \notag \\
+\dot{Q_1^2} & = v I_1^2 -q Q_1^2  -u Q_1^2 \notag \\
+\dot{Q_{\overset{*}{1}}^2} & = v I_{\overset{*}{1}}^2  -v Q_{\overset{*}{1}}^2 -u Q_{\overset{*}{1}}^2 \notag \\
+\dot{Q_2^2} & = v I_2^2 -q Q_2^2  -u Q_2^2 \notag \\
+\dot{Q_{12}^2} & = v I_{12}^2 -q Q_{12}^2 -u Q_{12}^2 \notag \\
+\dot{Q_{\overset{*}{1}2}^2} & = v I_{\overset{*}{1}2}^2 -q Q_{\overset{*}{1}2}^2 -u Q_{\overset{*}{1}2}^2 \notag 
+\end{align}
+\end{scriptsize}
+\newpage
+
+
+
+% \citep{Webster1992} pour dire que dynamique evolutive transiante la preuve pour la grippe B
+
+\subsection{history based model with reduced susceptibility and infectivity and no co infections}
+
+\begin{align}
+\dot{SS} & = \mu -\beta_1 SS (IS + s IR) -\beta_2 SS (SI + s RI) -\mu SS + g_1 RS + g_2 SR  \label{eq:MODEL21}\\
+\dot{IS} & = \beta_1 SS (IS + s IR) -\nu IS -\mu IS \notag \\
+\dot{SI} & = \beta_2 SS (SI + s RI) -\nu SI -\mu SI \notag \\
+\dot{RS} & = \nu IS -\beta_2 \sigma RS (SI + s RI) -\mu RS -g_1 RS + g_2 RR \notag \\
+\dot{SR} & = \nu SI -\beta_1 \sigma SR (IS + s IR) -\mu SR -g_2 SR + g_1 RR\notag \\
+\dot{IR} & = \beta_1 \sigma SR (IS + s IR) -\nu IR -\mu IR \notag \\
+\dot{RI} & = \beta_2 \sigma RS (SI + s RI) -\nu RI -\mu RI \notag \\
+\dot{RR} & = \nu IR + \nu RI -\mu RR -g_1 RR -g_2 RR \notag 
+\end{align}
+
+\subsection{status based model with reduced susceptibility and no co infections}
+
+\begin{align}
+\dot{R_\varnothing} & = \mu -\beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\mu R_\varnothing + g_1 R_1 + g_2 R_2  \label{eq:MODEL22}\\
+\dot{R_1} & = C(\{\varnothing\},\{1\},1) \nu I_\varnothing^1 - \beta_2 R_1 (I_\varnothing^2 + I_1^2) -\mu R_1 -g_1 R_1 + g_2 R_{12} \notag \\
+\dot{R_2} & = C(\{\varnothing\},\{2\},2) \nu I_\varnothing^2 - \beta_1 R_2 (I_\varnothing^1 + I_2^1) -\mu R_2 -g_2 R_2 + g_1 R_{12} \notag \\
+\dot{R_{12}} & = C(\{\varnothing\},\{1,2\},1) \nu I_\varnothing^1 + C(\{\varnothing\},\{1,2\},2) \nu I_\varnothing^2 + C(\{1\},\{1,2\},2) \nu I_1^2 \notag \\
+&~~~+ C(\{2\},\{1,2\},1) \nu I_2^1 -\mu R_{12} -g_1 R_{12} -g_2 R_{12} \notag \\
+\dot{I_\varnothing^1} & = \beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\nu I_\varnothing^1  -\mu I_\varnothing^1 \notag \\
+\dot{I_\varnothing^2} & = \beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\nu I_\varnothing^2  -\mu I_\varnothing^2 \notag \\
+\dot{I_2^1} & = \beta_1 R_2 (I_\varnothing^1 + I_2^1) -\nu I_2^1  -\mu I_2^1 \notag \\
+\dot{I_1^2} & = \beta_2 R_1 (I_\varnothing^2 + I_1^2) -\nu I_1^2  -\mu I_1^2 \notag 
+\end{align}
+
+\begin{align}
+\dot{R_\varnothing} & = \mu -\beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\mu R_\varnothing + g_1 R_1 + g_2 R_2 \label{eq:MODEL23}\\
+\dot{R_1} & = (1-\sigma) \nu I_\varnothing^1 - \beta_2 R_1 (I_\varnothing^2 + I_1^2) -\mu R_1 -g_1 R_1 + g_2 R_{12} \notag \\
+\dot{R_2} & = (1-\sigma) \nu I_\varnothing^2 - \beta_1 R_2 (I_\varnothing^1 + I_2^1) -\mu R_2 -g_2 R_2 + g_1 R_{12} \notag \\
+\dot{R_{12}} & = \sigma \nu I_\varnothing^1 + \sigma \nu I_\varnothing^2 + \nu I_1^2 + \nu I_2^1 -\mu R_{12} -g_1 R_{12} -g_2 R_{12} \notag \\
+\dot{I_\varnothing^1} & = \beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\nu I_\varnothing^1  -\mu I_\varnothing^1 \notag \\
+\dot{I_\varnothing^2} & = \beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\nu I_\varnothing^2  -\mu I_\varnothing^2 \notag \\
+\dot{I_2^1} & = \beta_1 R_2 (I_\varnothing^1 + I_2^1) -\nu I_2^1  -\mu I_2^1 \notag \\
+\dot{I_1^2} & = \beta_2 R_1 (I_\varnothing^2 + I_1^2) -\nu I_1^2  -\mu I_1^2 \notag 
+\end{align}
+
+
+\subsection{status based model with reduced infectivity and no co infections}
+
+\begin{align}
+\dot{R_\varnothing} & = \mu -\beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\mu R_\varnothing + g_1 R_1 + g_2 R_2 \label{eq:MODEL24}\\
+\dot{R_1} & = C(\{\varnothing\},\{1\},1) \nu I_\varnothing^1 + C(\{1\},\{1\},1) \nu I_1^1 - \beta_2 R_1 (I_\varnothing^2 + I_1^2) - \beta_1 R_1 (I_\varnothing^1 + I_2^1) -\mu R_1 -g_1 R_1 + g_2 R_{12}\notag \\
+\dot{R_2} & = C(\{\varnothing\},\{2\},2) \nu I_\varnothing^2 + C(\{2\},\{2\},2) \nu I_2^2 - \beta_1 R_2 (I_\varnothing^1 + I_2^1) - \beta_2 R_2 (I_\varnothing^2 + I_1^2) -\mu R_2 -g_2 R_2 + g_1 R_{12} \notag \\
+\dot{R_{12}} & = C(\{\varnothing\},\{1,2\},1) \nu I_\varnothing^1 + C(\{\varnothing\},\{1,2\},2) \nu I_\varnothing^2 + C(\{1\},\{1,2\},1) \nu I_1^1 \notag \\
+&~~~+ C(\{1\},\{1,2\},2) \nu I_1^2 + C(\{2\},\{1,2\},2) \nu I_2^2 + C(\{2\},\{1,2\},1) \nu I_2^1 \notag \\
+&~~~+ C(\{1,2\},\{1,2\},1) \nu I_{12}^1 + C(\{1,2\},\{1,2\},2) \nu I_{12}^2 \notag \\
+&~~~-\beta_1 R_{12} (I_\varnothing^1 + I_2^1) - \beta_2 R_{12} (I_\varnothing^2 + I_1^2)  -\mu R_{12} -g_1 R_{12} -g_2 R_{12}  \notag \\
+\dot{I_\varnothing^1} & = \beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\nu I_\varnothing^1  -\mu I_\varnothing^1 \notag \\
+\dot{I_\varnothing^2} & = \beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\nu I_\varnothing^2  -\mu I_\varnothing^2 \notag \\
+\dot{I_1^1} & = \beta_1 R_1 (I_\varnothing^1 + I_2^1) -\nu I_1^1  -\mu I_1^1 \notag \\
+\dot{I_2^2} & = \beta_2 R_2 (I_\varnothing^2 + I_1^2) -\nu I_2^2  -\mu I_2^2 \notag \\
+\dot{I_2^1} & = \beta_1 R_2 (I_\varnothing^1 + I_2^1) -\nu I_2^1  -\mu I_2^1 \notag \\
+\dot{I_1^2} & = \beta_2 R_1 (I_\varnothing^2 + I_1^2) -\nu I_1^2  -\mu I_1^2 \notag \\
+\dot{I_{12}^1} & = \beta_1 R_{12} (I_\varnothing^1 + I_2^1) -\nu I_{12}^1  -\mu I_{12}^1 \notag \\
+\dot{I_{12}^2} & = \beta_2 R_{12} (I_\varnothing^2 + I_1^2) -\nu I_{12}^2  -\mu I_{12}^2 \notag 
+\end{align}
+
+Note that $I_1^1$ and $I_2^2$ are infected but not infectious. This states variables are necessary for obvious bookkeeping purposes.
+
+\begin{align}
+\dot{R_\varnothing} & = \mu -\beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\mu R_\varnothing + g_1 R_1 + g_2 R_2 \label{eq:MODEL25}\\
+\dot{R_1} & = (1 -\sigma) \nu I_\varnothing^1 + (1 -\sigma) \nu I_1^1 - \beta_2 R_1 (I_\varnothing^2 + I_1^2) - \beta_1 R_1 (I_\varnothing^1 + I_2^1) -\mu R_1 -g_1 R_1 + g_2 R_{12}\notag \\
+\dot{R_2} & = (1 -\sigma) \nu I_\varnothing^2 + (1 -\sigma) \nu I_2^2 - \beta_1 R_2 (I_\varnothing^1 + I_2^1) - \beta_2 R_2 (I_\varnothing^2 + I_1^2) -\mu R_2 -g_2 R_2 + g_1 R_{12} \notag \\
+\dot{R_{12}} & = \sigma \nu I_\varnothing^1 + \sigma \nu I_\varnothing^2 + \sigma \nu I_1^1 + \nu I_1^2 + \sigma \nu I_2^2 + \nu I_2^1 + \nu I_{12}^1 +\nu I_{12}^2 \notag \\
+&~~~-\beta_1 R_{12} (I_\varnothing^1 + I_2^1) -\beta_2 R_{12} (I_\varnothing^2 + I_1^2) -\mu R_{12} -g_1 R_{12} -g_2 R_{12} \notag \\
+\dot{I_\varnothing^1} & = \beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\nu I_\varnothing^1  -\mu I_\varnothing^1 \notag \\
+\dot{I_\varnothing^2} & = \beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\nu I_\varnothing^2  -\mu I_\varnothing^2 \notag \\
+\dot{I_1^1} & = \beta_1 R_1 (I_\varnothing^1 + I_2^1) -\nu I_1^1  -\mu I_1^1 \notag \\
+\dot{I_2^2} & = \beta_2 R_2 (I_\varnothing^2 + I_1^2) -\nu I_2^2  -\mu I_2^2 \notag \\
+\dot{I_2^1} & = \beta_1 R_2 (I_\varnothing^1 + I_2^1) -\nu I_2^1  -\mu I_2^1 \notag \\
+\dot{I_1^2} & = \beta_2 R_1 (I_\varnothing^2 + I_1^2) -\nu I_1^2  -\mu I_1^2 \notag \\
+\dot{I_{12}^1} & = \beta_1 R_{12} (I_\varnothing^1 + I_2^1) -\nu I_{12}^1  -\mu I_{12}^1 \notag \\
+\dot{I_{12}^2} & = \beta_2 R_{12} (I_\varnothing^2 + I_1^2) -\nu I_{12}^2  -\mu I_{12}^2 \notag 
+\end{align}
+
+
+
+
+\subsection{status based model with reduced susceptibility, no co infections and temporary cross immunity}
+
+\begin{align}
+\dot{R_\varnothing} & = \mu -\beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\mu R_\varnothing + g_1 R_1 + g_2 R_2  \label{eq:MODEL26}\\
+\dot{R_1} & = C(\{\varnothing\},\{1\},1) q Q_\varnothing^1 - \beta_2 R_1 (I_\varnothing^2 + I_1^2) -\mu R_1 -g_1 R_1 + g_2 R_{12} \notag \\
+\dot{R_2} & = C(\{\varnothing\},\{2\},2) q Q_\varnothing^2 - \beta_1 R_2 (I_\varnothing^1 + I_2^1) -\mu R_2 -g_2 R_2 + g_1 R_{12} \notag \\
+\dot{R_{12}} & = C(\{\varnothing\},\{1,2\},1) q Q_\varnothing^1 + C(\{\varnothing\},\{1,2\},2) q Q_\varnothing^2 + C(\{1\},\{1,2\},2) q Q_1^2 \notag \\
+&~~~+ C(\{2\},\{1,2\},1) q Q_2^1 -\mu R_{12} -g_1 R_{12} -g_2 R_{12} \notag \\
+\dot{I_\varnothing^1} & = \beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\nu I_\varnothing^1  -\mu I_\varnothing^1 \notag \\
+\dot{I_\varnothing^2} & = \beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\nu I_\varnothing^2  -\mu I_\varnothing^2 \notag \\
+\dot{I_2^1} & = \beta_1 R_2 (I_\varnothing^1 + I_2^1) -\nu I_2^1  -\mu I_2^1 \notag \\
+\dot{I_1^2} & = \beta_2 R_1 (I_\varnothing^2 + I_1^2) -\nu I_1^2  -\mu I_1^2 \notag \\
+\dot{Q_\varnothing^1} & =  \nu I_\varnothing^1 -q Q_\varnothing^1 -\mu Q_\varnothing^1 \notag \\
+\dot{Q_\varnothing^2} & =  \nu I_\varnothing^2  -q Q_\varnothing^2  -\mu Q_\varnothing^2 \notag \\
+\dot{Q_2^1} & = \nu I_2^1 -q Q_2^1 -\mu Q_2^1 \notag \\
+\dot{Q_1^2} & = \nu I_1^2 -q Q_1^2 -\mu Q_1^2 \notag 
+\end{align}
+
+\begin{align}
+\dot{R_\varnothing} & = \mu -\beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\mu R_\varnothing + g_1 R_1 + g_2 R_2 \label{eq:MODEL27}\\
+\dot{R_1} & = (1-\sigma) q Q_\varnothing^1 - \beta_2 R_1 (I_\varnothing^2 + I_1^2) -\mu R_1 -g_1 R_1 + g_2 R_{12} \notag \\
+\dot{R_2} & = (1-\sigma) q Q_\varnothing^2 - \beta_1 R_2 (I_\varnothing^1 + I_2^1) -\mu R_2 -g_2 R_2 + g_1 R_{12} \notag \\
+\dot{R_{12}} & = \sigma q Q_\varnothing^1 + \sigma q Q_\varnothing^2 + q Q_1^2 + q Q_2^1 -\mu R_{12} -g_1 R_{12} -g_2 R_{12} \notag \\
+\dot{I_\varnothing^1} & = \beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\nu I_\varnothing^1  -\mu I_\varnothing^1 \notag \\
+\dot{I_\varnothing^2} & = \beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\nu I_\varnothing^2  -\mu I_\varnothing^2 \notag \\
+\dot{I_2^1} & = \beta_1 R_2 (I_\varnothing^1 + I_2^1) -\nu I_2^1  -\mu I_2^1 \notag \\
+\dot{I_1^2} & = \beta_2 R_1 (I_\varnothing^2 + I_1^2) -\nu I_1^2  -\mu I_1^2 \notag \\
+\dot{Q_\varnothing^1} & =  \nu I_\varnothing^1 -q Q_\varnothing^1 -\mu Q_\varnothing^1 \notag \\
+\dot{Q_\varnothing^2} & =  \nu I_\varnothing^2  -q Q_\varnothing^2  -\mu Q_\varnothing^2 \notag \\
+\dot{Q_2^1} & = \nu I_2^1 -q Q_2^1 -\mu Q_2^1 \notag \\
+\dot{Q_1^2} & = \nu I_1^2 -q Q_1^2 -\mu Q_1^2 \notag 
+\end{align}
+
+\subsection{status based model with reduced infectivity, no co infections and temporary cross immunity}
+
+\begin{align}
+\dot{R_\varnothing} & = \mu -\beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\mu R_\varnothing + g_1 R_1 + g_2 R_2 \label{eq:MODEL28}\\
+\dot{R_1} & = C(\{\varnothing\},\{1\},1) q Q_\varnothing^1 + C(\{1\},\{1\},1) q Q_1^1 - \beta_2 R_1 (I_\varnothing^2 + I_1^2) - \beta_1 R_1 (I_\varnothing^1 + I_2^1) -\mu R_1 -g_1 R_1 + g_2 R_{12}\notag \\
+\dot{R_2} & = C(\{\varnothing\},\{2\},2) q Q_\varnothing^2 + C(\{2\},\{2\},2) q Q_2^2 - \beta_1 R_2 (I_\varnothing^1 + I_2^1) - \beta_2 R_2 (I_\varnothing^2 + I_1^2) -\mu R_2 -g_2 R_2 + g_1 R_{12} \notag \\
+\dot{R_{12}} & = C(\{\varnothing\},\{1,2\},1) q Q_\varnothing^1 + C(\{\varnothing\},\{1,2\},2) q Q_\varnothing^2 + C(\{1\},\{1,2\},1) q Q_1^1 \notag \\
+&~~~+ C(\{1\},\{1,2\},2) q Q_1^2 + C(\{2\},\{1,2\},2) q Q_2^2 + C(\{2\},\{1,2\},1) q Q_2^1 \notag \\
+&~~~+ C(\{1,2\},\{1,2\},1) q Q_{12}^1 + C(\{1,2\},\{1,2\},2) q Q_{12}^2 \notag \\
+&~~~-\beta_1 R_{12} (I_\varnothing^1 + I_2^1) - \beta_2 R_{12} (I_\varnothing^2 + I_1^2)  -\mu R_{12} -g_1 R_{12} -g_2 R_{12}  \notag \\
+\dot{I_\varnothing^1} & = \beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\nu I_\varnothing^1  -\mu I_\varnothing^1 \notag \\
+\dot{I_\varnothing^2} & = \beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\nu I_\varnothing^2  -\mu I_\varnothing^2 \notag \\
+\dot{I_1^1} & = \beta_1 R_1 (I_\varnothing^1 + I_2^1) -\nu I_1^1  -\mu I_1^1 \notag \\
+\dot{I_2^2} & = \beta_2 R_2 (I_\varnothing^2 + I_1^2) -\nu I_2^2  -\mu I_2^2 \notag \\
+\dot{I_2^1} & = \beta_1 R_2 (I_\varnothing^1 + I_2^1) -\nu I_2^1  -\mu I_2^1 \notag \\
+\dot{I_1^2} & = \beta_2 R_1 (I_\varnothing^2 + I_1^2) -\nu I_1^2  -\mu I_1^2 \notag \\
+\dot{I_{12}^1} & = \beta_1 R_{12} (I_\varnothing^1 + I_2^1) -\nu I_{12}^1  -\mu I_{12}^1 \notag \\
+\dot{I_{12}^2} & = \beta_2 R_{12} (I_\varnothing^2 + I_1^2) -\nu I_{12}^2  -\mu I_{12}^2 \notag \\
+\dot{Q_\varnothing^1} & =  \nu I_\varnothing^1 -q Q_\varnothing^1 -\mu Q_\varnothing^1 \notag \\
+\dot{Q_\varnothing^2} & =  \nu I_\varnothing^2  -q Q_\varnothing^2  -\mu Q_\varnothing^2 \notag \\
+\dot{Q_1^1} & = \nu I_1^1 -q Q_1^1 -\mu Q_1^1 \notag \\
+\dot{Q_2^2} & = \nu I_2^2 -q Q_2^2 -\mu Q_2^2 \notag \\
+\dot{Q_2^1} & = \nu I_2^1 -q Q_2^1 -\mu Q_2^1 \notag \\
+\dot{Q_1^2} & = \nu I_1^2 -q Q_1^2 -\mu Q_1^2 \notag \\
+\dot{Q_{12}^1} & = \nu I_{12}^1 -q Q_{12}^1 -\mu Q_{12}^1 \notag \\
+\dot{Q_{12}^2} & = \nu I_{12}^2 -q Q_{12}^2 -\mu Q_{12}^2 \notag 
+\end{align}
+
+\begin{align}
+\dot{R_\varnothing} & = \mu -\beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\mu R_\varnothing + g_1 R_1 + g_2 R_2 \label{eq:MODEL29}\\
+\dot{R_1} & = (1 -\sigma) q Q_\varnothing^1 + (1 -\sigma) q Q_1^1 - \beta_2 R_1 (I_\varnothing^2 + I_1^2) - \beta_1 R_1 (I_\varnothing^1 + I_2^1) -\mu R_1 -g_1 R_1 + g_2 R_{12}\notag \\
+\dot{R_2} & = (1 -\sigma) q Q_\varnothing^2 + (1 -\sigma) q Q_2^2 - \beta_1 R_2 (I_\varnothing^1 + I_2^1) - \beta_2 R_2 (I_\varnothing^2 + I_1^2) -\mu R_2 -g_2 R_2 + g_1 R_{12} \notag \\
+\dot{R_{12}} & = \sigma q Q_\varnothing^1 + \sigma q Q_\varnothing^2 + \sigma q Q_1^1 + q Q_1^2 + \sigma q Q_2^2 + q Q_2^1 + q Q_{12}^1 + q Q_{12}^2 \notag \\
+&~~~-\beta_1 R_{12} (I_\varnothing^1 + I_2^1) -\beta_2 R_{12} (I_\varnothing^2 + I_1^2) -\mu R_{12} -g_1 R_{12} -g_2 R_{12} \notag \\
+\dot{I_\varnothing^1} & = \beta_1 R_\varnothing (I_\varnothing^1 + I_2^1) -\nu I_\varnothing^1  -\mu I_\varnothing^1 \notag \\
+\dot{I_\varnothing^2} & = \beta_2 R_\varnothing (I_\varnothing^2 + I_1^2) -\nu I_\varnothing^2  -\mu I_\varnothing^2 \notag \\
+\dot{I_1^1} & = \beta_1 R_1 (I_\varnothing^1 + I_2^1) -\nu I_1^1  -\mu I_1^1 \notag \\
+\dot{I_2^2} & = \beta_2 R_2 (I_\varnothing^2 + I_1^2) -\nu I_2^2  -\mu I_2^2 \notag \\
+\dot{I_2^1} & = \beta_1 R_2 (I_\varnothing^1 + I_2^1) -\nu I_2^1  -\mu I_2^1 \notag \\
+\dot{I_1^2} & = \beta_2 R_1 (I_\varnothing^2 + I_1^2) -\nu I_1^2  -\mu I_1^2 \notag \\
+\dot{I_{12}^1} & = \beta_1 R_{12} (I_\varnothing^1 + I_2^1) -\nu I_{12}^1  -\mu I_{12}^1 \notag \\
+\dot{I_{12}^2} & = \beta_2 R_{12} (I_\varnothing^2 + I_1^2) -\nu I_{12}^2  -\mu I_{12}^2 \notag \\
+\dot{Q_\varnothing^1} & =  \nu I_\varnothing^1 -q Q_\varnothing^1 -\mu Q_\varnothing^1 \notag \\
+\dot{Q_\varnothing^2} & =  \nu I_\varnothing^2  -q Q_\varnothing^2  -\mu Q_\varnothing^2 \notag \\
+\dot{Q_1^1} & = \nu I_1^1 -q Q_1^1 -\mu Q_1^1 \notag \\
+\dot{Q_2^2} & = \nu I_2^2 -q Q_2^2 -\mu Q_2^2 \notag \\
+\dot{Q_2^1} & = \nu I_2^1 -q Q_2^1 -\mu Q_2^1 \notag \\
+\dot{Q_1^2} & = \nu I_1^2 -q Q_1^2 -\mu Q_1^2 \notag \\
+\dot{Q_{12}^1} & = \nu I_{12}^1 -q Q_{12}^1 -\mu Q_{12}^1 \notag \\
+\dot{Q_{12}^2} & = \nu I_{12}^2 -q Q_{12}^2 -\mu Q_{12}^2 \notag 
+\end{align}
+

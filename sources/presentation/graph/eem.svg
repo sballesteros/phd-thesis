@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="823.19299"
+   height="700.71429"
+   id="svg2"
+   inkscape:version="0.47pre4 r22446"
+   sodipodi:docname="eem.svg">
+  <metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="751"
+     id="namedview21"
+     showgrid="false"
+     inkscape:zoom="0.63"
+     inkscape:cx="465.34895"
+     inkscape:cy="334.89509"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 350.35715 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="823.19299 : 350.35715 : 1"
+       inkscape:persp3d-origin="411.5965 : 233.57143 : 1"
+       id="perspective25" />
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Send"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         id="path3756"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Sstart"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         id="path3753"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Sstartd"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         id="path4570"
+         style="fill:#f90000;fill-rule:evenodd;stroke:#f90000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Send0"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         id="path4573"
+         style="fill:#f90000;fill-rule:evenodd;stroke:#f90000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Sstartd-1"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         id="path4570-3"
+         style="fill:#f90000;fill-rule:evenodd;stroke:#f90000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Send0-3"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         id="path4573-1"
+         style="fill:#f90000;fill-rule:evenodd;stroke:#f90000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <filter
+       id="filter2835"
+       y="-0.25"
+       height="1.5"
+       inkscape:menu-tooltip="Darkens the edge with an inner blur and adds a flexible glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:label="Dark and Glow"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur2837"
+         stdDeviation="5"
+         result="result6" />
+      <feComposite
+         id="feComposite2839"
+         in2="result6"
+         result="result8"
+         in="SourceGraphic"
+         operator="atop" />
+      <feComposite
+         id="feComposite2841"
+         in2="SourceAlpha"
+         result="result9"
+         operator="over"
+         in="result8" />
+      <feColorMatrix
+         id="feColorMatrix2843"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         result="result10" />
+      <feBlend
+         id="feBlend2845"
+         in2="result6"
+         in="result10"
+         mode="normal" />
+    </filter>
+    <inkscape:perspective
+       id="perspective2912"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2986"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <image
+     y="343.04813"
+     x="128.92857"
+     id="image2988"
+     height="354.69"
+     width="522.27002"
+     xlink:href="file:///home/seb/Bureau/tree.jpg" />
+  <image
+     id="image2886"
+     height="299"
+     width="799"
+     y="7.999999"
+     x="15.918102"
+     xlink:href="file:///home/seb/Bureau/data_flu.jpg" />
+  <path
+     style="opacity:0.69999999999999996;fill:none;stroke:#f90000;stroke-width:24;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Sstartd);marker-end:none"
+     id="path2964"
+     d="m 154.98953,172.35716 c -138.321042,116.29971 -119.993427,249.73286 0,394.28571" />
+  <path
+     style="opacity:0.69999999999999996;fill:none;stroke:#f90000;stroke-width:24;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow1Send0)"
+     id="path2964-5"
+     d="m 684.20348,171.69191 c 138.32104,116.29971 119.99343,249.73286 0,394.28571" />
+  <text
+     xml:space="preserve"
+     style="font-size:144px;font-style:normal;font-weight:bold;opacity:0.64788735;fill:#0000ff;fill-opacity:1;stroke:none;filter:url(#filter2835);font-family:Bitstream Vera Sans;-inkscape-font-specification:AlArabiya Bold"
+     x="745.18945"
+     y="149.11682"
+     id="text2831"><tspan
+       sodipodi:role="line"
+       id="tspan2833"
+       x="745.18945"
+       y="149.11682">?</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-weight:bold;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:AlArabiya Bold"
+     x="287.36508"
+     y="344.80954"
+     id="text2992"><tspan
+       sodipodi:role="line"
+       id="tspan2994"
+       x="287.36508"
+       y="344.80954">H3N2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-weight:bold;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:AlArabiya Bold"
+     x="430.85715"
+     y="344.82516"
+     id="text2996"><tspan
+       sodipodi:role="line"
+       id="tspan2998"
+       x="430.85715"
+       y="344.82516">H1N1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-weight:bold;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:AlArabiya Bold"
+     x="594.63495"
+     y="344.82516"
+     id="text3000"><tspan
+       sodipodi:role="line"
+       id="tspan3002"
+       x="594.63495"
+       y="344.82516">B</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-weight:bold;text-align:center;text-anchor:middle;opacity:0.6126761;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:AlArabiya Bold"
+     x="778.53967"
+     y="183.25398"
+     id="text3816"><tspan
+       sodipodi:role="line"
+       id="tspan3818"
+       x="778.53967"
+       y="183.25398">nao</tspan><tspan
+       sodipodi:role="line"
+       x="778.53967"
+       y="223.25398"
+       id="tspan3820">H1N1</tspan></text>
+</svg>

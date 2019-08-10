@@ -1,0 +1,118 @@
+
+\section{Appendix 1: Intrinsic period of oscillation in a SIRS model}
+\label{sec:appendix1}
+
+Assuming a constant hosts population size, the $SIRS$ model is:
+
+\begin{align}
+  \frac{dS}{dt} & = -\beta S I + g (1-S-I)\\
+  \frac{dI}{dt} & = \beta S I - \nu I\\
+\end{align}
+
+The $SIRS$ model can be simplified, resulting in a
+reduction in the number of parameters. Measuring time
+in units of duration of infection, $t'=t \nu$, we get the non dimensional system:
+
+\begin{align*}
+  \frac{dS}{dt'} & = -R_0 S I + e (1-S-I)\\
+  \frac{dI}{dt'} & = R_0 S I - I\\
+\end{align*}
+
+With $R_0=\frac{\beta}{\nu}$ and $e=\frac{g}{\nu}$.
+
+The model has two possible steady states
+\begin{itemize}
+\item Disease-free equilibrium: $S=1$, $I=0$
+\item Endemic equilibrium: $S=\frac{1}{R_0}$, $I=\frac{e-e/R_0}{1+e}$.
+\end{itemize}
+
+The stability of the endemic equilibrium is determined by the
+eigenvalues of the Jacobian matrix:
+$$J=
+\begin{pmatrix}
+  -R_0 I -e & -R_0 S -e\\
+  R_0 I & R_0 S-1 \\
+\end{pmatrix}$$
+Evaluated at the endemic equilibrium it results in:
+$$\begin{pmatrix}
+\frac{e(1-R_0)}{1+e} & -1-e \\
+\frac{e(R_0 -1}{1+e} & 0 \\
+\end{pmatrix}$$
+
+The eigenvalues are solution of
+\begin{align*}
+\det{J-\lambda I_2} & = 0 \\
+\lambda^2 - \frac{e(1-R_0)}{1+e} \lambda +e(R_0-1) & =0\\
+\end{align*}
+
+A straightforward calculation shows that the discriminant is negative and the eigenvalues thus complex:
+$$\lambda_i = \frac{\frac{e(1-R_0)}{1+e} \pm i \sqrt{4 e (R_0-1)-\frac{e^2(R_0-1)^2}{(1+e)^2}}}{2} $$
+
+The period of the dampened oscillations is given by 
+\begin{align*}
+  T & =2\pi \frac{1}{\Im{\lambda}} \\
+& = 2\pi \sqrt{\frac{4}{4 e (R_0-1)-\frac{e^2(R_0-1)^2}{(1+e)^2}}} \\
+\end{align*}
+
+In the natural timescale, the period is divided by $\nu$
+As $e \to 0$, the period can be simplified in :
+$$T=2 \pi \sqrt{\frac{DL}{R_0-1}}$$ expressed in natural timescale with $D=1/\nu$ and $L=1/g$.
+
+
+\begin{figure}[htb]
+  \center
+    \includegraphics[width= 0.6 \linewidth]{graph/endoT.eps}
+    \caption{single subtype model with $\frac{1}{\nu}=2.66$ and 8 days$^-1$}
+  \label{fig:intrinsicT}
+\end{figure}
+
+\clearpage
+\newpage
+
+\section{Appendix 2: Floquet}
+\label{sec:appendix2}
+
+We now consider the following non autonomous system:
+
+\begin{align*}
+  \frac{dS}{dt} & = -\beta(t) S I + g (1-S-I)\\
+  \frac{dI}{dt} & = \beta(t) S I - \nu I\\
+\end{align*}
+
+with $\beta(t)=\beta_0(1+e \cos(2 \pi t))$.
+
+For positive initial conditions and some parameters values, the seasonally forced $SIRS$ model admits a stable periodic solution of period T.
+We will label limit cycle solutions by $\mathbf{\bar{x}}(t) = (\bar{S}(t), \bar{I}(t))$ in the following calculations and have $\mathbf{\bar{x}}(t + T ) = \mathbf{\bar{x}}(t)$ for all times, t. 
+The curve, $\mathbf{\bar{x}}(t)$, cannot be calculated in closed form. However good estimates can be obtained via numerical integration of Eq. (1).
+
+In order to study stability, we now consider a dynamical path beginning close to, but not on, the limit cycle, $\mathbf{\bar{x}}(t)$. If the limit cycle solution is stable then the difference between this path and the geometric curve of the limit cycle will decay as time progresses.  Similarly to the expansion about a fixed point, we can write this difference as $\epsilon \mathbf{\xi}(t) = \mathbf{x}(t) - \mathbf{\bar{x}}(t)$  where, again, $\epsilon$ expresses our anticipation that the deviation from the limit cycle is small. Expanding in powers of $\epsilon$ and letting $\epsilon \to 0$, one then finds that the time evolution of $\mathbf{\xi}(t)$ takes on the linear form, $\frac{d\mathbf{\xi}}{dt} = \mathbf{A}(t) \mathbf{\xi}$, where the matrix $\mathbf{A}(t)$ is the Jacobian matrix evaluated at the limit cycle. 
+Therefore, due to the periodic nature of $\mathbf{\bar{x}}(t)$, all elements of $\mathbf{A}(t)$ are periodic.
+
+An analytical tool to characterize the stability or otherwise of limit cycle solutions is Floquet theory, the mathematical theory of linear differential equations with periodic coefficients. Since, we have $\mathbf{A}(t+T)= \mathbf{A}(t)$, Floquet theory is applicable. In our case, T is the period of the mean-field limit cycle under consideration.
+The general solution of
+$$\frac{d\mathbf{\xi}}{dt} = \mathbf{A}(t) \mathbf{\xi}$$
+takes the form:
+$$\mathbf{\xi}(t) = \sum_{i=1}^n c_i e^{\mu_i t} \mathbf{p}_i(t)$$
+$\mu_i$ are complex numbers called characteristic or Floquet exponents.
+Floquet exponents can be calculated numerically by solving the matrix differential equation
+$$\frac{d\mathbf{X}}{dt} = \mathbf{A}(t) \mathbf{X}$$
+over one period (from $t=0$ to $t=T$) with the identity matrix as an initial condition ($\mathbf{X}(0)=\mathbf{I}$)
+The matrix $\mathbf{X}(T)$ is known as a fundamental matrix.
+Floquet multipliers, $\rho_i$ are the egeinvalues of $\mathbf{X}(T)$. 
+$\rho_i$ are also the eigenvalues of the (linear) Poincaré map $x(t) \rightarrow x(t+T)$
+From $\rho_i$, Floquet exponents, $\mu_i$ are calculated as $\mu_i= \frac{\ln(\rho_i)}{T}$
+
+In term of Floquet multipliers, the general solution is
+$$\mathbf{\xi}(t) = \sum_{i=1}^n c_i e^{\frac{\ln(\rho_i)}{T} t} \mathbf{p}_i(t)$$
+expressing $\rho_i= |\rho_i|e^{i \arg(\rho_i)}$ we have:
+$$\mathbf{\xi}(t) = \sum_{i=1}^n c_i e^{(\frac{\ln(|\rho_i|)}{T}+ i \frac{\arg(\rho_i)}{T}) t} \mathbf{p}_i(t)$$
+that gives the damping rate and oscillation period
+
+if $\Re(\rho_i)>0$ $\arg(\rho_i)= \arctan(\frac{\Im(\rho_i)}{\Re(\rho_i)})$
+else $\arg(\rho_i)= \pi- \arctan(\frac{\Im(\rho_i)}{\Re(\rho_i)})$
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

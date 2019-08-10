@@ -1,0 +1,68 @@
+%run latex file, dvips file, ps2eps file
+
+\documentclass{article}
+
+% amsmath package, useful for mathematical formulas
+\usepackage{amsmath}
+% amssymb package, useful for mathematical symbols
+\usepackage{amssymb}
+
+% graphicx package, useful for including eps and pdf graphics
+% include graphics with the command \includegraphics
+\usepackage{graphicx}
+
+% cite package, to clean up citations in the main text. Do not remove.
+\usepackage{cite}
+
+\usepackage{color} 
+
+\usepackage{tikz} \usetikzlibrary{automata}
+\usetikzlibrary{arrows,snakes,backgrounds}
+
+\begin{document}
+\thispagestyle{empty}
+
+
+
+  \begin{tikzpicture}[node distance=1.4cm, inner sep=0pt, minimum size=8mm]
+    \tikzstyle{seb}=[rectangle, fill=red, draw=gray, text=black]
+    \tikzstyle{I1}=[->, draw=red, shorten >=1pt, >=stealth',semithick]
+    \tikzstyle{I2}=[->,draw=blue, shorten >=1pt, >=stealth',semithick]
+    \tikzstyle{g1}=[->,shorten >=1pt, >=stealth',semithick]
+    \tikzstyle{g2}=[->,shorten >=1pt, >=stealth',semithick]
+
+    \node[seb] (R0) {$R_\varnothing$};
+    \node[seb] (RC) [right of=R0]{$R_{C}$};
+    \node[seb] (RC12) [right of=RC] {$R_{C12}$};
+
+    \node[seb] (RC2) [below of=RC] {$R_{C2}$};
+    \node[seb] (RC1) [above of=RC] {$R_{C1}$};
+
+    % les fleches...
+
+    % infection
+    \draw[I1] (R0.north) to (RC1.west);
+    \draw[I2] (R0.south) to (RC2.west);
+
+    \draw[I1] ([xshift=-1mm] RC.north) to ([xshift=-1mm] RC1.south);
+    \draw[I2] ([xshift=-1mm] RC.south) to ([xshift=-1mm] RC2.north);
+
+    \draw[I1] ([yshift=-4mm] RC2.east) to ([yshift=-4mm] RC12.west);
+    \draw[I2] ([yshift=+4mm] RC1.east) to ([yshift=+4mm] RC12.west);
+
+    % evolution
+    \draw[g1] ([xshift=+1mm] RC2.north) to ([xshift=+1mm] RC.south) ;
+    \draw[g2] ([xshift=+1mm] RC1.south) to ([xshift=+1mm] RC.north) ;
+
+    \draw[g1] (RC12.west) to (RC1.east) ;
+    \draw[g2] (RC12.west) to (RC2.east) ;
+
+
+\begin{pgfonlayer}{background}
+  \filldraw [fill=black!30,draw=black] (RC1.north -| RC1.west) rectangle (RC2.south -| RC12.east);
+\end{pgfonlayer}
+\end{tikzpicture}
+
+
+
+\end{document}

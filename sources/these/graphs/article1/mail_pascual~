@@ -1,0 +1,594 @@
+pascual@umich.edu
+
+Dear Pr. Pascual,
+
+Thank you very much to give us an opportunity to re-submit our manuscript. Your detailed comments on our previous work helped us a lot to clarify our manuscript and to address the various points raised by the reviewers.
+
+We agree that we had taken too literally Koelle et al. (2006) suggestion of the serial SIR model. We have thus rewritten the manuscript and the reviewer answers without confrontational approach.
+As you suggested we now seek to determine whether a serial SIR model would require gradual antigenic drift within clusters.
+
+We have also added some materials: 
+
+-We have added the widely used model of Gupta et. al. (1998) to broader the generality of our conclusion concerning the specificity of the status based model with reduced infectivity assumption.
+
+-We have developed a new modem to show that including within cluster antigenic drift (independently of the formulation used to describe it) can turn the epidemic fadeout that follows the invasion of a mutant cluster into the replacement of a previous circulating antigenic cluster. 
+
+-As a last point, we have also performed additional simulations to address reviewer #2 comment on the importance of stochasticity within population of 1-2 millions of hosts.
+
+We hope that this entirely revised version of our manuscript now address the points raised by the reviewer.
+
+We look forward to hearing your opinion,
+
+Sincerely yours,
+
+Sébastien Ballesteros
+
+
+2009/5/22 Mercedes Pascual 1 <pascual@umich.edu>
+
+   Dear Sebastien,
+
+   I have read your replies to the referees’ comments and the revised
+   manuscript. I would be willing to consider a resubmission of a
+   further revised paper mainly because I find your arguments on the
+   criticisms of referee 3 convincing and I believe that the comments
+   of referees 1 and 2 can be largely addressed with modifications of
+   the text.
+
+   Because I would send the manuscript back to the same referees, it is
+   important however that the resubmission convincingly addresses the
+   comments of all referees. I do not believe that the revised
+   manuscript in its current form will substantially change the
+   criticisms of referee 1. The main problem will be the current focus
+   of the paper on criticizing the ability of a sequential SIR as a
+   minimal model of influenza. The referee correctly interpreted the
+   paper by Koelle et al. (2006) in pointing out that the paper
+   recognizes and does not exclude the occurrence of some loss of
+   immunity within clusters. He/she points out in the review of your
+   paper the several places in Koelle’s paper where this is stated. You
+   have over-interpreted what was meant by a sequential SIR: what
+   Koelle et al. (2006) meant to emphasize with this was the need for a
+   model that concatenates sequentially the typical compartmental
+   structure used in epidemiological models, instead of using a
+   continuous SIRS formulation. The use of the SIRS or the SIR
+   structure in this sequential formulation was not the main
+   consideration (SIR was used to refer to the general structure of
+   compartmental models); the emphasis was on “sequential”. I know this
+   as a co-author of that paper.
+
+   Having said this, I still believe that your exploration and results
+   on the importance of the loss of immunity within clusters are
+   interesting and worthwhile. What is problematic is the way you
+   motivate it by over-emphasizing a point in Koelle at al. (2006) that
+   you interpreted too literally and that was not meant the way you
+   present it. I suggest you change the text to reflect this and to
+   take a less confrontational approach to motivate the paper: I say
+   this not as an author of that paper but as an editor considering the
+   comments of referee 1. Your replies to this referee in their current
+   form are unlikely to change his/her recommendation. A much more
+   convincing argument would be made by using Koelle et al. (2006) to
+   motivate the question of whether a sequential compartmental model
+   would require the loss of immunity within clusters.
+
+   In relation to this point, I find the argument in the Discussion
+   that cluster replacements may be “overrated” also somewhat extreme.
+   The evidence on this is not that clear. For example, the papers on
+   sink-source dynamics do not rule out cluster replacements. These
+   could happen in the source, as a result of the strong selection you
+   mention. The data analyzed by Russell et al. correspond to a period
+   of time during which there was no emergence of a new cluster. Recker
+   et al., in my interpretation of their work, gives a different
+   mechanism for cluster replacement that involves only the ecological
+   (and not the evolutionary) dynamics. The clusters appear in patterns
+   of recurrent replacements because of the low dimensionality of
+   phenotypic space. It is not clear what this has to say about the
+   replacements being an artifact. The paper by Sih does not really
+   present an analysis that is more powerful. It is an analysis with
+   its own drawbacks. The point I am trying to make is that the writing
+   of this section is a bit extreme and that there is no need to
+   present your results in this black and white manner, the occurrence
+   of punctuated cluster replacements is not incompatible with the loss
+   of immunity within clusters.
+
+   To summarize, I think that the paper would be more convincing by
+   posing the question of the importance of this mechanism without
+   making it an either-or question, and without taking such a
+   confrontational position. Yes, your results raise the question of
+   whether the results of Koelle et al. (2006) are strongly dependent
+   on the choice of a status-based formulation and this is a valuable
+   point. But I do not see how your results show that the progressive
+   loss of immunity within clusters invalidates the occurrence of
+   cluster replacements.
+
+   With regard to the replies to referee 2, it would be useful to
+   consider if there is a way, at least in the Discussion, if not by
+   some additional work, to more fully address his/her comment on the
+   role of stochasticity in smaller populations. My interpretation of
+   this point was that he/she was interested in how a smaller
+   population size in a metapopulation context could affect your
+   results on coexistence/cluster replacements. I realize it would
+   possibly be another study to fully address this point but it may be
+   useful to touch on it in the Discussion in response to the referee’s
+   comment.
+
+   If you can revise both the text and the referee’s responses taking
+   into consideration the above suggestions, I will be willing to
+   consider a resubmission.
+
+   MERCEDES
+   -------------------------------
+   Mercedes Pascual
+   EEB, University of Michigan
+   and
+   Howard Hughes Medical Institute
+   --------------------------------------------------------------------
+
+
+   Quoting sebastien ballesteros <sebastien.ballesteros@gmail.com
+   <mailto:sebastien.ballesteros@gmail.com>>:
+
+       Dear Pr. Pascual,
+
+       We would like to ask you an opportunity for a resubmission of our
+       manuscript 09-PLCB-RA-0159 "Impact of punctuated immune escape
+       on the
+       recurrent dynamics of inﬂuenza A".
+
+       We fear that the negative comments of reviewer #3 strongly devalued
+       our work since they call into question our ability to draw
+       conclusions
+       from our study. However, reviewer #3 comments were irrelevant as
+       he/she misinterpreted the rational basis of the models used in the
+       manuscript as well as the implication of the discussed assumptions.
+
+       By contrast, we have appreciated the constructive reports of
+       reviewers
+       #1 and #2, but we claim that their points were mostly due to
+       the fact that the previously submitted version of our manuscript was
+       not easy to read in places, which might have induced some
+       difficulties
+       in interpreting our results.
+
+       Hereby, you will find an entirely revised version of the manuscript
+       and detailed answers to the reviewers comments.
+
+       We hope that in view of this thoroughly revised version of our
+       manuscript, you will share our opinion that its theoretical
+       developments as well as its biological implication deserve
+       publication
+       in PLoS Computational Biology
+
+       We look forward to hearing your opinion,
+
+       Sincerely yours,
+
+       Sébastien Ballesteros
+
+
+
+
+
+       ploscompbiol@plos.org <mailto:ploscompbiol@plos.org> a écrit :
+
+           Dear Dr. Ballesteros,
+
+           Thank you very much for submitting your manuscript "Impact
+           of punctuated immune escape on the recurrent dynamics of
+           inﬂuenza A" for review by PLoS Computational Biology. As
+           with all papers submitted to the journal, yours was fully
+           evaluated by myself in consultation with the PLoS
+           Computational Biology Editorial Team. In this case, your
+           article was also evaluated by 3 independent reviewers. The
+           reviewers appreciated the attention to an important topic,
+           but they raised substantial concerns about the paper. Based
+           on the reviews, I regret that we will not be able to accept
+           this manuscript for publication in the journal.
+
+           The reviews are attached, and we hope they may help you
+           should you decide to revise the manuscript for submission
+           elsewhere. I am sorry that we cannot be more positive on
+           this occasion, but hope that you appreciate the reasons for
+           this decision and that you will consider PLoS Computational
+           Biology for other submissions in the future.
+
+           Thank you again for your support of PLoS Computational
+           Biology and open access publishing. Please don't hesitate to
+           get in touch if I can provide any further assistance.
+
+
+           Sincerely,
+
+           Mercedes Pascual
+           Associate Editor
+           PLoS Computational Biology
+
+
+           Sebastian Bonhoeffer
+           Deputy Editor
+           PLoS Computational Biology
+
+           ------------------------------------------------------------------------
+
+           Reviewer #1 (Remarks for the Author):
+
+           Ballesteros and colleagues consider the invasion dynamics of
+           a novel antigenic cluster into a population with a resident
+           antigenic cluster under four different modeling frameworks:
+           a status-based reduced infectivity model (SBRI), a
+           status-based reduced susceptibility model, a history-based
+           reduced susceptibility model, and a history-based reduced
+           infectivity model. They numerically simulate (both
+           deterministically (fig 3+4) and stochastically (fig 6 + 7))
+           the transient invasion dynamics under these four models and
+           use these simulation results to show the peak in incidence
+           of the incoming antigenic cluster (Fig 2) and the extinction
+           times of the resident and invading cluster (Fig 5). The main
+           points of their manuscript are 1) that compared to the other
+           three models, the SBRI model results in significantly
+           different population dynamics and replacement dynamics, and
+           is therefore problematic, and 2) that a serial SIR model
+           cannot give reasonable dynamics for flu and that gradual
+           antigenic evolution therefore plays a critical for the virus
+           and that punctuated evolution therefore cannot be the main
+           driver of influenza A evolution.
+
+           I have several major concerns about this manuscript, and a
+           few more moderate concerns, both of which I detail below.
+
+           Major concerns:
+
+           I. Regarding the authors' first main point, I am not
+           convinced from the figures provided that the SBRI model is
+           significantly different from the other three models. The
+           authors do nicely show in Table 2 that the invading strain's
+           R0 (which is not really R0, but really more of a net
+           reproductive rate R) is different from the other three
+           models. However, in Figure 2, both the SBRI model and the
+           SBRS model are unique in their invasion dynamics- it's not
+           just the SBRI model that differs from the other three. More
+           importantly, the model-specific subplots shown in Figures 5,
+           6, 10 all seem to show a striking similarity to one another,
+           in contrast to what is argued by the authors.
+
+           II. Regarding the authors' second main point, the authors
+           adamantly argue against the role of epochal evolution in flu
+           evolution (Koelle et al. Science 2006). However, Koelle et
+           al. repeatedly mention that weak positive selection (brought
+           about by incomplete immunity within antigenic clusters)
+           plays a pivotal role in generating the epidemiological and
+           evolutionary dynamics of flu. Examples include:
+
+           'The replenishment of susceptible hosts comes from a
+           combination of new births and the slight antigenic evolution
+           of the strains that compose the cluster.' (p. 1901).
+
+           'Our model indicates that weak within-cluster selection and
+           the selective sweeps that accompany cluster transitions are
+           sufficient.' (p. 1902)
+
+           'The invasion of the new cluster is facilitated by the
+           accumulated diversity of the old cluster: The novel
+           antigenic cluster can have up to 80% cross-immunity with
+           strain variants of the old cluster that share four out of
+           five of its epitopes; however, it has only 52%
+           cross-immunity with strain variants of the old cluster that
+           differ slightly in four out of five of the epitopes.' (p.
+           1902). By looking at the legend of figure 2 and considering
+           the provided parameter values of this paper, it can easily
+           be computed that sequences within a single antigenic cluster
+           have 65-100% cross-immunity with one another, while
+           sequences belonging to adjacent clusters have 52-80%
+           cross-immunity with one another. Sequences within a single
+           cluster can therefore have lower cross-immunity than
+           sequences from two different clusters, consistent with what
+           Ballesteros and coauthors argue with the reference to Shih's
+           work ("antigenic distance of two isolates within a cluster
+           can be considerably larger than
+           that between two isolates from two adjacent clusters" - p.
+           18 of manuscript)
+
+           Koelle et al. therefore acknowledge the role that gradual
+           antigenic evolution within antigenic clusters plays in
+           driving the dynamics of flu. What Ballesteros et al. argue
+           in their manuscript is therefore not particularly novel: "a
+           faster rate of susceptibles renewal that the one assumed by
+           birth and death processes is clearly needed to reproduce
+           influenza A recurrent dynamics. Gradual antigenic drift can
+           offer such a high rate of susceptibles renewal." (p. 19)
+
+           At the very least, integrating into the current manuscript a
+           fair description of the epochal evolution model should be done.
+
+           III. My third major concern is the overlap in ideas between
+           this manuscript and the Gökaydin et al. (2006) Interface
+           paper. The analysis presented here is in structure very
+           similar to the one presented in Gökaydin et al.: they talk
+           about antigenic drift vs. shift in terms of the level of
+           cross-immunity between clusters, they consider both
+           deterministic and stochastic simulations, and their
+           simulations including sensitivity analysis are essentially
+           the same. However, there is only a single nominal reference
+           to Gökaydin in this manuscript, at a point where the authors
+           mention that parameter values are consistent with the
+           parameter values used in theoretical papers. The current
+           work should be considered in the context of this previous
+           work, not as a novel set of analyses. Also, given this
+           similarity, the computational work presented here, although
+           thorough, is not particularly novel.
+
+           IV. I am concerned about the dependence of the results on
+           the threshold used for the deterministic simulations and on
+           the population size used for the stochastic simulations. The
+           conclusions stated here are that antigenic cluster
+           replacement critically depends on model assumptions (SBRI
+           vs. the other models), yet it seems that this conclusion in
+           turn really critically depends on the threshold and
+           population size modeling assumptions used.
+
+           More moderate concerns:
+
+           I. I am concerned about the assumption that the resident
+           cluster is at equilibrium. Clusters persist on average for
+           3-4 years, so the ability of a novel cluster to replace a
+           resident cluster may also depend on the clusters before then.
+
+           II. The authors state in the discussion that gradual
+           antigenic drift does not exclude punctuated discrete jumps
+           in antigenic properties nor does it invalidate the
+           possibility of selective sweeps (p. 19). Yet the authors
+           then state on p.21 that 'epochal evolution cannot be the
+           dominant road of influenza A main antigen evolution'. This
+           seems to me to be sending mixed messages. I agree with the
+           statement of p.19, but why can't epochal evolution (of
+           course with imperfect within-cluster immunity) be the
+           dominant road of flu A antigen evolution if selective sweeps
+           are the critical process limiting viral HA diversity?
+
+
+           In sum, the analyses presented in this manuscript are
+           mathematically very thorough, the manuscript very clearly
+           organized and well-written, but the main two points made by
+           the authors do not appear to be sufficiently well-supported
+           (point 1) or novel (point 2).
+
+
+
+           Reviewer #2 (Remarks for the Author):
+
+           I find the topic of this paper very interesting and the
+           authors have clearly invested a great deal of time and
+           effort in this paper. Unfortunately, as a manuscript, I
+           think it suffers from a few serious problems. My concerns
+           are broadly categorized into issues relating to (i) the
+           presentation and (ii) the content.
+
+           (i) The presentation
+           o I suggest the authors substantially revise the paper. In
+           this revision, I think they need to consider making the text
+           more concise and punchy, with a clearer logical flow. At
+           present, the text is hard work to read, in part because the
+           introduction is too long and meandering, there are too many
+           asides, too much tangentially relevant background
+           information is presented and there is a lack of focus at times.
+
+           o I question whether all the figures contribute meaningfully
+           to this story. Some of them are also unnecessarily cluttered
+           and complicated.
+
+           o Ultimately, the paper is sufficiently convoluted that it
+           is difficult to conclude what the main objective of the
+           authors might be. The aim of identifying a minimal theory of
+           influenza A
+           evolution in humans is important and laudable but it isn't
+           being made clearly enough in this paper.
+
+           (ii) The content (in no particular order)
+           o There seems to be a hard-wired problem with the
+           history-based model as presented in equations (3). [This was
+           also the case with Kamo & Sasaki's presentation of their
+           model.] The problem has to do with the duration of the
+           infectious periods for individuals who are co-infected with
+           both clusters. Given that no assumption is made about
+           immunological interaction resulting from simultaneous
+           infections, the average period of time spent in the two
+           infectious classes (eg, SI and II) should not be affected
+           and should be given by 1/(mu+nu). In the formulation
+           presented on page 10, the infectious period for individuals
+           experiencing single or double infection is clearly
+           different. The authors may argue that the fraction of the
+           population in the II class is so small that this error will
+           have negligible effects, but I think the model should not
+           contain inherent pathologies.
+
+           o The authors mention they use the Gillespie algorithm, but
+           it's not clear whether they mean Gillespie's direct method
+           or first reaction method?
+
+           o I appreciate the authors' attempt to investigate model
+           predictions using empirically-derived parameter values, but
+           table 1 gives no information as to their empirical source.
+           Neither does it mention the credible ranges.
+
+           o The stochastic simulations assume a population size of 10
+           million. I wonder if the authors have looked at the case
+           when N is closer to 1 million? The results of Kamo & Sasaki
+           (2002), among others, has shown that in multi-strain models,
+           noise and induce temporal asynchrony in oscillations and
+           potentially facilitate coexistence.
+
+           o The state variables in the mean field models are presented
+           as proportions, so that it is difficult to gauge whether the
+           stochastic model assumes frequency- or density-dependent
+           transmission? Does this assumption affect the results?
+
+           o I have been agonising over the use of \sigma as a measure
+           drift/shift. In the end, while I appreciate the authors'
+           comment that they are dealing with phenotypes, I don't think
+           this assumption sits comfortably with me. I can't help
+           thinking that potentially significant issues of time scale
+           are being ignored, though I am open to being convinced
+           otherwise.
+
+
+           Reviewer #3 (Remarks for the Author):
+
+           Review of "Impact of punctuated immune escape on the recurrent
+           dynamics of influenza A" by S Ballesteros et al, submitted
+           to PLOS Comp Biol
+
+           The paper is concerned with modelling the dynamics of
+           drifting influenza
+           and in particular with the importance of the exact
+           epidemiological nature of
+           cross-immunity. The core of the work consists of an analysis
+           of three
+           SIR-type epidemic models each describing the interaction of
+           two strain
+           clusters. One strain cluster is assumed to be at its
+           (endemic) equilibrium
+           and the authors then investigate invasion conditions for the
+           other cluster.
+
+           The three models arise by studying the assumption that
+           cross-immunity
+           affects either infectivity or susceptibility and that
+           cross-immunity is either
+           polarized (status based) or gradual (history based).
+           For the history based formulation susceptibility and
+           infectivity reduction is
+           combined in a single model. The authors then find that their
+           model with
+           polarized immunity and infectivity reduction exhibits
+           significantly different
+           dynamics than the other two/three models. In particular
+           invasion is
+           likely to drive the resident cluster to extinction in the
+           polarized infectivity
+           reduction model but not in the other models. The robustness
+           of this
+           observation is then documented in several ways. The main
+           conclusion is that
+           polarized-infectivity reduction can reproduce the observed
+           influenza drift
+           dynamics without invoking the assumption of punctuated flu
+           drift.
+
+           I believe that the authors observation is based on a rather
+           simple
+           misunderstanding as it is due to another phenomenon than
+           what the authors
+           claim. The way the authors model the interesting case of
+           polarized reduced
+           infectivity differs fundamentally from the other two models.
+           In the polarized
+           reduced infectivity model, individuals
+           that have been infected with cluster 1 may enhance their
+           immunity to
+           cluster 2 by repeated infections with cluster 1. I am
+           referring to
+           the terms -beta_1R_iI1+(1-sigma)R_1I1 in the second line of
+           eqn (2) page
+           9 and a similar term in line 3. The same term is missing in
+           model (1)
+           but could in fact be put in. Would model (1) give similar
+           results if the
+           term was put in and would your conclusions about model (2)
+           hold if the
+           terms was removed? I think the answers are YES to the first
+           question and
+           NO to the second question. So the phenomenon
+           responsible for the unusual invasion condition is in fact
+           the assumption
+           that reinfection within a cluster enhances cross-protection
+           against the
+           invading cluster, a kind of immunity-boosting effect. The
+           authors themselves
+           seems to have some idea about the problem in their
+           discussion (lines 373-399).
+           But basically I don't believe that it is a scaling issue.
+           The fundamental
+           assumptions are different.The way I would interpret model
+           (2) (and the other models if the same
+           phenomenon were to be incorporated) is as follows. The
+           resident type
+           is not just one strain but a cluster of closely related
+           strains that can
+           reinfect with out causing severe disease or infectivity. The
+           invading type
+           is another cluster somewhat remote in "antigen space". The
+           finding is
+           then that transmissions from one
+           cluster to the other will often cause the extinction of the
+           resident
+           cluster. With this interpretation the present manuscript
+           provides
+           a very elegant analytical representation of the model of
+           Koelle et al.
+           It would make a nice paper in Theor Popul Biol or J Theor
+           Biol but I don't
+           think the results would be of sufficiently general interest
+           to belong in
+           PLOS.
+
+           So I recommend that the paper be rejected: the authors
+           attribute the observed
+           phenomenon to the wrong biological mechanism; and to the
+           extend that
+           the model is applicable to influenza it seems to support
+           exactly the opposite
+           conclusion of the one the authors claim.
+
+           PS The introduction provides a very good review of the
+           theoretical flu
+           literature. A couple of minor comments:
+
+           line 20-23. When I read this I first thought that it was the
+           complexity
+           reduction that was your argument for choosing the status
+           based infectivity
+           reduction.
+
+           line 71. Where in the Gog & Grenfell paper do you find the
+           notion of
+           punctuated evolution?
+
+           several places: The reduction in model complexity may be
+           achieved in
+           both the history and the status based model for the case of
+           infectivity
+           reduction and also for susceptibility reduction in the case
+           of polarized
+           immunity. The observation is originally due to Gupta et al.
+           (1998)
+           The topic is discussed in detail in N. Ferguson and V.
+           Andreasen,
+           pp 157-69 and MGM Gomes and GF Medley pp 171-192 both In
+           "Mathematical
+           Approaches for Emerging and Reemerging Infectious
+           Diseases: Models, Methods, and Theory", C. Castillo-Chavez
+           et al (Eds),
+           Springer (2002).
+
+
+
+
+
+
+
+           This e-mail is confidential to the intended recipient. If
+           you have received it in error, please notify the sender and
+           delete it from your system. Any unauthorized use,
+           disclosure, or copying is not permitted. The views or
+           opinions presented are solely those of the sender and do not
+           necessarily represent those of the Public Library of Science
+           unless otherwise specifically stated. Please note that
+           neither the Public Library of Science nor any of its agents
+           accept any responsibility for any viruses that may be
+           contained in this e-mail or its attachments and it is your
+           responsibility to scan the e-mail and attachments (if any).
+
+
+
+
+
+

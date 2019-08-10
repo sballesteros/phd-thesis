@@ -1,0 +1,433 @@
+
+\chapter{Discussion}
+
+\begin{quote}
+  “I am sure that what any of us do, we will be criticized either for
+  doing too much or for doing too little... If an epidemic does not
+  occur, we will be glad. If it does, then I hope we can say... that we
+  have done everything and made every preparation possible to do the
+  best job within the limits of available scientific knowledge and
+  administrative procedure.”
+
+  —US Surgeon General Leroy Burney, Meeting of the Association of
+  State and Territorial Health Officers, August 28, 1957
+\end{quote}
+
+\vspace{2cm}
+
+Nous avons vu en introduction que la prise en compte de la variation
+antigénique à l'échelle d'une infection humaine permettait
+d'appréhender les différentes trajectoires évolutives ayant mené aux
+principales maladies infectieuses humaines. Une des questions à
+l'origine de ce travail concernait les conséquences populationnelles
+de la variation antigénique en s'appuyant sur le cas des épidémies de
+grippe A dans la population humaine. Nous avons vu qu'à cette échelle,
+l'immunité de la population est le principal facteur qui structure
+cette diversité antigénique et avons cherché à développer des modèles,
+les plus simples possibles, pour pouvoir étudier de manière précise la
+boucle de rétro-action entre immunité des populations, évolution
+virale et dynamique épidémiologique.
+
+
+\section{Résumé des principaux résultats}
+
+Notre première étude s'est ainsi intéressée aux répercussions des
+hypothèses effectuées pour décrire les systèmes multi-souches. Elle a
+été largement motivée par le changement de paradigme concernant le
+mode d'évolution des propriétés antigéniques de la grippe introduit
+par l'article de \citet{Koelle2006} et le débat qui a suivi visant à
+déterminer si cette évolution était ponctuée ou plus graduelle. D'une
+manière remarquable, l'échappement ponctué à l'immunité de la
+population induit des balayages sélectifs capables de rendre compte
+des phylogénies observées pour HA1 ainsi que des dynamiques
+épidémiologiques. De plus, dans ce contexte, une période d'immunité
+temporaire totale agissant quelles que soient les souches ou les
+sous-types rencontrés n'est pas nécessaire pour réduire la diversité
+virale. D'un point de vue théorique, le changement est considérable
+car on passe d'un système où la diversité virale est contrôlée par un
+mécanisme de densité dépendance directe à un système où elle est
+contrôlée par les dynamiques transitoires de remplacements. Nous avons
+montré qu'en réalité cette différence était un peu moins marquée. En
+particulier, nous avons mis en évidence que les dynamiques du modèle
+utilisé par \citet{Koelle2006} (SBRI) différaient grandement de celles
+produites par les autres modèles utilisés pour décrire les systèmes
+multi-souches. Au coeur de cette divergence se trouve la combinaison
+de l'hypothèse d'une immunité polarisée avec le postulat que
+l'immunité croisée agit en réduisant totalement l'infectiosité. Cette
+combinaison implique que des individus complètement immunisés pour une
+souche donnée peuvent tout de même se faire réinfecter par celle-ci
+(il ne deviennent néanmoins pas infectieux) et ainsi, qu'ils
+bénéficient à chaque fois d'une chance d'acquérir une protection
+totale pour les souches immunologiquement réactives avec la souche
+rencontrée. Ce processus (absent dans tous les autres modèles étudiés)
+induit une immunité croisée beaucoup plus prononcée et tempère alors
+l'échappement à l'immunité ayant lieu lors d'un changement de cluster
+antigénique. Cette immunité additionnelle acquise grâce aux
+réinfections favorise le remplacement de l'ancien cluster résidant par
+le cluster émergeant. Nous avons montré que ce processus de
+réinfection avec extension du répertoire immunitaire lors d'exposition
+aux souches auxquelles l'hôte est totalement immunisé (sans qu'il
+devienne infectieux) est largement contradictoire avec le péché
+antigénique originel (OAS). L'importance du péché antigénique originel
+a par ailleurs été soulignée récemment dans un article de
+\citet{Kim2009} mettant fin à la polémique soulevée par les travaux de
+\citet{Wrammert2008}. Devant l'incapacité des autres modèles
+n'incorporant pas ce processus à reproduire des dynamiques
+transitoires mimant qualitativement des changements de clusters, nous
+avons voulu savoir dans quelle mesure un modèle basé sur un scénario
+de dérive antigénique graduelle permettait de décrire d'une manière
+satisfaisante les données dont on dispose.
+
+La théorie de l'échappement de l'immunité ponctuée offre un mécanisme
+intuitif pour expliquer la variabilité des épidémies de grippe
+observées dans la zone tempérée, les plus grands échappements à
+l'immunité induisant de plus grandes épidémies. Étant donnés nos
+résultats précèdents, nous avons cherché à déterminer dans quelle
+mesure ce signal épidémiologique pouvait être un indicateur fiable des
+variations ponctuelles d'échappement à l'immunité. Nous avons donc
+regardé si le modèle le plus simple possible, mimant une dérive
+antigénique graduelle pouvait générer des dynamiques similaires à
+celles observées dans la zone tempérée. Cette étude a révélé que ce
+modèle déterministe produisait des dynamiques chaotiques mais avec la
+propriété remarquable d'être régulière. Ainsi notre modèle minimal
+génère des épidémies de tailles différentes chaque année, avec une
+légère variabilité dans la date de départ de l'épidémie, et ce avec un
+échappement à l'immunité parfaitement graduel, chaque individu ayant
+une probabilité constante par unité de temps de redevenir susceptible.
+Le caractère chaotique de la dynamique illustre en outre que même dans
+ce cas idéal, où la dérive antigénique est parfaitement prévisible, il
+existe un niveau d'indétermination fondamentale à notre capacité à
+prédire l'état du système. De manière intrigante, cet horizon de
+prédictabilité (déterminé par l'exposant de Lyapunov dominant) est de
+l'ordre de grandeur de 3 ans, durée moyenne de changement des clusters
+antigéniques. Nous avons également montré que cette dynamique, dite
+UPCA (pour Uniform Phase with Chaotic Amplitude), se produisait dans
+de larges zones de paramètres réalistes pour la grippe, y compris pour
+les paramètres que nous avons inférés à partir de deux jeux de données
+et qu'elle était robuste à différentes formes de perturbations (y
+compris la co-circulation de différents sous-types dans un contexte
+spatial réaliste). Ce modèle pourrait être en mesure de fournir une
+explication au constat que les saisons les plus sévères de grippe
+saisonnière ne sont pas toujours associées à des nouveautés
+antigéniques marquées et peuvent avoir lieu durant des années où un
+même cluster antigénique reste présent. Les épidémies de 1989-1990 au
+Royaume Uni ou de 1999-2000 aux USA en sont des illustrations
+remarquables \citep{Viboud2006b} et restent à ce jour à notre
+connaissance inexpliquées.
+
+Ce résultat, nous a amené à revisiter la théorie de l'évolution
+antigénique ponctuée de la grippe et à développer un formalisme
+suffisamment tractable et général pour pouvoir être utilisé dans un
+cadre d'inférence statistique. Pour ce faire nous avons utilisé
+l'approche de \cite{Koelle2009} qui se focalise uniquement au niveau
+du phénotype. Dans le contexte de la grippe, les clusters antigéniques
+constituent alors un niveau d'abstraction privilégié. Toutefois, étant
+donné l'importance de la dérive antigénique graduelle au sein d'un
+cluster antigénique \citep{Shih2007, Russell2008}, nous l'avons
+incorporée. Nous avons choisi de le faire d'une manière implicite,
+évitant encore de décrire de nombreuses souches. Ces simplifications
+nous ont permis de réduire considérablement le nombre de variables
+d'état nécessaires pour définir le système et ainsi de nous affranchir
+de la nécessité de devoir se limiter à des formalismes où le nombre
+d'équations augmente linéairement avec le nombre de souches
+(typiquement le modèle SBRI). A une autre échelle, ce formalisme
+permet aussi de décrire la dynamique de sous-types de grippes et donc
+d'étudier les conditions menant à leur remplacement durant les
+pandémies. L'analyse de ce système nous a conduit à un résultat
+surprenant. Il est en effet apparu impossible de pouvoir reproduire
+des remplacements de clusters antigéniques pour les distances
+antigéniques réalistes qui séparent ces clusters. Ce résultat pourrait
+signifier que l'évolution antigénique de la grippe est plus graduelle
+qu'on ne le pense car des échappements ponctués à l'immunité de la
+population produisent des épidémies trop violentes suivies de trop
+longues périodes réfractaires pour être comparable aux données.
+L'étude de \citet{Russell2008} utilisant un nombre beaucoup plus élevé
+de prélèvements que celle de \citet{Smith2004} (plus de 13000 face à
+273) fournit quelques éléments de réponse allant dans le sens d'une
+dérive antigénique essentiellement graduelle bien que la période de
+leur étude (2002-2007) ne soit pas marquée par des changements de
+clusters antigéniques conséquents. Ce résultat surprenant peut aussi
+traduire l'importance des contraintes fonctionnelles, largement
+reconnue que ce soit sur le plan théorique \citep{Belshaw2008} ou sur
+le plan empirique \citep{Rambaut2008}. Ces contraintes pourraient
+compenser le gain de fitness relative acquis par un nouveau cluster
+antigénique échappant à l'immunité de la population et ainsi éviter de
+trop grandes épidémies. Nous avons aussi considéré d'autres hypothèses
+et montré qu'une période temporaire d'immunité totale (classe $Q$)
+pouvait améliorer la capacité de notre modèle à reproduire les
+données, particulièrement si celle-ci est associée à un mécanisme de
+``boosting'' immunitaire et des $R_0$ suffisant élevé pour que ce
+``boosting'' ait un effet considérable. Dans ces conditions, les
+individus partiellement protégés chez qui la protection partielle
+suffit à éviter l'infection se retrouvent quand même dans la classe
+$Q$. D'une manière plus classique, tous les individus infectés se
+retrouvent temporairement dans cette classe après guérison. Ce
+processus permet ainsi de réduire le nombre de susceptibles
+disponibles pour les nouveaux variants antigéniques et tempère alors
+l'intensité de l'épidémie faisant suite à un changement de cluster. La
+classe $Q$ avec mécanisme de ``boosting'' rend donc les remplacements
+possibles de deux façons : en augmentant l'interaction compétitive
+entre les souches mais surtout, en tempérant les épidémies. Introduit
+sous cette forme, la classe $Q$ n'est pas si différente du processus
+``caché'' induit par le modèle $SBRI$ mis en évidence au chapitre 2.
+Une différence de taille existe cependant entre ces 2 façons de
+``booster'' l'immunité: la classe $Q$ ne la ``boost'' que
+temporairement et sans mise à jour du répertoire immunitaire des hôtes
+ne succombant pas à l'infection, tandis que le modèle SBRI induit des
+extensions du répertoire immunitaire définitives lors d'expositions
+aux souches auxquelles l'hôte est totalement immunisé sans qu'il
+devienne infectieux, en désaccord avec l'OAS. Par ailleurs, là où le
+``boosting'' est systématique avec la classe $Q$, il devient dépendant
+de la distance antigénique pour le modèle $SBRI$. Si la mise en
+évidence de ces mécanismes de ``boosting immunitaire'' constitue un
+résultat intéressant, on ne peut toutefois pas exclure un rôle
+important de l'hétérogénéité spatiale pour tempérer l'intensité des
+épidémies.
+
+%correlation R0 derive antigénique. avertissement état immunitaire peut
+%varier d'une pop à une autre viboud smoldering pand. peut induire des
+%biais considérable dans l'estimation de R0.
+
+
+
+%calculer l'effet de la classe $Q$.
+
+
+
+% abstract papier 3: finally, we show that both koelle and fergusion
+% theory share an unpreviously recognised point by relying on the
+% decisive assumption of cross immune boosting, a process during which
+% already immunized hosts can gain additional cross protection without
+% becoming infectious following additional exposure.
+
+\section{Perspectives}
+
+Le formalisme développé dans le chapitre 4 est suffisamment tractable
+pour être couplé à une approche d'inférence statistique et de
+sélection de modèles. Nous pensons donc qu'il permettra de mettre en
+avant les processus clés impliqués dans la phylodynamique de la
+grippe. En particulier, nous espérons pouvoir déterminer dans quelle
+mesure les processus complexes de ``boosting'' immunitaires sont
+nécessaires en présence d'une hétérogénéité spatiale locale accrue.
+Cela nous semble particulièrement important étant donné que, dans le
+contexte de la théorie de l'échappement à l'immunité ponctué, le rôle
+primordial des processus de ``boosting'' immunitaire (classe $Q$,
+modèle SBRI), semblent être de tempérer les épidémies. En effet, les
+modèles sans ``boosting'' immunitaire induisent suffisamment de
+compétition entre les clusters antigéniques pour provoquer des
+balayages sélectifs lors de l'apparition de nouveaux clusters, mais
+ils produisent alors des épidémies trop violentes suivies de trop
+longues périodes réfractaires pour être réalistes. A ce titre, les
+approches visant à prendre en compte simplement l'hétérogénéité
+spatiale à une échelle locale sous la forme d'exposants sur les termes
+de la loi d'action de masse sont un outil précieux \citep{Liu1987,
+  Roy2006}. De plus amples travaux sont nécessaires dans ce domaine
+pour mieux comprendre le rôle de ces exposants et déterminer s'ils
+sont à même de mimer implicitement l'effet des réseaux de contacts
+complexes de la population humaine.
+
+En attendant ces confirmations, nos résultats révèlent que les
+processus d'acquisition de l'immunité à l'echelle individuelle peuvent
+avoir une importance considérable à l'échelle de la population. En
+particulier il nous apparaît essentiel que les possibilités d'un
+``boosting'' immunitaire régi par la classe $Q$ soient clarifiées
+empiriquement. Notre travail suggère spécialement la nécessité d'une
+meilleure compréhension de la façon dont interagissent les mécanismes
+du péché antigénique originel (OAS) et les processus immunitaires
+aboutissant à la mise en place d'une immunité cellulaire conférant une
+protection totale hétéro-sous-typique mais limitée dans le temps. Si
+ces 2 processus sont bien reconnus, que ce soit chez les modèles
+animaux \citep{Grebe2008, Kim2009} ou lors d'études épidémiologiques
+chez l'homme \citep{Slepushkin1959, Epstein2006}, les mécanismes
+impliqués pour leur élicitation restent en partie à découvrir.
+
+L'étude de \citet{Kim2009} offre une perspective intéressante à ce
+sujet car les auteurs proposent un mécanisme pour l'OAS. Leur étude
+suggère en effet que l'OAS pourrait être dû à une compétition entre
+les lymphocytes B mémoires partiellement réactifs et les lymphocytes B
+naïfs. Ceci se comprend en considérant une infection séquentielle par
+deux souches ($s1$ et $s2$) immunologiquement partiellement réactives.
+Comme le révèle l'étude de \citet{Kim2009}, la première infection
+génère des anticorps spécifiques à $s1$ seulement, ainsi que des
+anticorps partiellement réactifs à $s2$. Cependant, la situation est
+différente lors de la seconde infection par la souche $s2$ car à
+présent, les anticorps partiellement réactifs envers $s2$, générés
+lors de l'infection par $s1$, dominent la réponse immunitaire et
+pénalisent le déclenchement d'une nouvelle réponse spécifique à $s2$.
+Ce phénomène pourrait s'expliquer par le fait que l'hemagglutinine
+permet un accrochage des virus à l'ensemble des lymphocytes B quel que
+soit leur récepteur caractéristique (BCR) via l'acide sialique. Cela
+pourrait favoriser la capacité des lymphocytes B à présenter les
+antigènes spécifiques des virus entrés en contact avec eux et ainsi
+biaiser la présentation des antigènes spécifiques en faveur des
+lymphocytes B, au détriment des cellules dendritiques. Ce mécanisme
+pourrait conduire à des signaux d'activation sub-optimaux favorisant
+la réponse immunitaire médiée par les lymphocytes B mémoires seulement
+partiellement adaptés à $s2$ par rapport à l'activation de lymphocytes
+B naïfs. Dans ce contexte, l'infection par $s2$ conduira à une charge
+virale considérable au sein de l'hôte, bien que réduite par rapport à
+celle ayant lieu dans un hôte naïf \citep{Kim2009}.
+
+Au vu de ce mécanisme, dans le cas où l'OAS favorise une infection, il
+est réaliste de considérer que la composante cellulaire de la réponse
+immunitaire sera déclenchée pour éliminer le virus, conférant ainsi
+une protection totale de courte durée \citep{Grebe2008}. La
+combinaison de l'OAS et de la classe $Q$ sans ``boosting''
+immunitaire, se comprend donc relativement bien lorsqu'une exposition
+par une souche proche se traduit par une infection. La situation est
+plus délicate dans le cas du ``boosting'' immunitaire ayant lieu
+lorsque l'exposition ne conduit pas à l'infection. Dans ce dernier
+cas, étant donné que l'hôte ne sera pas infectieux, on sait que sa
+charge virale sera relativement faible voire nulle si les anticorps
+présents chez l'hôte parviennent à neutraliser les virus très tôt. On
+peut donc se demander dans quelle mesure une telle infection est
+capable de déclencher une réponse immunitaire cellulaire. S'il a été
+montré qu'une vaccination pouvait suffire à déclencher la classe $Q$
+\citep{Slepushkin1959}, il est difficile de savoir dans quelle mesure
+une exposition n'engendrant pas d'infection peut être comparable à une
+vaccination. Lorsque l'OAS s'applique, peut-être que la charge virale
+est suffisamment élevée pour tout de même déclencher la classe $Q$,
+mais dans ce cas, l'hôte peut-il toujours être considéré non
+infectieux ? Une description plus fine entre charge virale et niveau
+d'infectiosité serait particulièrement précieuse dans ce contexte.
+Nous avons vu en introduction que l'emploi de modèles intra-hôtes
+relativement simples pouvait permettre de décrire cette relation avec
+un rôle important de la fonction de transmission \citep{King2009}. La
+présence de nombreux individus asymptomatiques est en outre une
+incitation de plus pour regarder plus précisement dans cette direction
+\citep{Carrat2008}.
+
+
+Nous avons par ailleurs mis en évidence (annexe D) que les processus
+d'acquisition de la réponse immunitaire pouvaient être fortement
+variables selon que les hôtes soient naïfs ou pas. Pour se faire, nous
+nous sommes intéressés à la première apparition de H3N2 sur l'île
+isolée de Tristan da Cunha. Cette population où H3N2 est apparu
+seulement en 1971, soit 3 ans après la pandémie de ce sous-type,
+présente la particularité remarquable d'être exceptionnellement
+susceptible à la grippe, principalement en raison du très faible
+nombre d'expositions des habitants de cette île isolée. De façon tout
+à fait surprenante, l'introduction de H3N2 dans cette île a produit
+deux épidémies successives de grippe (confirmée par des analyses
+sérologiques) séparées de moins d'un mois. Parmi les 284 habitants,
+96\% ont subi au moins une infection et 32\% ont été infectés à deux
+reprises, l'essentiel des réinfections ayant lieu lors de la seconde
+vague. Nous avons cherché à déterminer quels processus étaient à même
+de rendre compte de cette situation. Nous avons adopté une approche de
+comparaison de modèles en mettant en contraste trois processus :
+\begin{itemize}
+\item La nécessité d'infections multiples avant de développer une
+  immunité protective de longue duré (comme mise en évidence par
+  \citet{Mathews2007}).
+\item Une protection seulement partielle après la première infection.
+\item Une mutation permettant au virus d'échapper à l'immunité
+  contractée lors de la première vague.
+\end{itemize}
+
+Les résultats de cette analyse, décrits en détail en annexe D, nous
+ont permis de valider la première de ces hypothèses. Ainsi, ces deux
+vagues pandémiques sont en accord avec un modèle où seulement 50\% des
+individus développent une immunité de longue durée après la première
+attaque.  Il est difficile de savoir dans quelle mesure ce résultat
+est généralisable, cependant, nous pensons qu'un processus similaire
+pourrait avoir lieu de manière courante chez les individus
+immunologiquement naïfs et donc typiquement chez les enfants.
+
+Ce résultat incite à prendre en considération le rôle des infections
+répétées. Si nous avons beaucoup parlé de distance antigénique dans ce
+travail de thèse, il nous semble important de clarifier par la suite
+le rôle du nombre d'infections dans l'acquisition d'une réponse
+immunitaire de plus en plus protégeante et robuste à la dérive
+antigénique virale. La réponse immunitaire cellulaire, dirigée contre
+des protéines conservées à un rôle considérable dans ce domaine et les
+infections multiples, en stimulant de plus en plus cette immunité,
+pourraient peut-être à terme la rendre plus persistante, contrecarrant
+ainsi l'échappement viral dû à la dérive antigénique (et favorisé par
+l'OAS favorisant à son tour les infections répété et donc la
+possibilité d'augmenter une réponse immunitaire fortement
+réactive...). La suggestion que des infections naturelles (par
+opposition au vaccin) répétées par la grippe dans le jeune âge
+permettent une meilleure protection contre la grippe une fois âgé (en
+plus de poser des questions passionnantes sur les politiques
+vaccinales à adopter) incite fortement à regarder de plus près ces
+questions \citep{Carrat2006a}.
+
+
+\vspace{2cm} 
+
+Une description fine des processus immunologiques peut avoir des
+répercussions importantes à l'échelle de la population. La complexité
+des modèles prenant en compte l'interaction de différents types
+antigéniques à l'échelle de la population rend pour le moment
+cependant difficile leur couplage avec des modèles décrivant la
+relation entre le système immunitaire et la population virale au
+niveau intra-hôte. A terme on peut toutefois espérer parvenir à
+trouver un formalisme adapté à cette tâche, peut-être sous la forme
+intermédiaire entre modèles individus centrés et systèmes dynamiques.
+Un tel cadre unifié nous permettrait alors d'appréhender de façon
+globale les interactions complexes et multi-échelles entre processus
+immunologiques, épidémiologiques et évolutifs.
+
+
+%A terme, o
+%
+%
+% Les études de
+%\citet{Lange2009}, \citet{Read2006} et \citet{King2009} illustrent
+%particulièrement bien comment la combinaison de processus
+%immunologiques à l'echelle intra-hote, couplé avec des processus
+%épidémiologiques ainsi que des contraintes physoliogique permet de
+%rendre compte des rétroactions entre dynamique épidémiologique et
+%évolutive.
+%
+%importance du seuil intra hote pour invalider le SBRI...
+%
+%Il est admis que les anticorps préexistant jouent un rôle clef dans la
+%protection contre les infections grippales. Cependant,
+%\citet{Wrammert2008} ont montré récemment que les anticorps produit de
+%novo par les cellules sécrétrices d'anticorps (ASC) relativement tôt
+%suite à une vaccination (pique au 7eme jour) pouvait aussi avoir un
+%rôle important en produisant une grande quantité d'anticorps
+%spécifique aux antigénes présenté et ce apparemment sans être affecté
+%par le péché antigénique originel (les anticorps produits ayant autant
+%d'affinité si ce n'est plus avec les souches du vaccin actuel qu'avec
+%celles des vaccins précédents. D'une manière remarquable les ASC ayant
+%produit ces anticorps ont accumulé plus de mutations somatiques que
+%n'importe quel population normal de lymphocytes B suggérant que ces
+%cellules proviennent de lymphocyte B ``mémoires'' ayant accumulé des
+%mutations sur les précédents cycles d'activations
+%\citep{Wrammert2008}. Indépendamment des perspectives intéressantes de
+%thérapie fournie par cette découverte cela peut fournir un argument
+%allant dans le sens d'une réponse immunitaire multiplicative.
+%
+%
+%
+%discussion de la classe Q
+%
+%\cite{Slepushkin1959}
+%\cite{Epstein2006}
+%\cite{Carrat2006}
+%\cite{Grebe2008}
+
+
+
+
+
+%Comme l'a écrit Michel Tibayrenc dans l'éditorial du premier numéro du
+%journal Infection, Genetics and Evolution nous vivons donc ``l'age
+%d'or de la génétique mais l'age sombre des maladies
+%infectieuses''. Cet ``age d'or de la génétique'' s'accompagne d'une
+%augmentation sans précédent des capacités de calculs, plus que jamais
+%nécessaire pour pouvoir analyser les données complexes fourni par le
+%sequencages d'isolat provenant du monde entier \citep{Holmes2007}.
+%Cette situation offre l'opportunité jamais atteinte auparavant de
+%pouvoir pouvoir étudier de l'échelle intra-individuel à planétaire
+%comment émerge la boucle de retro-action éco-évolutive façonnant les
+%maladies infectieuses.
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../phD"
+%%% End: 

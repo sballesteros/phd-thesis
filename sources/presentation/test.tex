@@ -1,0 +1,125 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+   \usetheme{Darmstadt}
+  % \usetheme{Berlin}
+  % \usetheme{Warsaw}
+  % \usetheme{Singapore}
+  % ou autre ...
+
+  \setbeamercovered{transparent}
+  % ou autre chose (il est également possible de supprimer cette ligne)
+}
+
+\usepackage[english]{babel}
+% or autre comme par exemple \usepackage[english]{babel}
+\usepackage{pstricks,pst-grad}
+\usepackage{multicol}
+\usepackage[utf8]{inputenc}
+% or autre
+\usepackage{exscale}
+%\usepackage{authblk}
+\usepackage{soul}
+\usepackage[normalem]{ulem}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{natbib}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{array, multirow}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{verbatim}
+\usepackage{pgf}
+\usepackage{tikz}
+\usetikzlibrary{arrows,snakes,backgrounds,shapes}
+
+
+\title[Titre court] % (facultatif, à utiliser uniquement si le titre de l'article est trop long)
+{Ecology and Evolution of acute infectious diseases: the case of influenza}
+%\subtitle {}
+
+\author{Sébastien Ballesteros}
+
+\institute[UMR 7625 Ecologie Evolution]
+{
+  UMR 7625 Ecologie Evolution\\
+  Équipe Eco-Evolution mathématique\\
+  ENS Ulm, UPMC
+}
+
+\date[Version courte] % (facultatif)
+{18/12/2009 / Paris}
+
+% À supprimer si vous ne voulez pas que la table des matières apparaisse
+% au début de chaque sous-section :
+% 
+\AtBeginSubsection[] {
+  \begin{frame}<beamer>{Contents}
+  \begin{footnotesize}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{footnotesize}
+  \end{frame}
+}
+
+% Si vous souhaitez recouvrir vos transparents un à un,
+% utilisez la commande suivante (pour plus d'info, voir la page 74 du manuel
+% d'utilisation de Beamer (version 3.06) par Till Tantau) :
+
+% \beamerdefaultoverlayspecification{<+->}
+
+
+\begin{document}
+
+\begin{frame}[fragile]
+  \frametitle{Reproducing influenza phylodynamics}
+
+%\only<1>{
+\begin{verbatim}
+t0  = [00000000000000]
+t9  = [01000000000000]
+\end{verbatim}
+%}
+
+%\only<2>{
+%\begin{verbatim}
+%t0  = [00000000000000]
+%t9  = [01000000000000]
+%\end{verbatim}
+%}
+%
+%\only<3->{
+%\begin{verbatim}
+%t0  = [00000000000000]   t31 = [01000000000001]
+%t9  = [01000000000000]   t47 = [00001000000000]
+%t22 = [01000000010000]   t59 = [10000000010000]
+%\end{verbatim}
+%}
+
+  \begin{columns}
+    \begin{column}{0.35 \linewidth}
+      \includegraphics<1->[height=1 \textwidth]{graph/ferg.png}
+
+\only<1->{
+      \begin{tiny}
+        Ferguson \textit{et al.} (2003)
+      \end{tiny}}
+    \end{column}
+    \begin{column}{0.65 \linewidth}
+      \begin{block}<4->{Results}
+        \alert{Explosive diversity of strains} and
+        unrealistically high incidence
+      \end{block}
+      \begin{alertblock}<5->{Key theoretical question}
+        How to restrict strains diversity ?
+      \end{alertblock}
+    \end{column}
+  \end{columns}
+  
+\end{frame}
+
+\end{document}
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

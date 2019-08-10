@@ -1,0 +1,41 @@
+\begin{thebibliography}{}
+
+\bibitem[Breto et~al., 2009]{Breto2009}
+Breto, C., He, D., Ionides, E.~L., and King, A.~A. (2009).
+\newblock Time series analysis via mechanistic models.
+\newblock {\em ANNALS OF APPLIED STATISTICS}, 3:319.
+
+\bibitem[Cooper et~al., 2006]{Cooper2006a}
+Cooper, B.~S., Pitman, R.~J., Edmunds, W.~J., and Gay, N.~J. (2006).
+\newblock Delaying the international spread of pandemic influenza.
+\newblock {\em PLoS Med}, 3(6):e212.
+
+\bibitem[Finkenstädt et~al., 2005]{Finkenstaedt2005}
+Finkenstädt, B.~F., Morton, A., and Rand, D.~A. (2005).
+\newblock Modelling antigenic drift in weekly flu incidence.
+\newblock {\em Stat Med}, 24(22):3447--3461.
+
+\bibitem[Galassi et~al., 2003]{Galassi2003}
+Galassi, M., Davies, J., Theiler, J., Gough, B., Jungman, G., Booth, M., and
+  Rossi, F. (2003).
+\newblock {\em Gnu Scientific Library: Reference Manual}.
+\newblock Network Theory Ltd.
+
+\bibitem[Grais et~al., 2003]{Grais2003}
+Grais, R.~F., Ellis, J.~H., and Glass, G.~E. (2003).
+\newblock Assessing the impact of airline travel on the geographic spread of
+  pandemic influenza.
+\newblock {\em Eur J Epidemiol}, 18(11):1065--1072.
+
+\bibitem[Ionides et~al., 2006]{Ionides2006}
+Ionides, E.~L., Bretó, C., and King, A.~A. (2006).
+\newblock Inference for nonlinear dynamical systems.
+\newblock {\em Proc Natl Acad Sci U S A}, 103(49):18438--18443.
+
+\bibitem[{R Development Core Team}, 2008]{R2008}
+{R Development Core Team} (2008).
+\newblock {\em R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria.
+\newblock {ISBN} 3-900051-07-0.
+
+\end{thebibliography}

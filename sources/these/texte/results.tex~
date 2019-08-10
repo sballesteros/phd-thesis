@@ -1,0 +1,89 @@
+\section{results}
+
+\subsection{Deterministic models}
+
+\begin{figure}[htp]
+%ici, en haut en tt la page si ici H
+	\includegraphics[width=14 cm]{graphs/sir.pdf}
+	\caption{Transiant invasion dynamics for 2 strain $SIR$ status based model with co-infection and reduced susceptibility or reduced infectivity assumptions. Initial conditions : ${I^1}(0) = {I^1}^*$ ; ${I^2}(0)=1.10^{-7}$.}
+	\label{fig_deter}
+\end{figure}
+
+\begin{figure}[hbp]
+	\includegraphics[width=14 cm]{graphs/time.pdf}
+	\caption{Various time scale for 2 strain status based model with co-infection and reduced susceptibility or reduced infectivity assumptions. All the case initial $I^1$ at single cluster endemic equilibrium $I^1(0)= 2.19118*10^{-4}-I^2(0)$ , $I^2(0) = 1.10^{-6}$. Dots represent determinist threshold ($10^{-7}$) for extinction ($I^1$, blue dots and $I^2$ red dots) ; (+) are reinvasion time after extinction for $I^1$ (blue) and $I^2$ (red). Absence of symbols means no extinction or peak or crash.}
+	\label{fig_time}
+\end{figure}
+
+\begin{figure}[htp]
+%ici, en haut en tt la page si ici H
+	\includegraphics[width=14 cm]{graphs/sir_detail.pdf}
+	\caption{Details of transiant invasion dynamics for 2 strain $SIR$ status based model with co-infection and reduced susceptibility or reduced infectivity assumptions. Initial conditions : ${I^1}(0) = {I^1}^*$ ; ${I^2}(0)=1.10^{-7}$.}
+	\label{fig_sir_detail}
+\end{figure}
+
+
+
+\begin{figure}[htp]
+%ici, en haut en tt la page si ici H
+	\includegraphics[width=14 cm]{graphs/sirs_compare_g13.pdf}
+	\caption{Transiant invasion dynamics for 2 strain $SIRS$ status based model with reduced susceptibility assumptions for various assumption regarding antigenic drift (figure~\ref{fig_immuniti} and figure~\ref{fig_immuniti2} left). For antigenic drift, $1/g_1= 1/g_2 = 1/g =13$ year \citep{Finkenstaedt2005}, all the case initial, $I^1$ is at equilibrium and mutant is introduces at $t=0$ with prevalence $I^2=1.10^{-6}$. Top left: $g_2 = g_1 = g$ when only cluster 1 is present; Top right: $g_2=g$ only when cluster 2 is introduced (without 2, $g_2=0$) ; Bottom left : figure~\ref{fig_immuniti} right. Bottom right figure~\ref{fig_immuniti2} left, numerical values in legend are respectively $\sigma_x$ and $s$, colors correspond to figure \ref{fig_sensitivity_full}}
+	\label{fig_sirs_compare}
+\end{figure}
+
+\begin{figure}[htp]
+%ici, en haut en tt la page si ici H
+	\includegraphics[width=14 cm]{graphs/sensitivity_full.pdf}
+	\caption{Transiant invasion dynamics for 2 strain $SIRS$ status based model of equation~\eqref{eq_immuniti2} with reduced susceptibility assumptions figure~\ref{fig_immuniti2} left). For antigenic drift, $1/g_1= 1/g_2 =13$ year \citep{Finkenstaedt2005}, all the case initial, $I^1$ is at equilibrium and mutant is introduces at $t=0$ with prevalence $I^2=1.10^{-6}$. Colors are label (top left graph) and extinctions times (time when $I^i < 1.10^{-7}$). For top right graph, color are $text_{I^1} - text_{I^2}$ and contours $text_{I^1}$.}
+	\label{fig_sensitivity_full}
+\end{figure}
+
+\begin{figure}[htp]
+%ici, en haut en tt la page si ici H
+	\includegraphics[width=14 cm]{graphs/reinvasion_full.pdf}
+	\caption{Transiant invasion dynamics for 2 strain $SIRS$ status based model of equation~\eqref{eq_immuniti2} with reduced susceptibility assumptions figure~\ref{fig_immuniti2} left). Cluster 2 reinvasions times are calculated from the time of the first peak of cluster 2. For antigenic drift, $1/g_1= 1/g_2 =13$ year \citep{Finkenstaedt2005}, all the case initial, $I^1$ is at equilibrium and mutant is introduces at $t=0$ with prevalence $I^2=1.10^{-6}$. Colors are label (top left graph) and reinvasion times.}
+	\label{fig_reinvasion_full}
+\end{figure}
+
+\begin{figure}[htp]
+%ici, en haut en tt la page si ici H
+	\includegraphics[width=14 cm]{graphs/limit_cases.pdf}
+	\caption{Details of transiant invasion dynamics for 2 strain $SIRS$ status based model of equation~\eqref{eq_immuniti2} with co-infection and reduced susceptibility . Initial conditions : ${I^1}(0) = {I^1}^*$ ; ${I^2}(0)=1.10^{-7}$.}
+	\label{fig_limit_cases}
+\end{figure}
+
+\begin{figure}[htp]
+%ici, en haut en tt la page si ici H
+	\includegraphics[width=14 cm]{graphs/q_compare.pdf}
+	\caption{$SIRS$ vs $SIQRS$ $\sigma_x = 1$, $s$ varies. $1/q= 0.5$ years. Initial conditions : ${I^1}(0) = {I^1}^*$ ; ${I^2}(0)=1.10^{-7}$.}
+	\label{q_compare}
+\end{figure}
+
+
+
+\subsection{Stochastic models}
+
+\begin{figure}[htp]
+%ici, en haut en tt la page si ici H
+	\includegraphics[width=14 cm]{graphs/ccs.pdf}
+	\caption{Endemic fadeouts for SIR and SIRS model with flu parameters. The red dot represent the number of extinct trajectories after 100 years starting from 100 initial conditions on the deterministic equilibrium}
+	\label{fig_ccs}
+\end{figure}
+
+\begin{figure}[htp]
+%ici, en haut en tt la page si ici H
+	\includegraphics[width=14 cm]{graphs/text.pdf}
+	\caption{extinction time for cluster 1 (blue) and 2 (red). Initial conditions: $I^1$ at endemic equilibrium, $I^2(0)=10$, $N=10.10^6$. 1000 realisations per cross immunity values, $T_{max} = 100$ years}
+	\label{fig_text}
+\end{figure}
+
+\begin{figure}[htp]
+%ici, en haut en tt la page si ici H
+	\includegraphics[width=14 cm]{graphs/replace.pdf}
+	\caption{Replacement (in all the cases 1 go extinct). Top graph: Red dotted line, number of realisations where cluster 2 does not go extinct but cluster 1 does ; Black line, number of realisations where text1 $\leqslant$ text2 or, where cluster 1 goes extinct but  cluster 2 not. Bottom graphs: extinction times when both cluster or only cluster 1 go extinct. Initial conditions: $I^1$ at endemic equilibrium, $I^2(0)=10$, $N=10.10^6$.  1000 realisations per cross immunity values, $T_{max} = 100$ years}
+	\label{fig_replace}
+\end{figure}
+
+
+
+

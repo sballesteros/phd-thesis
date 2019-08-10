@@ -1,0 +1,274 @@
+%\documentclass[11pt,a4paper]{scrartcl}
+%\documentclass[12pt,openright,twoside]{report} %,titlepage
+\documentclass[12pt]{report}
+%\usepackage[top=2.0cm, right=2.0cm, left=2.0cm, bottom=2.0cm]{geometry}
+%\usepackage{setspace}
+%\doublespacing
+%\usepackage[left]{lineno}
+%\linenumbers
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+%tableau
+\usepackage{array, multirow}
+%graphs
+\usepackage{multicol}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{float, caption}
+\usepackage{amsmath,amssymb,mathrsfs}
+\usepackage{natbib}
+%\usepackage{apalike}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{pgf}
+\usepackage{tikz}
+\usetikzlibrary{arrows,snakes,backgrounds,shapes}
+
+%pour avoir la biblio avec nom d'auteur et année dans le texte
+\bibpunct{(}{)}{;}{a}{,}{,}
+%pour avoir les reference entre parenthese et en cas de ref multiple séparé par des ;
+\sloppy 
+%utiliser ca si latex trop exigeant en largeur ligne
+
+\title{Ecologie et Evolution des maladies infectieuses aiguës : le cas
+  de la grippe}
+
+\author{Sébastien Ballesteros}
+
+\date{}
+
+
+\newlength{\plarg}
+\setlength{\plarg}{14cm}
+\newlength{\glarg}
+\setlength{\glarg}{15cm}
+
+
+\begin{document}
+
+\input{entete2.tex}
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+\maketitle
+
+%ne surtout pas utiliser %\abstract{} !!!
+%fou la merde !!!
+
+
+\begin{quote}
+  (history) is itself a Western invention whose central theme is the
+  rejection of habitat. It formulates experience outside of nature and
+  tends to reduce place to location... It seeks causality in the
+  conscious, spiritual, ambitious character of men and memorializes
+  them in writing.\\
+  \textsc{Paul Shepard}
+\end{quote}
+
+\cleardoublepage
+
+\section*{Résumé}
+
+Cette thèse s'intéresse aux interactions entre immunologie,
+épidémiologie et biologie évolutive. Nous utilisons une combinaison
+d'approches mathématiques et statistiques pour comprendre les
+processus gouvernant les dynamiques épidémiologiques et les
+phylogénies observées pour différents pathogènes de l'échelle
+individuelle aux populations. Nous prenons l'exemple de la grippe
+humaine. Trois hypothèses permettent de rendre compte de la
+phylodynamique particulière de la grippe: (i) il existe un mécanisme
+de densité-dépendance directe médié par une période temporaire
+d'immunité totale après infection ; (ii) le nombre de phénotypes
+possibles est limité, les virus les ré-explorant sans cesse ; (iii)
+l'évolution de l'antigène principal de la grippe est ponctuée, les
+échappements ponctuels à l'immunité induisant des balayages
+sélectifs. (iii) domine aujourd'hui et rend compte de la variabilité
+des épidémies de grippe, de larges échappements à l'immunité en
+induisant de plus grandes. Nous montrons que le formalisme ayant mené
+à (iii) induit de manière implicite un processus immunologique
+irréaliste pour la grippe. Nous révélons que les séries temporelles
+d'incidences grippales ne peuvent pas fournir une preuve du caractère
+ponctué de l'évolution antigénique, un modèle parcimonieux prenant en
+compte une évolution antigénique purement graduelle les
+reproduisant. La nature chaotique de ces dynamiques marque une limite
+fondamentale à la prédictibilité de la taille des épidémies de grippe
+et ce, indépendamment de la contingence évolutive. Nous développons un
+formalisme confrontable aux données pour tester les différentes
+hypothèses rendant compte de la phylodynamique de la grippe.
+
+
+
+\vspace{2cm}
+
+{\noindent
+\textbf{Mots clés} : écologie ; évolution ; épidémiologie ; grippe ;
+modèles multi-souches ; système immunitaire ; système dynamique ;
+dynamique chaotique ; phylodynamique ; filtrage particulaire
+}
+
+
+\clearpage
+
+My thesis focuses on the melding of immunodynamics, epidemiology and
+evolutionary biology. I use a combination of mathematical and
+statistical approaches to understand the processes driving outbreak
+dynamics and the wide range of pathogen phylogenies observed at scales
+from individual host to populations. I mostly focus on human influenza
+A. Three hypothesis have been proposed to explain the distinctive
+phylodynamic pattern observed in human influenza viruses: (i) that
+there is short-lived cross-immunity among viral strains acting as a
+direct density-dependent process that restricts strains diversity;
+(ii) that the virus continually reuses a limited number of antigenic
+combinations; (iii) that influenza A main antigen (hemagglutinin)
+evolves in a punctuated manner, punctuated immune escape resulting in
+selective sweeps. This latter hypothesis is currently widely accepted
+and enables to explain influenza epidemics peaks variability, higher
+peaks reflecting higher punctual antigenic changes. We first show that
+hypothesis (iii) implicitly induces an irrealistic immunological
+process in the context of influenza. We then revealed that influenza
+incidence time-series cannot constitute a proof of punctuated
+antigenic evolution as a parsimonious model considering only purely
+gradual antigenic drift successfully reproduces the data. The chaotic
+nature of these dynamics sets fundamental limits to the predictability
+of future epidemics sizes in addition to evolutionary
+contingency. Last, we develop a framework suitable to statistical
+analysis in order to disentangle the various processes shaping
+influenza phylodynamics.
+
+
+
+
+
+
+\cleardoublepage
+%\newpage
+%\input{texte/thanks.tex}
+%\clearpage
+
+\tableofcontents
+
+
+%\begin{quote}
+%  Chaque histoire s'accompagne d'un nombre indéterminé d'anti-histoires dont chacune est complémentaire des autres.\\
+%  \textsc{Claude Lévi-Strauss}
+%\end{quote}
+
+%\cleardoublepage
+\clearpage
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+\input{texte/introduction.tex}
+
+\clearpage
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+
+\input{texte/article1/article1.tex}
+
+\clearpage
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+%
+%\clearpage
+\input{texte/article2/upca.tex}
+
+
+\clearpage
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+%
+%\clearpage
+\input{texte/article3/camacho.tex}
+
+\clearpage
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+%
+%
+%\clearpage
+\input{texte/discussion.tex}
+
+\clearpage
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+%\cleardoublepage
+
+\appendix
+
+\input{texte/article1/article1_appendix.tex}
+%\cleardoublepage
+%\newpage
+%\newpage
+%\thispagestyle{empty}
+%\mbox{}
+
+\clearpage
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+
+\input{texte/article2/appendix_eliza.tex}
+%\newpage
+%\thispagestyle{empty}
+%\mbox{}
+\clearpage
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+
+\input{texte/article3/appendix_diamond/appendix_drift.tex}
+%\cleardoublepage
+
+\clearpage
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+\input{texte/tdc/tdc.tex}
+
+
+
+\clearpage
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+
+
+%\cleardoublepage
+%\newpage
+\bibliographystyle{apalike-fr}
+\bibliography{/home/seb/Documents/biblio_bibtex/biblio_seb}
+
+\end{document}
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

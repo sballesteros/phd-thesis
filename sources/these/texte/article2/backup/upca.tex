@@ -1,0 +1,178 @@
+%\documentclass[11pt,a4paper]{scrartcl}
+\documentclass[12pt]{article}
+
+\usepackage[top=2.0cm, right=2.0cm, left=2.0cm, bottom=2.0cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[UKenglish]{babel}
+%tableau
+\usepackage{array, multirow}
+%graphs
+\usepackage{graphicx}
+\usepackage{float, caption}
+\usepackage{amsmath,amssymb,mathrsfs}
+\usepackage{natbib}
+%pour avoir la biblio avec nom d'auteur et année dans le texte
+\bibpunct{(}{)}{;}{a}{,}{,}
+%pour avoir les reference entre parenthese et en cas de ref multiple séparé par des ;
+\sloppy 
+%utiliser ca si latex trop exigeant en largeur ligne
+
+
+\title{Gradual antigenic drift explains complex reccurent pattern of human influenza A}
+
+\author{Sébastien Ballesteros$^{1,*}$, Anton Camacho$^{1}$, Elisabeta Vergu$^{2}$, Bernard Cazelles$^{1,3}$}
+
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+$^1$UMR 7625  (UPMC, ENS, AgroParisTech, CNRS), Ecole Normale Supérieure, Unit of Eco-Evolutionary Mathematics,  46 rue d'Ulm, F-75230 Paris Cedex 05, France. \\
+$^2$~INRA, UR341 Mathématiques et Informatique Appliquées, F-78352 Jouy en Josas, France \\
+$^3$~IRD UR GEODES, 93142 Bondy, France
+
+~\\
+$^*$\textit{Corresponding author}:  \\
+E-mail: sebastien.ballesteros@biologie.ens.fr
+
+\abstract{}
+
+
+To what extent epidemic peaks amplitude variability can be due due non-linear dynamics alone ?
+
+To test between a continuous antigenic drift scenario and a punctuated evolutionary one, we have developed a simple model, the perturbated SIRS model.
+
+Results : 
+discrete evolution (burst of positive selection) are not correlated with peak variability.
+
+calculer la correlation entre la date du peak et la date de la mutation a grand effet
+tracer ce coeff en fonction de l'intensité du forcage saisonier et de la variance de la loi normale
+
+construire un test statistique pour voir si l'effet est significatif.
+
+
+idée en vrac mais bien !!!:
+il nous faut determiner l'amplitude de l'immune escape.
+une facon de calibrer: regarder la perturbation d'un modele SIRS voir a partir de quelle niveau on genere des peaks plus grand...
+
+on peut faire le calcul avec comme ordre de grandeur la valeur de l'equilibre endemique
+calculer l'ecart entre le peak et l'equilibre endemique
+
+~ \\
+\textit{Keywords}: \\
+influenza, punctuated immune escape, status based model, history based
+model, reduced susceptibility, reduced infectivity
+
+\section{Intrinsic period of oscillation in a SIRS model}
+Assuming a constant hosts population size, the $SIRS$ model is:
+
+\begin{align}
+  \frac{dS}{dt} & = -\beta S I + g (1-S-I)\\
+  \frac{dI}{dt} & = \beta S I - \nu I\\
+\end{align}
+
+The $SIRS$ model can be simplified, resulting in a
+reduction in the number of parameters. Measuring time
+in units of duration of infection, $t'=t \nu$, we get the non dimensional system:
+
+\begin{align*}
+  \frac{dS}{dt'} & = -R_0 S I + e (1-S-I)\\
+  \frac{dI}{dt'} & = R_0 S I - I\\
+\end{align*}
+
+With $R_0=\frac{\beta}{\nu}$ and $e=\frac{g}{\nu}$.
+
+The model has two possible steady states
+\begin{itemize}
+\item Disease-free equilibrium: $S=1$, $I=0$
+\item Endemic equilibrium: $S=\frac{1}{R_0}$, $I=\frac{e-e/R_0}{1+e}$.
+\end{itemize}
+
+The stability of the endemic equilibrium is determined by the
+eigenvalues of the Jacobian matrix:
+$$J=
+\begin{pmatrix}
+  -R_0 I -e & -R_0 S -e\\
+  R_0 I & R_0 S-1 \\
+\end{pmatrix}$$
+Evaluated at the endemic equilibrium it results in:
+$$\begin{pmatrix}
+\frac{e(1-R_0)}{1+e} & -1-e \\
+\frac{e(R_0 -1}{1+e} & 0 \\
+\end{pmatrix}$$
+
+The eigenvalues are solution of
+\begin{align*}
+\det{J-\lambda I_2} & = 0 \\
+\lambda^2 - \frac{e(1-R_0)}{1+e} \lambda +e(R_0-1) & =0\\
+\end{align*}
+
+A straightforward calculation shows that the discriminant is negative and the eigenvalues thus complex:
+$$\lambda_i = \frac{\frac{e(1-R_0)}{1+e} \pm i \sqrt{4 e (R_0-1)-\frac{e^2(R_0-1)^2}{(1+e)^2}}}{2} $$
+
+The period of the dampened oscillations is given by 
+\begin{align*}
+  T & =2\pi \frac{1}{\Im{\lambda}} \\
+& = 2\pi \sqrt{\frac{4}{4 e (R_0-1)-\frac{e^2(R_0-1)^2}{(1+e)^2}}} \\
+\end{align*}
+
+In the natural timescale, the period is divided by $\nu$
+As $e \to 0$, the period can be simplified in :
+$$T=2 \pi \sqrt{\frac{DL}{R_0-1}}$$ expressed in natural timescale with $D=1/\nu$ and $L=1/g$.
+
+\section{seasonal forcing}
+
+\subsection{Floquet}
+
+We now consider the following non autonomous system:
+
+\begin{align*}
+  \frac{dS}{dt} & = -\beta(t) S I + g (1-S-I)\\
+  \frac{dI}{dt} & = \beta(t) S I - \nu I\\
+\end{align*}
+
+with $\beta(t)=\beta_0(1+e \cos(2 \pi t))$.
+
+
+
+For positive initial conditions and some parameters values, the seasonally forced $SIRS$ model admits a stable periodic solution of period T.
+We will label limit cycle solutions by $\mathbf{\bar{x}}(t) = (\bar{S}(t), \bar{I}(t))$ in the following calculations and have $\mathbf{\bar{x}}(t + T ) = \mathbf{\bar{x}}(t)$ for all times, t. 
+The curve, $\mathbf{\bar{x}}(t)$, cannot be calculated in closed form. However good estimates can be obtained via numerical integration of Eq. (1).
+
+In order to study stability, we now consider a dynamical path beginning close to, but not on, the limit cycle, $\mathbf{\bar{x}}(t)$. If the limit cycle solution is stable then the difference between this path and the geometric curve of the limit cycle will decay as time progresses.  Similarly to the expansion about a fixed point, we can write this difference as $\epsilon \mathbf{\xi}(t) = \mathbf{x}(t) - \mathbf{\bar{x}}(t)$  where, again, $\epsilon$ expresses our anticipation that the deviation from the limit cycle is small. Expanding in powers of $\epsilon$ and letting $\epsilon \to 0$, one then finds that the time evolution of $\mathbf{\xi}(t)$ takes on the linear form, $\frac{d\mathbf{\xi}}{dt} = \mathbf{A}(t) \mathbf{\xi}$, where the matrix $\mathbf{A}(t)$ is the Jacobian matrix evaluated at the limit cycle. 
+Therefore, due to the periodic nature of $\mathbf{\bar{x}}(t)$, all elements of $\mathbf{A}(t)$ are periodic.
+
+An analytical tool to characterize the stability or otherwise of limit cycle solutions is Floquet theory, the mathematical theory of linear differential equations with periodic coefficients. Since, we have $\mathbf{A}(t+T)= \mathbf{A}(t)$, Floquet theory is applicable. In our case, T is the period of the mean-field limit cycle under consideration.
+The general solution of
+$$\frac{d\mathbf{\xi}}{dt} = \mathbf{A}(t) \mathbf{\xi}$$
+takes the form:
+$$\mathbf{\xi}(t) = \sum_{i=1}^n c_i e^{\mu_i t} \mathbf{p}_i(t)$$
+$\mu_i$ are complex numbers called characteristic or Floquet exponents.
+Floquet exponents can be calculated numerically by solving the matrix differential equation
+$$\frac{d\mathbf{X}}{dt} = \mathbf{A}(t) \mathbf{X}$$
+over one period (from $t=0$ to $t=T$) with the identity matrix as an initial condition ($\mathbf{X}(0)=\mathbf{I}$)
+The matrix $\mathbf{X}(T)$ is known as a fundamental matrix.
+Floquet multipliers, $\rho_i$ are the egeinvalues of $\mathbf{X}(T)$. 
+$\rho_i$ are also the eigenvalues of the (linear) Poincaré map $x(t) \rightarrow x(t+T)$
+From $\rho_i$, Floquet exponents, $\mu_i$ are calculated as $\mu_i= \frac{\ln(\rho_i)}{T}$
+
+In term of Floquet multipliers, the general solution is
+$$\mathbf{\xi}(t) = \sum_{i=1}^n c_i e^{\frac{\ln(\rho_i)}{T} t} \mathbf{p}_i(t)$$
+expressing $\rho_i= |\rho_i|e^{i \arg(\rho_i)}$ we have:
+$$\mathbf{\xi}(t) = \sum_{i=1}^n c_i e^{(\frac{\ln(|\rho_i|)}{T}+ i \frac{\arg(\rho_i)}{T}) t} \mathbf{p}_i(t)$$
+that gives the damping rate and oscillation period
+
+if $\Re(\rho_i)>0$ $\arg(\rho_i)= \arctan(\frac{\Im(\rho_i)}{\Re(\rho_i)})$
+else $\arg(\rho_i)= \pi- \arctan(\frac{\Im(\rho_i)}{\Re(\rho_i)})$
+
+\subsection{larger perturbation}
+
+\subsection{Invasion orbit}
+
+\end{document}
+
+
+
+%%% Local Variables:  %%% mode: latex %%% TeX-master: t %%% End: 

@@ -1,0 +1,417 @@
+\section{models}
+
+In order to validate the serial SIR model for a tropical reservoir, we take an Adaptive Dynamics framework and consider a resident antigenic cluster at the epidemiological equilibrium. It represent the long period of stasis of \citet{Wolf2006}. The immune escape mutation generates a new antigenic cluster called the mutant. We are interested by the outcome of this invasion, the burst of positive selection of \citet{Wolf2006}.
+
+What is an escape mutation ?  Reassortments and genome-wide epistatic interactions plays an important role in generating novel functional diversity and it is therefore crucial to consider these processes \citep{Du2008}. Nevertheless, as we work at the phenotype level we lump all this complexity behind the word mutation. This enable us to consider drift and shift within the same framework, the distinction being only the intensity of the immune escape mutation parameter.
+
+We consider 3 types of models for a given antigenic cluster : 
+\begin{itemize}
+	\item  a $SIR$ model that is we neglect almost neutral mutation of \citet{Koelle2006}
+	\item  a $SIRS$ model to test the effect of almost neutral mutation
+	\item  a $SIRI$ model to compare to \citet{Goekaydin2007} work 	
+\end{itemize}
+
+As we consider the tropical reservoir of influenza A, we assume that seasonality plays a minor role (even if actively debated see for instance \citep{Russell2008}) and perform all our analyses without seasonal forcing.
+
+\subsection{Deterministic models}
+
+To study the invasion, we use two strains models.
+
+Two main modeling approach has been used to study cross immunity : history based model \citep{Andreasen1997} and status based model \citep{Gog2002a}.
+As already stressed by \citet{Gog2002a} and \citet{Kryazhimskiy2007}, in a history-based model, all hosts previously infected by a strain $i$ are then partially immune to a second strain (say $j$) and thus, their status toward $j$ will be determined only when the infection by $j$ occurs. 
+We favour status-based model because we find more appealing to assume that when a given host get infected by a strain say for example $i$, the within-host immunological dynamics takes place and results "immediately" in the protection or not of a variant strain $j$ \citep{Gog2002a}. The host population is polarized at the time of the encounter with strain $i$ and, the status towards strain $j$ is determined at this time. 
+
+Partial cross immunity can be modeled with two extreme framework. A first infection by strain $i$ can results in reduced infectiosity, that is the host can infected by strain $j$ at the same rate as it had been infected by $i$ but he transmit $j$ at a reduced rate. A first infection by strain $i$ can also results in reduced susceptibility that is the host has a reduced probability of being infected by $j$ but transmit $j$ in the same way as it used to transmit $i$.
+we favour reduced susceptibility as reduced infectivity result in overestimation of population immunity \citep{Kryazhimskiy2007}. In our two strains model, if naive host are infected by strain 1, this results in $\sigma$ percent of host immunised to both strain 1 and 2 and, $1 - \sigma$ percent of the host immunised only to strain 1. With reduced infectivity assumption, those $1 - \sigma$ percent hosts can be reinfected by strain 1 resulting in further production of hosts immunised to both strain 1 and 2 even if those infected host do not participate to transmission. No infectiousness of already immunised host by strain 1 reinfected by strain 1 is due to the fact that the previous immunity has been able to fend off the infection resulting in "no" within host viral load. It thus remains unclear to us how the "low" viral load can lead to production of new types of antibodies to strain 2.
+
+Status based model with reduced infectivity assumption result in the attractive mathematical property that they can be reduced within loss of information to simple model with twice more equation that strains. To contrast the effect of this assumption we provide a comparison of our result for both reduced susceptibility and infectivity case.
+
+
+\subsubsection{Notation}
+
+$M_{ij}$ represent the probability of being immunized against strain $j$ when infected by strain $i$.
+$M_{ij}=$ $\begin{pmatrix}
+1 & \sigma \\
+\sigma & 1
+\end{pmatrix}$
+
+$C(\{A\},\{B\},i)$ represent the proportion of individuals who were in state A and that when infected by i recover in state B. 
+For example, $C(\{\varnothing\},\{1\},1)$ represents the hosts who were fully naive and that after encountering strain $1$ get immunity against $1$ only $C(\{\varnothing\},\{1\},1)=M_{11}(1-M_{12})$
+
+In the case of reduced infectivity we have:
+\begin{align}
+C(\{\varnothing\},\{1\},1) & = M_{11} (1-M_{12}) = 1-\sigma \label{eq_C} \\
+C(\{\varnothing\},\{2\},2) & = M_{22} (1-M_{21}) = 1-\sigma \notag \\
+C(\{\varnothing\},\{1,2\},1) & = M_{11} M_{12} = \sigma \notag \\
+C(\{\varnothing\},\{1,2\},2) & = M_{21} M_{22} = \sigma \notag \\
+\notag \\
+C(\{1\},\{1\},1) & = 1-M_{12} = 1-\sigma \notag \\
+C(\{1\},\{1,2\},1) & = M_{12} = \sigma \notag \\
+C(\{1\},\{1,2\},2) & = M_{22} = 1 \notag \\
+\notag \\ 
+C(\{2\},\{2\},2) & = 1-M_{21} = 1-\sigma \notag \\
+C(\{2\},\{1,2\},1) & = M_{11} = 1 \notag \\
+C(\{2\},\{1,2\},2) & = M_{21} = \sigma \notag \\
+\notag \\
+C(\{1,2\},\{1,2\},1) & = 1 \notag \\ 
+C(\{1,2\},\{1,2\},2) & = 1 \notag 
+\end{align}
+
+For reduced susceptibility case, $C(\{A\},\{B\},i)$ are null if $i \in A$.
+
+$R_\varnothing$ are hosts with no acquired immunity, $R_i$ hosts who have acquired immunity to strain~$i$, $R_{ij}$ hosts who have acquired immunity to strain~$i$ and $j$. Note that we include currently infected hosts into the $R$ states cariables.  $I^i$ are hosts currently infectious with strain~$i$.
+%$I_{previously}^{currently}$
+
+\subsubsection{status based model with reduced susceptibility and co-infections}
+
+\begin{align}
+\dot{R_\varnothing} & = \mu -\beta_1 R_\varnothing I^1 -\beta_2 R_\varnothing I^2 -\mu R_\varnothing  \label{eq_sbrsc}\\
+\dot{R_1} & = C(\{\varnothing\},\{1\},1) \beta_1 R_\varnothing I^1 - \beta_2 R_1 I^2 -\mu R_1  \notag \\
+\dot{R_2} & = C(\{\varnothing\},\{2\},2) \beta_2 R_\varnothing I^2 - \beta_1 R_2 I^1 -\mu R_2  \notag \\
+\dot{R_{12}} & = C(\{\varnothing\},\{1,2\},1) \beta_1 R_\varnothing I^1 + C(\{\varnothing\},\{1,2\},2) \beta_2 R_\varnothing I^2 \notag \\
+ &~~~ + C(\{1\},\{1,2\},2) \beta_2 R_1 I^2 + C(\{2\},\{1,2\},1) \beta_1 R_2 I^1 -\mu R_{12}  \notag \\
+\dot{I^1} & = \beta_1 R_\varnothing I^1 + \beta_1 R_2 I^1 -\nu I^1  -\mu I^1 \notag \\
+\dot{I^2} & = \beta_2 R_\varnothing I^2 + \beta_2 R_1 I^2 -\nu I^2  -\mu I^2 \notag 
+\end{align}
+
+\begin{align}
+\dot{R_\varnothing} & = \mu -\beta_1 R_\varnothing I^1 -\beta_2 R_\varnothing I^2 -\mu R_\varnothing  \label{eq_sbrsc2}\\
+\dot{R_1} & = (1-\sigma) \beta_1 R_\varnothing I^1 - \beta_2 R_1 I^2 -\mu R_1  \notag \\
+\dot{R_2} & = (1-\sigma) \beta_2 R_\varnothing I^2 - \beta_1 R_2 I^1 -\mu R_2  \notag \\
+\dot{R_{12}} & = \sigma \beta_1 R_\varnothing I^1 + \sigma \beta_2 R_\varnothing I^2 + \beta_2 R_1 I^2 + \beta_1 R_2 I^1 -\mu R_{12}  \notag \\
+\dot{I^1} & = \beta_1 R_\varnothing I^1 + \beta_1 R_2 I^1 -\nu I^1  -\mu I^1 \notag \\
+\dot{I^2} & = \beta_2 R_\varnothing I^2 + \beta_2 R_1 I^2 -\nu I^2  -\mu I^2 \notag 
+\end{align}
+
+When only strain 1 is present, $R_2=0$ and the equilibrium is:
+${I^1}^*~=~\frac{\mu}{\mu + \nu} - \frac{\mu}{\beta_1}$ ; $R_\varnothing^* = \frac{\mu + \nu}{\beta_1}$ ; $R_1^* = (1 - \sigma) \left(1 - \frac{\mu + \nu}{\beta_1} \right)$ ; $R_{12}^* = \sigma \left(1 - \frac{\mu + \nu}{\beta_1} \right)$
+
+We can calculate the invasion fitness of strain 2 within the environment set by strain 1 at equilibrium.
+
+\begin{align}
+\left. \frac{d I^2}{d t} \right)_{R_\varnothing^*, R_1^*} & = \beta_2 R_\varnothing^* I^2 + \beta_2 R_1^* I^2 -\nu I^2  -\mu I^2 \label{eq:INVASION1} \\
+&= \left( \beta_2 \left(1 -\sigma +\sigma \frac{\mu + \nu}{\beta_1}  \right) -\nu -\mu \right) I^2 \notag 
+\end{align}
+
+If all parameter are equal, the invasion is possible as long as $\sigma < 1$ provided $R_0~=~\frac{\beta}{\mu + \nu}~>~1$.
+
+%When $g_i$ are not null if we note $S=R_\varnothing +R_2$ and $R = R_1 + R_{12}$ we recover the one strain SIRS model.  
+
+\subsubsection{status based model with reduced infectivity and co-infections}
+
+\begin{align}
+\dot{R_\varnothing} & = \mu -\beta_1 R_\varnothing I^1 -\beta_2 R_\varnothing I^2 -\mu R_\varnothing \label{eq_sbric} \\
+\dot{R_1} & = C(\{\varnothing\},\{1\},1) \beta_1 R_\varnothing I^1 + C(\{1\},\{1\},1) \beta_1 R_1 I^1 - \beta_2 R_1 I^2 - \beta_1 R_1 I^1 -\mu R_1\notag \\
+\dot{R_2} & = C(\{\varnothing\},\{2\},2) \beta_2 R_\varnothing I^2 + C(\{2\},\{2\},2) \beta_2 R_2 I^2 - \beta_1 R_2 I^1 - \beta_2 R_2 I^2 -\mu R_2 \notag \\
+\dot{R_{12}} & = C(\{\varnothing\},\{1,2\},1) \beta_1 R_\varnothing I^1 + C(\{\varnothing\},\{1,2\},2) \beta_2 R_\varnothing I^2 + C(\{1\},\{1,2\},1) \beta_1 R_1 I^1 \notag \\
+&~~~+ C(\{1\},\{1,2\},2) \beta_2 R_1 I^2 + C(\{2\},\{1,2\},2) \beta_2 R_2 I^2 + C(\{2\},\{1,2\},1) \beta_1 R_2 I^1 \notag \\
+&~~~+ C(\{1,2\},\{1,2\},1) \beta_1 R_{12} I^1 + C(\{1,2\},\{1,2\},2) \beta_2 R_{12} I^2 \notag \\
+&~~~-\beta_1 R_{12} I^1 - \beta_2 R_{12} I^2  -\mu R_{12} \notag \\
+\dot{I^1} & = \beta_1 R_\varnothing I^1 + \beta_1 R_2 I^1 -\nu I^1  -\mu I^1 \notag \\
+\dot{I^2} & = \beta_2 R_\varnothing I^2 + \beta_2 R_1 I^2 -\nu I^2  -\mu I^2 \notag 
+\end{align}
+
+\begin{align}
+\dot{R_\varnothing} & = \mu -\beta_1 R_\varnothing I^1 -\beta_2 R_\varnothing I^2 -\mu R_\varnothing \label{eq_sbric2}\\
+\dot{R_1} & = (1-\sigma) \beta_1 R_\varnothing I^1 - \sigma \beta_1 R_1 I^1 - \beta_2 R_1 I^2  -\mu R_1 \notag \\
+\dot{R_2} & = (1-\sigma) \beta_2 R_\varnothing I^2 - \sigma \beta_2 R_2 I^2 - \beta_1 R_2 I^1  -\mu R_2 \notag \\
+\dot{R_{12}} & = \sigma \beta_1 R_\varnothing I^1 + \sigma \beta_2 R_\varnothing I^2 + \sigma \beta_1 R_1 I^1 + \sigma \beta_2 R_2 I^2 + \beta_2 R_1 I^2  + \beta_1 R_2 I^1 -\mu R_{12} \notag \\
+\dot{I^1} & = \beta_1 R_\varnothing I^1 + \beta_1 R_2 I^1 -\nu I^1  -\mu I^1 \notag \\
+\dot{I^2} & = \beta_2 R_\varnothing I^2 + \beta_2 R_1 I^2 -\nu I^2  -\mu I^2 \notag 
+\end{align}
+
+This latter model can be further reduced to 4 equations by noting $S_1 = R_\varnothing + R_2$ ; $S_2=  R_\varnothing + R_1$. This lead to a two strain version of \citet{Gog2002} model.
+
+When only strain 1 is present, $R_2=0$ and the equilibrium is:
+${I^1}^*~=~\frac{\mu}{\mu + \nu} - \frac{\mu}{\beta_1}$ ; $R_\varnothing^* = \frac{\mu + \nu}{\beta_1}$ ; $R_1^* = \frac{(1 - \sigma) \left(1 - \frac{\mu + \nu}{\beta_1} \right)}{\sigma \left( \frac{\beta_1}{\mu + \nu} -1 \right) +1}$ ; $R_{12}^*$ not necessary here.
+
+Note that in this latter model, $R_1^*$ is always inferior to $R_1^*$ of the model with reduced susceptibility assumption (overestimate of immunity previously described). As the invasion condition of strain 2 into the population defined by strain 1 at equilibrium remains exactly the same as equation~\eqref{eq:INVASION1}, that is
+\begin{align}
+\left. \frac{d I^2}{d t} \right)_{R_\varnothing^*, R_1^*} & = (\beta_2 R_\varnothing^*  + \beta_2 R_1^* -\nu  -\mu) I^2  \notag
+\end{align}
+the initial speed of invasion with the reduced infectivity assumption is decreased. 
+We nevertheless find again that, if all parameters are equal, the invasion is possible as long as $\sigma < 1$ provided $R_0~=~\frac{\beta}{\mu + \nu}~>~1$.
+
+\subsubsection{history based model with reduced susceptibility and infectivity and co-infections}
+
+\begin{align}
+\dot{SS} & = \mu -\beta_1 SS (IS + s II + s IR) -\beta_2 SS (SI+ s II + s RI) -\mu SS  \label{eq:MODEL6}\\
+\dot{IS} & = \beta_1 SS (IS+ s II + s IR) -\beta_2 \sigma IS (SI+ s II + s RI) -\nu IS -\mu IS \notag \\
+\dot{SI} & = \beta_2 SS (SI+ s II + s RI) -\beta_1 \sigma SI (IS+ s II + s IR) -\nu SI -\mu SI \notag \\
+\dot{II} & = \beta_2 \sigma IS (SI+ s II + s RI) + \beta_1 \sigma SI (IS+ s II + s IR) -\nu II -\nu II -\mu II \notag \\
+\dot{RS} & = \nu IS -\beta_2 \sigma RS (SI+ s II + s RI) -\mu RS \notag \\
+\dot{SR} & = \nu SI -\beta_1 \sigma SR (IS+ s II + s IR) -\mu SR \notag \\
+\dot{IR} & = \nu II + \beta_1 \sigma SR (IS+ s II + s IR) -\nu IR -\mu IR \notag \\
+\dot{RI} & = \nu II + \beta_2 \sigma RS (SI+ s II + s RI) -\nu RI -\mu RI \notag \\
+\dot{RR} & = \nu IR + \nu RI -\mu RR \notag 
+\end{align}
+
+As noted by \citet{Kamo2002}, in the reduced susceptibility case, we can reduce the dimension of the system by introducing the following state variables:
+$I^1 = IS+ II + IR$ ; $I^2 = SI+ II + RI$ ; $R_\varnothing = SS$ ; $R_1 = IS + RS$ and $R_2 = SI + SR$.
+
+\subsubsection{Antigenic drift modeling in a two clusters model}
+
+
+\begin{figure}[htb]
+%ici, en haut en tt la page si ici H
+	\includegraphics[height=4 cm]{graphs/immuniti.pdf}
+	\caption{Antigenic drift modeling in a two clusters model, independent evolution (left) and parallel evolution (right). Dark and light red arrows: infection by (respectively) cluster 1 and 2 ; Dark and light blue arrows: evolution of (respectively) cluster 1 and 2}
+	\label{fig_immuniti}
+\end{figure}
+
+A naive way to integrate drift is to simply add transfer from $R_i$ and $R_{ij}$ compartments to respectively $R_\varnothing$ and $R_i$ compartments on the equation~\eqref{eq_sbrsc2} and \eqref{eq_sbric2}.
+We consider a case where a rare mutation with strong antigenic effect precipitates clusters transition. Along a cluster, gradual antigenic drift occurs. Following \citet{Pease1987} we assume that gradual antigenic drift results in a constant probability per unit of time of loosing previously acquired immunity to the same antigenic cluster. According to this definition of gradual antigenic drift (a constant probability per unit of time of loosing immunity) a $SIRS$ model is well adapted to represent a given antigenic clusters. 
+We now discuss how to incorporate antigenic drift modeling into a two clusters model.
+
+Consider a local population with only cluster $i$. In a history based model, infection of naive host to both cluster $i$ and $j$ ($SS$) with cluster $i$ results in all infected host acquiring immunity to $i$ and a partial protection to $j$ that will be determined at the encounter time with $j$ ($SS \rightarrow RS$).
+As cluster $i$ can evolve, the population can loose immunity to cluster $i$ but not neccessary to cluster $j$ (depending of the rate of antigenic drift of cluster $j$). Without adding compartments to $SS$ and $RS$, if cluster 1 evolves we loose the fact that $RS$ hosts now $SS$ are partially protected to the second cluster, even if this cluster has not evolved.
+Note that this situation can be reproduce in a status-based model, assuming $R_{12} \rightarrow R_\varnothing$ (figure~\ref{fig_immuniti}, right).
+
+In a status based framework, infection of naive host with cluster $i$ results in all infected host acquiring immunity to $i$ ($R_i$) and a given proportion of the population acquiring immunity to  both $i$ and $j$ ($R_{ij}$). We can thus easily take into account the fact that cluster $i$ can evolve and thus the population loose immunity to cluster $i$ but not cluster $j$. This result in a $R_{12} \rightarrow R_2$ transfer (figure~\ref{fig_immuniti}, left). 
+It thus seem appropriate to consider antigenic drift within a status based model.
+
+An important question has been uncovered in the previous analysis: what is the biological process that favor acquisition of immunity toward cluster 2 when infected by cluster 1 ?
+In status based model, acquisition of cross immunity is binary and comport an intrinsic random process. You get or not immunity to cluster $j$ when infected by cluster $i$. This probability is controlled by $\sigma$. It is natural to assume that $\sigma$ depends on a measure of antigenic distance. If only cluster 1 evolves, infection of host by cluster 1 at time $t$ results in immunisation of $\sigma(t) R_\varnothing$ host becoming $R_{12}$.
+Then as cluster 1 evolves,  $\sigma(t)$ must decrease as the antigenic distance between the 2 clusters increases.
+When both cluster evolves (we assume this occurs at the same rate), the antigenic distance can remains the same if both cluster evolution occurs in the same "direction", a quite unrealistic assumptions even if RNA viruses are being recognised more constrained than previously thought \citep{Holmes2003, Belshaw2008}. 
+The paradox of figure~\ref{fig_immuniti} (left), is that $\sigma$ remains constant even when the two cluster evolves in different directions. Whatever strains of cluster 1 you get, you are assume to become immunized toward whatever strain of cluster 2 with the same probability $\sigma$.
+To circumvent this biologically intriguing (somewhat awkward) situations depicted by figure~\ref{fig_immuniti}, we need to increase model dimensionality. It thus seems difficult to include drift within the structure of equations~\eqref{eq_sbrsc2} and \eqref{eq_sbric2}
+
+We will assume that a given cluster is characterised by a conserved part that cannot evolves and a far less constraint part that is subject to drift. Cluster transition correspond to the sudden change of the conserved part. Note that this does not need to represent whatever realistic evolutionary process but just to provide a conceptual framework for our two drifting clusters model.
+%a travailler
+It is nevertheless somewhat biologicaly relevant as \citet{Blackburne2008} recently confirmed that "each antigenic cluster represents a
+particular manner of interaction between the virus and the host jumps between antigenic clusters, representing changes in this relationship."
+%fin
+$\sigma$ control the immunisation toward the conserved part. Acquisition of immunity to a conserved part can results in a lower susceptibility, control by a new parameter $s$.
+For clarity we present this new framework for a one drifting cluster model within reduced susceptibility assumptions.
+\begin{itemize}
+	\item Infection of a naive host results in the immunization toward the conserved part of the infectious strain with a probability $\sigma_1$ ($(1-\sigma_1)$ hosts remains naive). $\sigma_1$ was previously assumed to equal 1 but see \citet{Mathews2007}
+	\item Immunization toward the conserved part results in systematic immunity to the variable part of the virus (noted with $\overset{*}{i}$ indices).
+	\item Viral evolution of the variables parts leads to loss of specific immunity $R_{\overset{*}{i}} \rightarrow R_i$.
+	\item The conserved part provided a reduced probability of being reinfected ($s$).
+\end{itemize}
+ 
+This results in the following equations.
+\begin{subequations}
+\begin{align}
+\dot{R_\varnothing} & = \mu + (1-\sigma_1) \beta_1 R_\varnothing I^1 - \beta_1 R_\varnothing I^1 -\mu R_\varnothing \\
+\dot{R_1} & = g R_{\overset{*}{1}} - s \beta_1 R_1 I^1  -\mu R_1  \label{eq_immuniti1}\\
+\dot{R_{\overset{*}{1}}} & = \sigma_1 \beta_1 R_\varnothing I^1 + s \beta_1 R_1 I^1 - g R_{\overset{*}{1}} - \mu R_{\overset{*}{1}} \\
+\dot{I^1} & = \beta_1 R_\varnothing I^1 + s \beta_1 R_1 I^1 -\nu I^1  -\mu I^1 
+\end{align}
+\end{subequations}
+
+Note the difference between infection of $R_\varnothing$ and reinfection of $R_1$ hosts. In the first case, all the $\beta_1 R_\varnothing I^1$ go to 
+$I^1$ even if only $\sigma_1$ of those hosts acquire immunity.
+In the second case, only $s \beta_1 R_1 I^1$ hosts goes to $I^1$ because previous immunity has been able to fend off the infection. This is why we do not wright $(1 - s) \beta_1 R_1 I^1 - \beta_1 R_1 I^1$ in equation~\eqref{eq_immuniti1} even if formally equivalent to $-s \beta_1 R_1 I^1$
+
+This model can easily be generalized to a two clusters version, as shown by figure~\ref{fig_immuniti2} and equation~\eqref{eq_immuniti2}.
+$\sigma_x$ controls the probability of cross-immunization between the two clusters.
+\begin{figure}[htb]
+%ici, en haut en tt la page si ici H
+	\includegraphics[height=5 cm]{graphs/immuniti2.pdf}
+	\caption{Antigenic drift modeling in a two clusters model. Clusters are characterized by constant (non evolvable) and variable (evolvable) parts. Red arrows represent infection by cluster 1 (dark) and 2 (light). Blue arrows represent evolution of cluster 1 (dark) and 2 (light)}
+	\label{fig_immuniti2}
+\end{figure}
+
+\begin{scriptsize}
+\begin{align}
+\dot{R_\varnothing} & = \mu + (1-\sigma_1) \beta_1 R_\varnothing I^1 - \beta_1 R_\varnothing I^1 + (1-\sigma_2) \beta_2 R_\varnothing I^2 - \beta_2 R_\varnothing I^2 -\mu R_\varnothing \label{eq_immuniti2}\\
+\dot{R_1} & = -s \beta_1 R_1 I^1 + (1-\sigma_2) \beta_2 R_1 I^2 -\beta_2 R_1 I^2 -\mu R_1 + g_1 R_{\overset{*}{1}} \notag \\
+\dot{R_2} & = -s \beta_2 R_2 I^2 + (1-\sigma_1) \beta_1 R_2 I^1 -\beta_1 R_2 I^1 -\mu R_2 + g_2 R_{\overset{*}{2}} \notag \\
+\dot{R_{\overset{*}{1}}} & = (1-\sigma_x) \sigma_1 \beta_1 R_\varnothing I^1 + (1-\sigma_2) \beta_2 R_{\overset{*}{1}} I^2 -\beta_2 R_{\overset{*}{1}} I^2 + s (1-\sigma_x) \beta_1 R_1 I^1 -\mu R_{\overset{*}{1}} -g_1 R_{\overset{*}{1}}\notag \\
+\dot{R_{\overset{*}{2}}} & = (1-\sigma_x) \sigma_2 \beta_2 R_\varnothing I^2 + (1-\sigma_1) \beta_1 R_{\overset{*}{2}} I^1 -\beta_1 R_{\overset{*}{2}} I^1 + s (1-\sigma_x) \beta_2 R_2 I^2 -\mu R_{\overset{*}{2}} -g_2 R_{\overset{*}{2}}\notag \\
+\dot{R_{12}} & = -s \beta_1 R_{12} I^1 -s \beta_2 R_{12} I^2 -\mu R_{12} + g_1 R_{{\overset{*}{1}}2} + g_2 R_{1{\overset{*}{2}}}\notag \\
+\dot{R_{{\overset{*}{1}}2}} & = \sigma_x \sigma_1 \beta_1 R_\varnothing I^1 -s \beta_2 R_{{\overset{*}{1}}2} I^2 + s \beta_1 R_{12} I^1 + s \sigma_x \beta_1 R_1 I^1 + \sigma_1 \beta_1 R_2 I^1 -\mu R_{{\overset{*}{1}}2} -g_1 R_{{\overset{*}{1}}2} + g_2 R_{{\overset{*}{1}}{\overset{*}{2}}}\notag \\
+\dot{R_{1{\overset{*}{2}}}} & = \sigma_x \sigma_2 \beta_2 R_\varnothing I^2 -s \beta_1 R_{1{\overset{*}{2}}} I^1 + s \beta_2 R_{12} I^2 + s \sigma_x \beta_2 R_2 I^2 + \sigma_2 \beta_2 R_1 I^2 -\mu R_{1{\overset{*}{2}}} -g_2 R_{1{\overset{*}{2}}} + g_1 R_{{\overset{*}{1}}{\overset{*}{2}}} \notag \\
+\dot{R_{{\overset{*}{1}}{\overset{*}{2}}}} & = \sigma_2 \beta_2 R_{\overset{*}{1}} I^2 + \sigma_1 \beta_1 R_{\overset{*}{2}} I^1 + s \beta_2 R_{{\overset{*}{1}}2} I^2 + s \beta_1 R_{1{\overset{*}{2}}} I^1 - \mu R_{{\overset{*}{1}}{\overset{*}{2}}} - g_1 R_{{\overset{*}{1}}{\overset{*}{2}}} -g_2 R_{{\overset{*}{1}}{\overset{*}{2}}} \notag \\
+\dot{I^1} & = \beta_1 R_\varnothing I^1 + s \beta_1 R_1 I^1 + \beta_1 R_2 I^1 + \beta_1 R_{\overset{*}{2}} I^1 + s \beta_1 R_{12} I^1 + s \beta_1 R_{1{\overset{*}{2}}} I^1 -\nu I^1  -\mu I^1 -g_1 I^1\notag \\
+\dot{I^2} & = \beta_2 R_\varnothing I^2 + s \beta_2 R_2 I^2 + \beta_2 R_1 I^2 + \beta_2 R_{\overset{*}{1}} I^2 + s \beta_2 R_{12} I^2 + s \beta_2 R_{{\overset{*}{1}}2} I^2 -\nu I^2  -\mu I^2 -g_2 I^2\notag 
+\end{align}
+\end{scriptsize}
+
+When $\sigma_i = 0$ the model of equation~\eqref{eq_immuniti2} simplify to:
+
+\begin{scriptsize}
+\begin{align}
+\dot{R_\varnothing} & = \mu - \beta_1 R_\varnothing I^1 - \beta_2 R_\varnothing I^2 -\mu R_\varnothing \label{eq_immuniti2simplify}\\
+\dot{R_1} & = -s \beta_1 R_1 I^1  -\beta_2 R_1 I^2 -\mu R_1 + g_1 R_{\overset{*}{1}} \notag \\
+\dot{R_2} & = -s \beta_2 R_2 I^2  -\beta_1 R_2 I^1 -\mu R_2 + g_2 R_{\overset{*}{2}} \notag \\
+\dot{R_{\overset{*}{1}}} & = (1-\sigma_x) \beta_1 R_\varnothing I^1 -\beta_2 R_{\overset{*}{1}} I^2 + s (1-\sigma_x) \beta_1 R_1 I^1 -\mu R_{\overset{*}{1}} -g_1 R_{\overset{*}{1}}\notag \\
+\dot{R_{\overset{*}{2}}} & = (1-\sigma_x) \beta_2 R_\varnothing I^2 -\beta_1 R_{\overset{*}{2}} I^1 + s (1-\sigma_x) \beta_2 R_2 I^2 -\mu R_{\overset{*}{2}} -g_2 R_{\overset{*}{2}}\notag \\
+\dot{R_{12}} & = -s \beta_1 R_{12} I^1 -s \beta_2 R_{12} I^2 -\mu R_{12} + g_1 R_{{\overset{*}{1}}2} + g_2 R_{1{\overset{*}{2}}}\notag \\
+\dot{R_{{\overset{*}{1}}2}} & = \sigma_x \beta_1 R_\varnothing I^1 -s \beta_2 R_{{\overset{*}{1}}2} I^2 + s \beta_1 R_{12} I^1 + s \sigma_x \beta_1 R_1 I^1 + \beta_1 R_2 I^1 -\mu R_{{\overset{*}{1}}2} -g_1 R_{{\overset{*}{1}}2} + g_2 R_{{\overset{*}{1}}{\overset{*}{2}}}\notag \\
+\dot{R_{1{\overset{*}{2}}}} & = \sigma_x \beta_2 R_\varnothing I^2 -s \beta_1 R_{1{\overset{*}{2}}} I^1 + s \beta_2 R_{12} I^2 + s \sigma_x \beta_2 R_2 I^2 + \beta_2 R_1 I^2 -\mu R_{1{\overset{*}{2}}} -g_2 R_{1{\overset{*}{2}}} + g_1 R_{{\overset{*}{1}}{\overset{*}{2}}} \notag \\
+\dot{R_{{\overset{*}{1}}{\overset{*}{2}}}} & = \beta_2 R_{\overset{*}{1}} I^2 + \beta_1 R_{\overset{*}{2}} I^1 + s \beta_2 R_{{\overset{*}{1}}2} I^2 + s \beta_1 R_{1{\overset{*}{2}}} I^1 - \mu R_{{\overset{*}{1}}{\overset{*}{2}}} - g_1 R_{{\overset{*}{1}}{\overset{*}{2}}} -g_2 R_{{\overset{*}{1}}{\overset{*}{2}}} \notag \\
+\dot{I^1} & = \beta_1 R_\varnothing I^1 + s \beta_1 R_1 I^1 + \beta_1 R_2 I^1 + \beta_1 R_{\overset{*}{2}} I^1 + s \beta_1 R_{12} I^1 + s \beta_1 R_{1{\overset{*}{2}}} I^1 -\nu I^1  -\mu I^1 -g_1 I^1\notag \\
+\dot{I^2} & = \beta_2 R_\varnothing I^2 + s \beta_2 R_2 I^2 + \beta_2 R_1 I^2 + \beta_2 R_{\overset{*}{1}} I^2 + s \beta_2 R_{12} I^2 + s \beta_2 R_{{\overset{*}{1}}2} I^2 -\nu I^2  -\mu I^2 -g_2 I^2\notag 
+\end{align}
+\end{scriptsize}
+
+Before analysing this model it is interesting to seek limit cases where this latter model (equation~\eqref{eq_immuniti2simplify}) correspond to simpler situation (for instance the ones depicted in figure~\ref{fig_immuniti}).
+
+
+\begin{enumerate}
+	\item If $s=1$, the conserved part of the virus does not provide a reduced probability of being reinfected. 
+$R_\varnothing + R_1 + R_2 + R_{12} \Leftrightarrow  R_\varnothing$ ; $R_{\overset{*}{1}} + R_{{\overset{*}{1}}2} \Leftrightarrow R_{\overset{*}{1}}$ ; $R_{\overset{*}{2}} + R_{1{\overset{*}{2}}} \Leftrightarrow R_{\overset{*}{2}}$ ; $R_{{\overset{*}{1}}{\overset{*}{2}}} \Leftrightarrow R_{{\overset{*}{1}}{\overset{*}{2}}}$. With the assumptions depicted in~\ref{fig_immuniti2} (left), we recover the model of equation~\eqref{eq_sbrsc2} with $\sigma = 0$ for all values of $\sigma_x$. 
+
+	\item If $s = 0$, the conserved part provides full immunity and thus antigenic drift is without effects. We recover the two clusters $SIR$ model of equation~\eqref{eq_sbrsc2} with $\sigma_x \Leftrightarrow \sigma$ by lumping $R_1$ with $R_{\overset{*}{1}}$ ; $R_2$ with $R_{\overset{*}{2}}$ and $R_{{\overset{*}{1}}2}$, $R_{1{\overset{*}{2}}}$, $R_{{\overset{*}{1}}{\overset{*}{2}}}$  with $R_{12}$.
+
+	\item If $\sigma_x = 1$, $R_1$ ; $R_{\overset{*}{1}}$ ; $R_2$ and $R_{\overset{*}{2}}$ do not exist and we recover an history based model with a special case for young naive hosts.
+
+	\item If $\sigma_x = 0$ cross immunity is non existent and all host previously infected by $i$ alone are fully susceptible to $j$.
+\end{enumerate}
+
+When  $s=1$ (case 1 above), we recover the 2 clusters $SIRS$ model of equation~\eqref{eq_sbrsc2} with $\sigma = 0$.$R_\varnothing$ hosts infected by a strain belonging to for example cluster 1, acquire immunity to both clusters with probability $\sigma_x$ but never get protection to strains of cluster 2 directly with $s=1$. They have to be infected by a strain belonging to cluster 2 to become temporary protected. We therefore underestimate $R_{{\overset{*}{1}}{\overset{*}{2}}}$ individuals within equation~\eqref{eq_immuniti2}.
+
+To recover equation~\eqref{eq_immuniti2} with $\sigma$ not necessarily null, we need cross immunity that induce directly temporary protection \textit{i.e} for instance $R_\varnothing \rightarrow R_{{\overset{*}{1}}{\overset{*}{2}}}$ and not $R_\varnothing \rightarrow R_{{\overset{*}{1}}2}$
+This correspond to the assumptions of ~\ref{fig_immuniti2} (right) and to the following equations.
+
+\begin{scriptsize}
+\begin{align}
+\dot{R_\varnothing} & = \mu - \beta_1 R_\varnothing I^1 - \beta_2 R_\varnothing I^2 -\mu R_\varnothing \label{eq_immuniti3simplify}\\
+\dot{R_1} & = -s \beta_1 R_1 I^1  -\beta_2 R_1 I^2 -\mu R_1 + g_1 R_{\overset{*}{1}} \notag \\
+\dot{R_2} & = -s \beta_2 R_2 I^2  -\beta_1 R_2 I^1 -\mu R_2 + g_2 R_{\overset{*}{2}} \notag \\
+\dot{R_{\overset{*}{1}}} & = (1-\sigma_x) \beta_1 R_\varnothing I^1 -\beta_2 R_{\overset{*}{1}} I^2 + s (1-\sigma_x) \beta_1 R_1 I^1 -\mu R_{\overset{*}{1}} -g_1 R_{\overset{*}{1}}\notag \\
+\dot{R_{\overset{*}{2}}} & = (1-\sigma_x) \beta_2 R_\varnothing I^2 -\beta_1 R_{\overset{*}{2}} I^1 + s (1-\sigma_x) \beta_2 R_2 I^2 -\mu R_{\overset{*}{2}} -g_2 R_{\overset{*}{2}}\notag \\
+\dot{R_{12}} & = -s \beta_1 R_{12} I^1 -s \beta_2 R_{12} I^2 -\mu R_{12} + g_1 R_{{\overset{*}{1}}2} + g_2 R_{1{\overset{*}{2}}}\notag \\
+\dot{R_{{\overset{*}{1}}2}} & = -s \beta_2 R_{{\overset{*}{1}}2} I^2 + (1-\sigma_x) s \beta_1 R_{12} I^1 + (1-\sigma_x) \beta_1 R_2 I^1 -\mu R_{{\overset{*}{1}}2} -g_1 R_{{\overset{*}{1}}2} + g_2 R_{{\overset{*}{1}}{\overset{*}{2}}}\notag \\
+\dot{R_{1{\overset{*}{2}}}} & = -s \beta_1 R_{1{\overset{*}{2}}} I^1 + (1-\sigma_x) s \beta_2 R_{12} I^2 + (1-\sigma_x) \beta_2 R_1 I^2 -\mu R_{1{\overset{*}{2}}} -g_2 R_{1{\overset{*}{2}}} + g_1 R_{{\overset{*}{1}}{\overset{*}{2}}} \notag \\
+\dot{R_{{\overset{*}{1}}{\overset{*}{2}}}} & = \sigma_x \beta_1 R_\varnothing I^1 + \sigma_x \beta_2 R_\varnothing I^2 +\sigma_x \beta_1 R_{12} I^1 +\sigma_x \beta_2 R_{12} I^2 +  s \sigma_x \beta_1 R_1 I^1 + s \sigma_x \beta_2 R_2 I^2 \notag \\
+& +~\sigma_x \beta_1 R_2 I^1 + \sigma_x \beta_2 R_1 I^2 + \beta_2 R_{\overset{*}{1}} I^2 + \beta_1 R_{\overset{*}{2}} I^1 + s \beta_2 R_{{\overset{*}{1}}2} I^2 + s \beta_1 R_{1{\overset{*}{2}}} I^1 - \mu R_{{\overset{*}{1}}{\overset{*}{2}}} - g_1 R_{{\overset{*}{1}}{\overset{*}{2}}} -g_2 R_{{\overset{*}{1}}{\overset{*}{2}}} \notag \\
+\dot{I^1} & = \beta_1 R_\varnothing I^1 + s \beta_1 R_1 I^1 + \beta_1 R_2 I^1 + \beta_1 R_{\overset{*}{2}} I^1 + s \beta_1 R_{12} I^1 + s \beta_1 R_{1{\overset{*}{2}}} I^1 -\nu I^1  -\mu I^1 -g_1 I^1\notag \\
+\dot{I^2} & = \beta_2 R_\varnothing I^2 + s \beta_2 R_2 I^2 + \beta_2 R_1 I^2 + \beta_2 R_{\overset{*}{1}} I^2 + s \beta_2 R_{12} I^2 + s \beta_2 R_{{\overset{*}{1}}2} I^2 -\nu I^2  -\mu I^2 -g_2 I^2\notag 
+\end{align}
+\end{scriptsize}
+
+
+
+\subsubsection{parameters}
+
+\begin{table}[htb]
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Parameters & \citet{Koelle2006} & \citet{Goekaydin2007}\\
+		\hline
+		$\mu_B$ (birth rate) & $71.42857$ years$^{-1}$ & 70 years$^{-1}$	\\
+		\hline
+		$\mu_D$ (death rate) & $125$ years$^{-1}$ & 70 years$^{-1}$	\\
+		\hline
+		$\gamma$ (recovery rate) & $8$ days$^{-1}$ & $7.019231$ days$^{-1}$	\\
+		\hline	
+		$R_0$ & $5$ & $3.5$ with RT set at $4$	\\
+		\hline		
+		$m$ (immigration rate) & $50$ per days & none	\\
+		\hline	
+		$c$ (seasonal forcing) & $0.35$  & none	\\
+		\hline		
+		$N$ population size  & initial size of $2.10^6$ ($\mu_B \neq \mu_D$)  & $10^6$ (mainly) $10^7$ $10^8$\ \\
+		\hline		
+	\end{tabular}
+	\caption{parameters values}
+	\label{tete}
+\end{table}
+
+\citet{Ferguson2003} has considered a population of $20.10^6$ individuals equally distributed over 20 patches ($6.10^5$ individuals per patches) with a reduced lifespan of 30 years to ensure persistence for a single strain.
+
+\citet{Finkenstaedt2005} have performed a quantitative analysis of antigenic drift  at the population level. They have estimated baseline antigenic drift rate (in a model with sudden discrete changes) to be 23.30595 years$^{-1}$ and, continuous antigenic drift rate to be 13.00711 years$^{-1}$.
+Data from experiments with human volunteers with inactivated influenza A virus vaccines \citep{Potter1977} give antigenic drift rate of 19.49579 years$^{-1}$.
+\citet{Finkenstaedt2005} paper gives clues to the importance of "almost neutral mutation" but as it treat in a whole all influenza type and subtypes by using ILI data, it can coufound cluster changes and type or subtypes changes.
+
+
+\begin{table}[htp]
+	\begin{tabular}{|l|l|}
+		\hline
+		1/g years$^{-1}$ & T years$^{-1}$  \\
+		\hline
+		23.30595 & 2.100322\\
+		\hline
+		13.00711 & 1.569070\\
+		\hline
+		8 & 1.230545 \\
+		\hline	
+		6 & 1.065683 \\
+		\hline	
+		5 & 0.9728311 \\
+		\hline		
+	\end{tabular}
+	\caption{$T=2 \pi \sqrt{\frac{1}{\nu g (R_0-1) }}$ \citep{Dushoff2004} $SIRS$ model with $R_0 = 5$}
+	\label{g}
+\end{table}
+
+
+\citet{Xia2005} estimate q
+
+
+true rate of influenza in France around 12-15 \% of the population per epidemic year (Carrat personal communication).
+
+\subsection{Stochastic models}
+
+We use Gillespie algorithm \citep{Gillespie1977}.
+For example for the status based model with reduced infectivity and no antigenic drift, equation~\eqref{eq_sbric} can be translated into the reaction scheme of table~\ref{reaction}:
+
+\begin{table}[htp]
+	\begin{tabular}{ll}
+		reaction & rate \\
+		birth\\
+		$R_\varnothing \rightarrow R_\varnothing +1$ & $u N$ \\
+		death\\
+		$R_\varnothing \rightarrow R_\varnothing -1$ & $u R_\varnothing$ \\
+		$R_1 \rightarrow R_1-1$ & $u R_1$ \\
+		$R_1 \rightarrow R_1-1$ & $u R_1$ \\
+		$R_{12} \rightarrow R_{12}-1$ & $u R_{12}$ \\
+		$I^1 \rightarrow I^1-1$ & $u I^1$ \\
+		$I^2 \rightarrow I^2-1$ & $u I^2$ \\
+		recovery \\
+		$I^1 \rightarrow I^1-1$ & $v I^1$ \\
+		$I^2 \rightarrow I^2-1$ & $v I^2$ \\
+		$I^1$ production and $R_1$ only immunisation from $R_\varnothing$ \\
+		$R_\varnothing \rightarrow R_\varnothing-1$ ; $R_1 \rightarrow R_1+1$ ; $I^1 \rightarrow I^1+1$ & $(1-\sigma) \beta_1 R_\varnothing I^1$ \\
+		$I^2$ production and $R_1$ only immunisation from $R_\varnothing$ \\
+		$R_\varnothing \rightarrow R_\varnothing-1$ ; $R_1 \rightarrow R_1+1$ ; $I^2 \rightarrow I^2+1$ & $(1-\sigma) \beta_2 R_\varnothing I^2$ \\
+		$I^1$ production and $R_{12}$ only immunisation from $R_\varnothing$ \\
+		$R_\varnothing \rightarrow R_\varnothing-1$ ; $R_{12} \rightarrow R_{12}+1$ ; $I^1 \rightarrow I^1+1$ & $\sigma \beta_1 R_\varnothing I^1$ \\
+		$I^2$ production and $R_{12}$ only immunisation from $R_\varnothing$ \\
+		$R_\varnothing \rightarrow R_\varnothing-1$ ; $R_{12} \rightarrow R_{12}+1$ ; $I^2 \rightarrow I^2+1$ & $\sigma \beta_2 R_\varnothing I^2$ \\
+		$I^1$ production and $R_{12}$ only immunisation from $R_1$ \\
+		$R_1 \rightarrow R_1-1$ ; $R_{12} \rightarrow R_{12}+1$ ; $I^1 \rightarrow I^1+1$ &  $\beta_1 R_1 I^1$ \\
+		$I^2$ production and $R_{12}$ only immunisation from $R_1$ \\
+		$R_1 \rightarrow R_1-1$ ; $R_{12} \rightarrow R_{12}+1$ ; $I^2 \rightarrow I^2+1$ &  $\beta_2 R_1 I^2$ \\
+		$R_{12}$ immunity acquisition from $R_1$ by $I^1$ \\
+		$R_{12} \rightarrow R_{12}+1$ ; $R_1 \rightarrow R_1-1$ &  $\sigma \beta_1 R_1 I^1$ \\
+		$R_{12}$ immunity acquisition from $R_1$ by $I^2$ \\
+		$R_{12} \rightarrow R_{12}+1$ ; $R_1 \rightarrow R_1-1$ & $\sigma \beta_2 R_1 I^2$
+	\end{tabular}
+	\caption{reaction scheme for model of equation~\eqref{eq_sbric}}
+	\label{reaction}
+\end{table}
+
+In the case of reduces susceptibility, the reaction scheme of table~\ref{reaction} remains the same except that the last 2 reactions do not occur.
+
+\subsubsection{closed population}
+
+Stochastic model for closed population are used to assess if the mutant strain can replace the resident one. By replacement, we mean that the resident is driven to extinction by the mutant in an environment where the resident can otherwise persist.
+The key question is thus to define an environment where the resident can persist.
+
+If an infectious disease is introduced in a single isolated naive population, 3 kinds of extinctions can occur \citep{Lloyd-Smith2005}. %parler de R0 ???
+The disease can fail to invade the population (initial extinction), it can go extinct after the first epidemics (epidemics fadeout) or reach an endemic equilibrium and then go extinct to due to random fluctuation (endemic fadeout).
+These extinction depends of the parameters values \citep{Keeling2002} and of the population size \citep{Bartlett1957, Bartlett1960, Bartlett1964, Keeling1997a, Naasell2005}.
+Generally, we consider the Critical community size (CCS) as "the host population size above which stochastic
+fadeout of a disease over a given period is less probable than not" \citep{Lloyd-Smith2005}
+We will only consider CSS above which endemic fadeout are very rare given the typical period of the transient invasion dynamics. We further assume that this time scale is sufficiently brief to disregard external reintroduction.
+Note that this CSS does not guarantee that epidemic fadeout are rare, and thus does not garantee that the resident strain could have invaded the population and persist.
+The full problem of transition from invasion from persistence needs to consider external reintroduction.
+
+\citet{Ferguson2003} has already tackle this problem with influenza parameters 
+pb persistence avec reduire durée de vie pour la favoriser
+
+\subsubsection{external re-introduction}
+
+timescales
+
+
+
+
+\citet{Goekaydin2007} 100 simulations.
+
+

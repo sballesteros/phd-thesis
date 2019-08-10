@@ -1,0 +1,1960 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
+
+\bibitem[Adams \& Boots, 2006]{Adams2006}
+\bgroup\fonteauteurs\bgroup Adams\egroup\egroup{}, B. \&
+  \bgroup\fonteauteurs\bgroup Boots\egroup\egroup{}, M. (2006).
+\newblock Modelling the relationship between antibody-dependent enhancement and
+  immunological distance with application to dengue.
+\newblock {\em J Theor Biol}, 242(2)\string:\penalty500\relax 337--346.
+
+\bibitem[Adams \emph{et~al.}, 2006]{Adams2006a}
+\bgroup\fonteauteurs\bgroup Adams\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C.,
+  \bgroup\fonteauteurs\bgroup Zhang\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Mammen\egroup\egroup{}, M.~P.,
+  \bgroup\fonteauteurs\bgroup Nimmannitya\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Kalayanarooj\egroup\egroup{}, S. \&
+  \bgroup\fonteauteurs\bgroup Boots\egroup\egroup{}, M. (2006).
+\newblock Cross-protective immunity can account for the alternating epidemic
+  pattern of dengue virus serotypes circulating in bangkok.
+\newblock {\em Proc Natl Acad Sci U S A}, 103(38)\string:\penalty500\relax
+  14234--14239.
+
+\bibitem[Adams \& Sasaki, 2007]{Adams2007a}
+\bgroup\fonteauteurs\bgroup Adams\egroup\egroup{}, B. \&
+  \bgroup\fonteauteurs\bgroup Sasaki\egroup\egroup{}, A. (2007).
+\newblock Cross-immunity, invasion and coexistence of pathogen strains in
+  epidemiological models with one-dimensional antigenic space.
+\newblock {\em Mathematical Biosciences}, 210(2)\string:\penalty500\relax
+  680--699.
+
+\bibitem[Aguiar \& Stollenwerk, 2007]{Aguiar2007}
+\bgroup\fonteauteurs\bgroup Aguiar\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup Stollenwerk\egroup\egroup{}, N. (2007).
+\newblock A new chaotic attractor in a basic multi-strain epidemiological model
+  with temporary cross-immunity.
+\newblock {\em ArXiv e-prints}, 704.
+
+\bibitem[Alizon, 2008]{Alizon2008}
+\bgroup\fonteauteurs\bgroup Alizon\egroup\egroup{}, S. (2008).
+\newblock Transmission-recovery trade-offs to study parasite evolution.
+\newblock {\em Am Nat}, 172(3)\string:\penalty500\relax E113--E121.
+
+\bibitem[Alizon \& van Baalen, 2008]{Alizon2008a}
+\bgroup\fonteauteurs\bgroup Alizon\egroup\egroup{}, S. \& van
+  \bgroup\fonteauteurs\bgroup Baalen\egroup\egroup{}, M. (2008).
+\newblock Acute or chronic? within-host models with immune dynamics, infection
+  outcome, and parasite evolution.
+\newblock {\em Am Nat}, 172(6)\string:\penalty500\relax E244--E256.
+
+\bibitem[Alonso \emph{et~al.}, 2007a]{Alonso2007}
+\bgroup\fonteauteurs\bgroup Alonso\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup McKane\egroup\egroup{}, A.~J. \&
+  \bgroup\fonteauteurs\bgroup Pascual\egroup\egroup{}, M. (2007a).
+\newblock Stochastic amplification in epidemics.
+\newblock {\em J R Soc Interface}, 4(14)\string:\penalty500\relax 575--582.
+
+\bibitem[Alonso \emph{et~al.}, 2007b]{Alonso2007a}
+\bgroup\fonteauteurs\bgroup Alonso\egroup\egroup{}, W.~J.,
+  \bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Simonsen\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Hirano\egroup\egroup{}, E.~W.,
+  \bgroup\fonteauteurs\bgroup Daufenbach\egroup\egroup{}, L.~Z. \&
+  \bgroup\fonteauteurs\bgroup Miller\egroup\egroup{}, M.~A. (2007b).
+\newblock Seasonality of influenza in brazil: a traveling wave from the amazon
+  to the subtropics.
+\newblock {\em Am J Epidemiol}, 165(12)\string:\penalty500\relax 1434--1442.
+
+\bibitem[Anderson \& May, 1992]{Anderson1992}
+\bgroup\fonteauteurs\bgroup Anderson\egroup\egroup{}, R.~M. \&
+  \bgroup\fonteauteurs\bgroup May\egroup\egroup{}, R.~M. (1992).
+\newblock {\em Infectious Diseases of Humans Dynamics and Control}.
+
+\bibitem[Andreasen \emph{et~al.}, 1997]{Andreasen1997}
+\bgroup\fonteauteurs\bgroup Andreasen\egroup\egroup{}, V.,
+  \bgroup\fonteauteurs\bgroup Lin\egroup\egroup{}, J. \&
+  \bgroup\fonteauteurs\bgroup Levin\egroup\egroup{}, S.~A. (1997).
+\newblock The dynamics of cocirculating influenza strains conferring partial
+  cross-immunity.
+\newblock {\em Journal of Mathematical Biology}, 35(7)\string:\penalty500\relax
+  825--842.
+
+\bibitem[Andreasen \& Sasaki, 2006]{Andreasen2006}
+\bgroup\fonteauteurs\bgroup Andreasen\egroup\egroup{}, V. \&
+  \bgroup\fonteauteurs\bgroup Sasaki\egroup\egroup{}, A. (2006).
+\newblock Shaping the phylogenetic tree of influenza by cross-immunity.
+\newblock {\em Theor Popul Biol}, 70(2)\string:\penalty500\relax 164--173.
+
+\bibitem[Antia \emph{et~al.}, 2003]{Antia2003}
+\bgroup\fonteauteurs\bgroup Antia\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Regoes\egroup\egroup{}, R.~R.,
+  \bgroup\fonteauteurs\bgroup Koella\egroup\egroup{}, J.~C. \&
+  \bgroup\fonteauteurs\bgroup Bergstrom\egroup\egroup{}, C.~T. (2003).
+\newblock The role of evolution in the emergence of infectious diseases.
+\newblock {\em Nature}, 426(6967)\string:\penalty500\relax 658--661.
+
+\bibitem[Armelagos \emph{et~al.}, 2005]{Armelagos2005}
+\bgroup\fonteauteurs\bgroup Armelagos\egroup\egroup{}, G.~J.,
+  \bgroup\fonteauteurs\bgroup Brown\egroup\egroup{}, P.~J. \&
+  \bgroup\fonteauteurs\bgroup Turner\egroup\egroup{}, B. (2005).
+\newblock Evolutionary, historical and political economic perspectives on
+  health and disease.
+\newblock {\em Soc Sci Med}, 61(4)\string:\penalty500\relax 755--765.
+
+\bibitem[Ballesteros \emph{et~al.}, 2009]{Ballesteros2009}
+\bgroup\fonteauteurs\bgroup Ballesteros\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Vergu\egroup\egroup{}, E. \&
+  \bgroup\fonteauteurs\bgroup Cazelles\egroup\egroup{}, B. (2009).
+\newblock Influenza a gradual and epochal evolution: insights from simple
+  models.
+\newblock {\em PLoS One}, 4(10)\string:\penalty500\relax e7426.
+
+\bibitem[Barry \emph{et~al.}, 2008]{Barry2008}
+\bgroup\fonteauteurs\bgroup Barry\egroup\egroup{}, J.~M.,
+  \bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C. \&
+  \bgroup\fonteauteurs\bgroup Simonsen\egroup\egroup{}, L. (2008).
+\newblock {Cross-protection between successive waves of the 1918-1919 influenza
+  pandemic: epidemiological evidence from US Army camps and from Britain.}
+\newblock {\em The Journal of infectious diseases},
+  198\string:\penalty500\relax 1427--34.
+
+\bibitem[Bartlett, 1957]{Bartlett1957}
+\bgroup\fonteauteurs\bgroup Bartlett\egroup\egroup{}, M.~S. (1957).
+\newblock Measles periodicity and community size.
+\newblock {\em Journal of the Royal Statistical Society. Series A (General)},
+  120(1)\string:\penalty500\relax 48--70.
+
+\bibitem[Bartlett, 1960]{Bartlett1960}
+\bgroup\fonteauteurs\bgroup Bartlett\egroup\egroup{}, M.~S. (1960).
+\newblock The critical community size for measles in the united states.
+\newblock {\em Journal of the Royal Statistical Society. Series A (General)},
+  123(1)\string:\penalty500\relax 37--44.
+
+\bibitem[Bartlett, 1964]{Bartlett1964}
+\bgroup\fonteauteurs\bgroup Bartlett\egroup\egroup{}, M.~S. (1964).
+\newblock The relevance of stochastic models for large-scale epidemiological
+  phenomena.
+\newblock {\em Applied Statistics}, 13(1)\string:\penalty500\relax 2--8.
+
+\bibitem[Bauch \& Earn, 2003]{Bauch2003}
+\bgroup\fonteauteurs\bgroup Bauch\egroup\egroup{}, C.~T. \&
+  \bgroup\fonteauteurs\bgroup Earn\egroup\egroup{}, D. J.~D. (2003).
+\newblock Transients and attractors in epidemics.
+\newblock {\em Proc Biol Sci}, 270(1524)\string:\penalty500\relax 1573--1578.
+
+\bibitem[Becker \& Hopper, 1983]{Becker1983}
+\bgroup\fonteauteurs\bgroup Becker\egroup\egroup{}, N. \&
+  \bgroup\fonteauteurs\bgroup Hopper\egroup\egroup{}, J.~L. (1983).
+\newblock {Assessing the heterogeneity of disease spread through a community.}
+\newblock {\em American journal of epidemiology}, 117\string:\penalty500\relax
+  362--74.
+
+\bibitem[Belshaw \emph{et~al.}, 2008]{Belshaw2008}
+\bgroup\fonteauteurs\bgroup Belshaw\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Gardner\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Rambaut\egroup\egroup{}, A. \&
+  \bgroup\fonteauteurs\bgroup Pybus\egroup\egroup{}, O.~G. (2008).
+\newblock Pacing a small cage: mutation and rna viruses.
+\newblock {\em Trends Ecol Evol}, 23(4)\string:\penalty500\relax 188--193.
+
+\bibitem[Bjornstad \emph{et~al.}, 2002]{Bjornstad2002}
+\bgroup\fonteauteurs\bgroup Bjornstad\egroup\egroup{}, O.~N.,
+  \bgroup\fonteauteurs\bgroup Finkenstadt\egroup\egroup{}, B.~F. \&
+  \bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T. (2002).
+\newblock Dynamics of measles epidemics: Estimating scaling of transmission
+  rates using a time series sir model.
+\newblock {\em Ecological Monographs}, 72(2)\string:\penalty500\relax 169--184.
+
+\bibitem[Bjørnstad \& Harvill, 2005]{Bjoernstad2005}
+\bgroup\fonteauteurs\bgroup Bjørnstad\egroup\egroup{}, O.~N. \&
+  \bgroup\fonteauteurs\bgroup Harvill\egroup\egroup{}, E.~T. (2005).
+\newblock Evolution and emergence of bordetella in humans.
+\newblock {\em Trends Microbiol}, 13(8)\string:\penalty500\relax 355--359.
+
+\bibitem[Black, 1975]{Black1975}
+\bgroup\fonteauteurs\bgroup Black\egroup\egroup{}, F.~L. (1975).
+\newblock Infectious diseases in primitive societies.
+\newblock {\em Science}, 187(4176)\string:\penalty500\relax 515--518.
+
+\bibitem[Blackburne \emph{et~al.}, 2008]{Blackburne2008}
+\bgroup\fonteauteurs\bgroup Blackburne\egroup\egroup{}, B.~P.,
+  \bgroup\fonteauteurs\bgroup Hay\egroup\egroup{}, A.~J. \&
+  \bgroup\fonteauteurs\bgroup Goldstein\egroup\egroup{}, R.~A. (2008).
+\newblock Changing selective pressure during antigenic changes in human
+  influenza h3.
+\newblock {\em PLoS Pathog}, 4(5)\string:\penalty500\relax e1000058.
+
+\bibitem[Blasius \emph{et~al.}, 1999]{Blasius1999}
+\bgroup\fonteauteurs\bgroup Blasius\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Huppert\egroup\egroup{}, A. \&
+  \bgroup\fonteauteurs\bgroup Stone\egroup\egroup{}, L. (1999).
+\newblock Complex dynamics and phase synchronization in spatially extended
+  ecological systems.
+\newblock {\em Nature}, 399(6734)\string:\penalty500\relax 354--359.
+
+\bibitem[Breto \emph{et~al.}, 2009]{Breto2009}
+\bgroup\fonteauteurs\bgroup Breto\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup He\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Ionides\egroup\egroup{}, E.~L. \&
+  \bgroup\fonteauteurs\bgroup King\egroup\egroup{}, A.~A. (2009).
+\newblock Time series analysis via mechanistic models.
+\newblock {\em ANNALS OF APPLIED STATISTICS}, 3\string:\penalty500\relax 319.
+
+\bibitem[Brown \emph{et~al.}, 1969a]{Brown1969b}
+\bgroup\fonteauteurs\bgroup Brown\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Gajdusek\egroup\egroup{}, D.~C.,
+  \bgroup\fonteauteurs\bgroup Chen\egroup\egroup{}, K.~M. \&
+  \bgroup\fonteauteurs\bgroup Morris\egroup\egroup{}, J.~A. (1969a).
+\newblock Antigenic response to influenza virus in man. ii. neutralizing
+  antibody response to inactivated monovalent b vaccine, with observations on
+  vaccine efficacy during a subsequent type b epidemic.
+\newblock {\em Am J Epidemiol}, 90(4)\string:\penalty500\relax 336--343.
+
+\bibitem[Brown \emph{et~al.}, 1966]{Brown1966}
+\bgroup\fonteauteurs\bgroup Brown\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Gajdusek\egroup\egroup{}, D.~C. \&
+  \bgroup\fonteauteurs\bgroup Morris\egroup\egroup{}, J.~A. (1966).
+\newblock Epidemic a2 influenza in isolated pacific island populations without
+  pre-epidemic antibody to influenza virus types a and b, and the discovery of
+  other still unexposed populations.
+\newblock {\em Am J Epidemiol}, 83(1)\string:\penalty500\relax 176--188.
+
+\bibitem[Brown \emph{et~al.}, 1969b]{Brown1969a}
+\bgroup\fonteauteurs\bgroup Brown\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Gajdusek\egroup\egroup{}, D.~C. \&
+  \bgroup\fonteauteurs\bgroup Morris\egroup\egroup{}, J.~A. (1969b).
+\newblock Antigenic response to influenza virus in man. i. neutralizing
+  antibody response to inactivated monovalent a2 vaccine as related to prior
+  influenza exposure.
+\newblock {\em Am J Epidemiol}, 90(4)\string:\penalty500\relax 327--335.
+
+\bibitem[Bryant \emph{et~al.}, 2007]{Bryant2007}
+\bgroup\fonteauteurs\bgroup Bryant\egroup\egroup{}, J.~E.,
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. \&
+  \bgroup\fonteauteurs\bgroup Barrett\egroup\egroup{}, A. D.~T. (2007).
+\newblock Out of africa: a molecular perspective on the introduction of yellow
+  fever virus into the americas.
+\newblock {\em PLoS Pathog}, 3(5)\string:\penalty500\relax e75.
+
+\bibitem[Bull \emph{et~al.}, 2005]{Bull2005}
+\bgroup\fonteauteurs\bgroup Bull\egroup\egroup{}, J.~J.,
+  \bgroup\fonteauteurs\bgroup Meyers\egroup\egroup{}, L.~A. \&
+  \bgroup\fonteauteurs\bgroup Lachmann\egroup\egroup{}, M. (2005).
+\newblock Quasispecies made simple.
+\newblock {\em PLoS Comput Biol}, 1(6)\string:\penalty500\relax e61.
+
+\bibitem[Bull \emph{et~al.}, 2007]{Bull2007}
+\bgroup\fonteauteurs\bgroup Bull\egroup\egroup{}, J.~J.,
+  \bgroup\fonteauteurs\bgroup Sanjuán\egroup\egroup{}, R. \&
+  \bgroup\fonteauteurs\bgroup Wilke\egroup\egroup{}, C.~O. (2007).
+\newblock Theory of lethal mutagenesis for viruses.
+\newblock {\em J Virol}, 81(6)\string:\penalty500\relax 2930--2939.
+
+\bibitem[Bush \emph{et~al.}, 1999]{Bush1999}
+\bgroup\fonteauteurs\bgroup Bush\egroup\egroup{}, R.~M.,
+  \bgroup\fonteauteurs\bgroup Bender\egroup\egroup{}, C.~A.,
+  \bgroup\fonteauteurs\bgroup Subbarao\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Cox\egroup\egroup{}, N.~J. \&
+  \bgroup\fonteauteurs\bgroup Fitch\egroup\egroup{}, W.~M. (1999).
+\newblock Predicting the evolution of human influenza a.
+\newblock {\em Science}, 286(5446)\string:\penalty500\relax 1921--1925.
+
+\bibitem[Bush \emph{et~al.}, 2000]{Bush2000}
+\bgroup\fonteauteurs\bgroup Bush\egroup\egroup{}, R.~M.,
+  \bgroup\fonteauteurs\bgroup Smith\egroup\egroup{}, C.~B.,
+  \bgroup\fonteauteurs\bgroup Cox\egroup\egroup{}, N.~J. \&
+  \bgroup\fonteauteurs\bgroup Fitch\egroup\egroup{}, W.~M. (2000).
+\newblock Effects of passage history and sampling bias on phylogenetic
+  reconstruction of human influenza a evolution.
+\newblock {\em Proc Natl Acad Sci U S A}, 97(13)\string:\penalty500\relax
+  6974--6980.
+
+\bibitem[Carrat \emph{et~al.}, 2006]{Carrat2006a}
+\bgroup\fonteauteurs\bgroup Carrat\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Lavenu\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Cauchemez\egroup\egroup{}, S. \&
+  \bgroup\fonteauteurs\bgroup Deleger\egroup\egroup{}, S. (2006).
+\newblock Repeated influenza vaccination of healthy children and adults: borrow
+  now, pay later?
+\newblock {\em Epidemiol Infect}, 134(1)\string:\penalty500\relax 63--70.
+
+\bibitem[Carrat \emph{et~al.}, 2008]{Carrat2008}
+\bgroup\fonteauteurs\bgroup Carrat\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Vergu\egroup\egroup{}, E.,
+  \bgroup\fonteauteurs\bgroup Ferguson\egroup\egroup{}, N.~M.,
+  \bgroup\fonteauteurs\bgroup Lemaitre\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Cauchemez\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Leach\egroup\egroup{}, S. \&
+  \bgroup\fonteauteurs\bgroup Valleron\egroup\egroup{}, A.-J. (2008).
+\newblock Time lines of infection and disease in human influenza: a review of
+  volunteer challenge studies.
+\newblock {\em Am J Epidemiol}, 167(7)\string:\penalty500\relax 775--785.
+
+\bibitem[Cauchemez \emph{et~al.}, 2004]{Cauchemez2004}
+\bgroup\fonteauteurs\bgroup Cauchemez\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Carrat\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Valleron\egroup\egroup{}, A.~J. \&
+  \bgroup\fonteauteurs\bgroup Boëlle\egroup\egroup{}, P.~Y. (2004).
+\newblock A bayesian mcmc approach to study transmission of influenza:
+  application to household longitudinal data.
+\newblock {\em Stat Med}, 23(22)\string:\penalty500\relax 3469--3487.
+
+\bibitem[Chen \& Holmes, 2006]{Chen2006}
+\bgroup\fonteauteurs\bgroup Chen\egroup\egroup{}, R. \&
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. (2006).
+\newblock Avian influenza virus exhibits rapid evolutionary dynamics.
+\newblock {\em Mol Biol Evol}, 23(12)\string:\penalty500\relax 2336--2341.
+
+\bibitem[Chowell \emph{et~al.}, 2007]{Chowell2007a}
+\bgroup\fonteauteurs\bgroup Chowell\egroup\egroup{}, G.,
+  \bgroup\fonteauteurs\bgroup Miller\egroup\egroup{}, M.~A. \&
+  \bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C. (2007).
+\newblock Seasonal influenza in the united states, france, and australia:
+  transmission and prospects for control.
+\newblock {\em Epidemiol Infect}, pages 1--13.
+
+\bibitem[Cobey \& Koelle, 2008]{Cobey2008}
+\bgroup\fonteauteurs\bgroup Cobey\egroup\egroup{}, S. \&
+  \bgroup\fonteauteurs\bgroup Koelle\egroup\egroup{}, K. (2008).
+\newblock Capturing escape in infectious disease dynamics.
+\newblock {\em Trends Ecol Evol}, 23(10)\string:\penalty500\relax 572--577.
+
+\bibitem[Conlan \& Grenfell, 2007]{Conlan2007}
+\bgroup\fonteauteurs\bgroup Conlan\egroup\egroup{}, A. J.~K. \&
+  \bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T. (2007).
+\newblock Seasonality and the persistence and invasion of measles.
+\newblock {\em Proc Biol Sci}, 274(1614)\string:\penalty500\relax 1133--1141.
+
+\bibitem[Cooper \emph{et~al.}, 2006]{Cooper2006a}
+\bgroup\fonteauteurs\bgroup Cooper\egroup\egroup{}, B.~S.,
+  \bgroup\fonteauteurs\bgroup Pitman\egroup\egroup{}, R.~J.,
+  \bgroup\fonteauteurs\bgroup Edmunds\egroup\egroup{}, W.~J. \&
+  \bgroup\fonteauteurs\bgroup Gay\egroup\egroup{}, N.~J. (2006).
+\newblock Delaying the international spread of pandemic influenza.
+\newblock {\em PLoS Med}, 3(6)\string:\penalty500\relax e212.
+
+\bibitem[Cox \& Subbarao, 2000]{Cox2000a}
+\bgroup\fonteauteurs\bgroup Cox\egroup\egroup{}, N.~J. \&
+  \bgroup\fonteauteurs\bgroup Subbarao\egroup\egroup{}, K. (2000).
+\newblock Global epidemiology of influenza: past and present.
+\newblock {\em Annu Rev Med}, 51\string:\penalty500\relax 407--421.
+
+\bibitem[Cummings \emph{et~al.}, 2005]{Cummings2005}
+\bgroup\fonteauteurs\bgroup Cummings\egroup\egroup{}, D. A.~T.,
+  \bgroup\fonteauteurs\bgroup Schwartz\egroup\egroup{}, I.~B.,
+  \bgroup\fonteauteurs\bgroup Billings\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Shaw\egroup\egroup{}, L.~B. \&
+  \bgroup\fonteauteurs\bgroup Burke\egroup\egroup{}, D.~S. (2005).
+\newblock Dynamic effects of antibody-dependent enhancement on the fitness of
+  viruses.
+\newblock {\em Proc Natl Acad Sci U S A}, 102(42)\string:\penalty500\relax
+  15259--15264.
+
+\bibitem[Daszak \emph{et~al.}, 2000]{Daszak2000}
+\bgroup\fonteauteurs\bgroup Daszak\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Cunningham\egroup\egroup{}, A.~A. \&
+  \bgroup\fonteauteurs\bgroup Hyatt\egroup\egroup{}, A.~D. (2000).
+\newblock Emerging infectious diseases of wildlife--threats to biodiversity and
+  human health.
+\newblock {\em Science}, 287(5452)\string:\penalty500\relax 443--449.
+
+\bibitem[Daszak \emph{et~al.}, 2004]{Daszak2004}
+\bgroup\fonteauteurs\bgroup Daszak\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Tabor\egroup\egroup{}, G.~M.,
+  \bgroup\fonteauteurs\bgroup Kilpatrick\egroup\egroup{}, A.~M.,
+  \bgroup\fonteauteurs\bgroup Epstein\egroup\egroup{}, J. \&
+  \bgroup\fonteauteurs\bgroup Plowright\egroup\egroup{}, R. (2004).
+\newblock Conservation medicine and a new agenda for emerging diseases.
+\newblock {\em Ann N Y Acad Sci}, 1026\string:\penalty500\relax 1--11.
+
+\bibitem[Dawes \& Gog, 2002]{Dawes2002}
+\bgroup\fonteauteurs\bgroup Dawes\egroup\egroup{}, J. H.~P. \&
+  \bgroup\fonteauteurs\bgroup Gog\egroup\egroup{}, J.~R. (2002).
+\newblock The onset of oscillatory dynamics in models of multiple disease
+  strains.
+\newblock {\em J Math Biol}, 45(6)\string:\penalty500\relax 471--510.
+
+\bibitem[Day \emph{et~al.}, 2006]{Day2006}
+\bgroup\fonteauteurs\bgroup Day\egroup\egroup{}, T.,
+  \bgroup\fonteauteurs\bgroup André\egroup\egroup{}, J.-B. \&
+  \bgroup\fonteauteurs\bgroup Park\egroup\egroup{}, A. (2006).
+\newblock The evolutionary emergence of pandemic influenza.
+\newblock {\em Proc Biol Sci}, 273(1604)\string:\penalty500\relax 2945--2953.
+
+\bibitem[de~Jong \emph{et~al.}, 2006]{Jong2006}
+de~\bgroup\fonteauteurs\bgroup Jong\egroup\egroup{}, M.~D.,
+  \bgroup\fonteauteurs\bgroup Simmons\egroup\egroup{}, C.~P.,
+  \bgroup\fonteauteurs\bgroup Thanh\egroup\egroup{}, T.~T.,
+  \bgroup\fonteauteurs\bgroup Hien\egroup\egroup{}, V.~M.,
+  \bgroup\fonteauteurs\bgroup Smith\egroup\egroup{}, G. J.~D.,
+  \bgroup\fonteauteurs\bgroup Chau\egroup\egroup{}, T. N.~B.,
+  \bgroup\fonteauteurs\bgroup Hoang\egroup\egroup{}, D.~M.,
+  \bgroup\fonteauteurs\bgroup Chau\egroup\egroup{}, N. V.~V.,
+  \bgroup\fonteauteurs\bgroup Khanh\egroup\egroup{}, T.~H.,
+  \bgroup\fonteauteurs\bgroup Dong\egroup\egroup{}, V.~C.,
+  \bgroup\fonteauteurs\bgroup Qui\egroup\egroup{}, P.~T.,
+  \bgroup\fonteauteurs\bgroup Cam\egroup\egroup{}, B.~V.,
+  \bgroup\fonteauteurs\bgroup Ha\egroup\egroup{}, D.~Q.,
+  \bgroup\fonteauteurs\bgroup Guan\egroup\egroup{}, Y.,
+  \bgroup\fonteauteurs\bgroup Peiris\egroup\egroup{}, J. S.~M.,
+  \bgroup\fonteauteurs\bgroup Chinh\egroup\egroup{}, N.~T.,
+  \bgroup\fonteauteurs\bgroup Hien\egroup\egroup{}, T.~T. \&
+  \bgroup\fonteauteurs\bgroup Farrar\egroup\egroup{}, J. (2006).
+\newblock Fatal outcome of human influenza a (h5n1) is associated with high
+  viral load and hypercytokinemia.
+\newblock {\em Nat Med}, 12(10)\string:\penalty500\relax 1203--1207.
+
+\bibitem[de~St~Groth \& Webster, 1966a]{St1966}
+de~\bgroup\fonteauteurs\bgroup St~Groth\egroup\egroup{}, F. \&
+  \bgroup\fonteauteurs\bgroup Webster\egroup\egroup{}, R.~G. (1966a).
+\newblock Disquisitions of original antigenic sin. i. evidence in man.
+\newblock {\em J Exp Med}, 124(3)\string:\penalty500\relax 331--345.
+
+\bibitem[de~St~Groth \& Webster, 1966b]{St1966a}
+de~\bgroup\fonteauteurs\bgroup St~Groth\egroup\egroup{}, F. \&
+  \bgroup\fonteauteurs\bgroup Webster\egroup\egroup{}, R.~G. (1966b).
+\newblock Disquisitions on original antigenic sin. ii. proof in lower
+  creatures.
+\newblock {\em J Exp Med}, 124(3)\string:\penalty500\relax 347--361.
+
+\bibitem[Despommier \emph{et~al.}, 2006]{Despommier2006}
+\bgroup\fonteauteurs\bgroup Despommier\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Ellis\egroup\egroup{}, B. \&
+  \bgroup\fonteauteurs\bgroup Wilcox\egroup\egroup{}, B. (2006).
+\newblock The role of ecotones in emerging infectious diseases.
+\newblock {\em EcoHealth}, 3(4)\string:\penalty500\relax 281--289.
+
+\bibitem[Diamond, 1999]{Diamond1999}
+\bgroup\fonteauteurs\bgroup Diamond\egroup\egroup{}, J. (1999).
+\newblock {\em Guns, Germs, And Steel: The Fates of Human Societies}.
+
+\bibitem[Diamond, 2002]{Diamond2002}
+\bgroup\fonteauteurs\bgroup Diamond\egroup\egroup{}, J. (2002).
+\newblock Evolution, consequences and future of plant and animal domestication.
+\newblock {\em Nature}, 418(6898)\string:\penalty500\relax 700--707.
+
+\bibitem[Dieckmann \emph{et~al.}, 2002]{Dieckmann2002}
+\bgroup\fonteauteurs\bgroup Dieckmann\egroup\egroup{}, U.,
+  \bgroup\fonteauteurs\bgroup Metz\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Sabelis\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup Sigmund\egroup\egroup{}, K. (2002).
+\newblock {\em Adaptive Dynamics of Infectious Diseases: In Pursuit of
+  Virulence Management}.
+\newblock Cambridge University Press.
+
+\bibitem[Diekmann \& Heesterbeek, 2000]{Diekmann2000}
+\bgroup\fonteauteurs\bgroup Diekmann\egroup\egroup{}, O. \&
+  \bgroup\fonteauteurs\bgroup Heesterbeek\egroup\egroup{}, J. (2000).
+\newblock {\em Mathematical Epidemiology of Infectious Diseases: model
+  building, analysis and interpretation.}
+\newblock John Wiley and Sons, Chichester.
+
+\bibitem[Doherty \emph{et~al.}, 2006]{Doherty2006}
+\bgroup\fonteauteurs\bgroup Doherty\egroup\egroup{}, P.~C.,
+  \bgroup\fonteauteurs\bgroup Turner\egroup\egroup{}, S.~J.,
+  \bgroup\fonteauteurs\bgroup Webby\egroup\egroup{}, R.~G. \&
+  \bgroup\fonteauteurs\bgroup Thomas\egroup\egroup{}, P.~G. (2006).
+\newblock Influenza and the challenge for immunology.
+\newblock {\em Nat Immunol}, 7(5)\string:\penalty500\relax 449--455.
+
+\bibitem[Dowdle, 1999]{Dowdle1999}
+\bgroup\fonteauteurs\bgroup Dowdle\egroup\egroup{}, W.~R. (1999).
+\newblock Influenza a virus recycling revisited.
+\newblock {\em Bull World Health Organ}, 77(10)\string:\penalty500\relax
+  820--828.
+
+\bibitem[Dowdle, 2006]{Dowdle2006}
+\bgroup\fonteauteurs\bgroup Dowdle\egroup\egroup{}, W.~R. (2006).
+\newblock Influenza pandemic periodicity, virus recycling, and the art of risk
+  assessment.
+\newblock {\em Emerg Infect Dis}, 12(1)\string:\penalty500\relax 34--39.
+
+\bibitem[Du \emph{et~al.}, 2008]{Du2008}
+\bgroup\fonteauteurs\bgroup Du\egroup\egroup{}, X., \bgroup\fonteauteurs\bgroup
+  Wang\egroup\egroup{}, Z., \bgroup\fonteauteurs\bgroup Wu\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Song\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Cao\egroup\egroup{}, Y.,
+  \bgroup\fonteauteurs\bgroup Hang\egroup\egroup{}, H. \&
+  \bgroup\fonteauteurs\bgroup Jiang\egroup\egroup{}, T. (2008).
+\newblock Networks of genomic co-occurrence capture characteristics of human
+  influenza a (h3n2) evolution.
+\newblock {\em Genome Res.}, 18(1)\string:\penalty500\relax 178--187.
+
+\bibitem[Dudley, 1926]{Dudley1926}
+\bgroup\fonteauteurs\bgroup Dudley\egroup\egroup{}, S. (1926).
+\newblock {The spread of "Droplet Infection" in Semi-isolated Communities.
+  Oxford, UK: His majesty's Stationery Office. FluWeb Historical Influenza
+  Database, http://influenza.sph.unimelb.edu.au, accessed [november 2009]}.
+
+\bibitem[Duffy \emph{et~al.}, 2008]{Duffy2008}
+\bgroup\fonteauteurs\bgroup Duffy\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Shackelton\egroup\egroup{}, L.~A. \&
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. (2008).
+\newblock Rates of evolutionary change in viruses: patterns and determinants.
+\newblock {\em Nat Rev Genet}, 9(4)\string:\penalty500\relax 267--276.
+
+\bibitem[Dugan \emph{et~al.}, 2008]{Dugan2008}
+\bgroup\fonteauteurs\bgroup Dugan\egroup\egroup{}, V.~G.,
+  \bgroup\fonteauteurs\bgroup Chen\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Spiro\egroup\egroup{}, D.~J.,
+  \bgroup\fonteauteurs\bgroup Sengamalay\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Zaborsky\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Ghedin\egroup\egroup{}, E.,
+  \bgroup\fonteauteurs\bgroup Nolting\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Swayne\egroup\egroup{}, D.~E.,
+  \bgroup\fonteauteurs\bgroup Runstadler\egroup\egroup{}, J.~A.,
+  \bgroup\fonteauteurs\bgroup Happ\egroup\egroup{}, G.~M.,
+  \bgroup\fonteauteurs\bgroup Senne\egroup\egroup{}, D.~A.,
+  \bgroup\fonteauteurs\bgroup Wang\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Slemons\egroup\egroup{}, R.~D.,
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. \&
+  \bgroup\fonteauteurs\bgroup Taubenberger\egroup\egroup{}, J.~K. (2008).
+\newblock The evolutionary genetics and emergence of avian influenza viruses in
+  wild birds.
+\newblock {\em PLoS Pathog}, 4(5)\string:\penalty500\relax e1000076.
+
+\bibitem[Dushoff \emph{et~al.}, 2004]{Dushoff2004}
+\bgroup\fonteauteurs\bgroup Dushoff\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Plotkin\egroup\egroup{}, J.~B.,
+  \bgroup\fonteauteurs\bgroup Levin\egroup\egroup{}, S.~A. \&
+  \bgroup\fonteauteurs\bgroup Earn\egroup\egroup{}, D. J.~D. (2004).
+\newblock Dynamical resonance can account for seasonality of influenza
+  epidemics.
+\newblock {\em Proc Natl Acad Sci U S A}, 101(48)\string:\penalty500\relax
+  16915--16916.
+
+\bibitem[Earn \emph{et~al.}, 2000]{Earn2000}
+\bgroup\fonteauteurs\bgroup Earn\egroup\egroup{}, D.~J.,
+  \bgroup\fonteauteurs\bgroup Rohani\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Bolker\egroup\egroup{}, B.~M. \&
+  \bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T. (2000).
+\newblock A simple model for complex dynamical transitions in epidemics.
+\newblock {\em Science}, 287(5453)\string:\penalty500\relax 667--670.
+
+\bibitem[Earn \emph{et~al.}, 2002]{Earn2002}
+\bgroup\fonteauteurs\bgroup Earn\egroup\egroup{}, D. J.~D.,
+  \bgroup\fonteauteurs\bgroup Dushoff\egroup\egroup{}, J. \&
+  \bgroup\fonteauteurs\bgroup Levin\egroup\egroup{}, S.~A. (2002).
+\newblock Ecology and evolution of the flu.
+\newblock {\em Trends in Ecology \& Evolution}, 17(7)\string:\penalty500\relax
+  334--340.
+
+\bibitem[Epstein, 2006]{Epstein2006}
+\bgroup\fonteauteurs\bgroup Epstein\egroup\egroup{}, S.~L. (2006).
+\newblock Prior h1n1 influenza infection and susceptibility of cleveland family
+  study participants during the h2n2 pandemic of 1957: an experiment of nature.
+\newblock {\em J Infect Dis}, 193(1)\string:\penalty500\relax 49--53.
+
+\bibitem[Ferguson \emph{et~al.}, 1999]{Ferguson1999}
+\bgroup\fonteauteurs\bgroup Ferguson\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Anderson\egroup\egroup{}, R. \&
+  \bgroup\fonteauteurs\bgroup Gupta\egroup\egroup{}, S. (1999).
+\newblock The effect of antibody-dependent enhancement on the transmission
+  dynamics and persistence of multiple-strain pathogens.
+\newblock {\em Proc Natl Acad Sci U S A}, 96(2)\string:\penalty500\relax
+  790--794.
+
+\bibitem[Ferguson \emph{et~al.}, 2005]{Ferguson2005}
+\bgroup\fonteauteurs\bgroup Ferguson\egroup\egroup{}, N.~M.,
+  \bgroup\fonteauteurs\bgroup Cummings\egroup\egroup{}, D. A.~T.,
+  \bgroup\fonteauteurs\bgroup Cauchemez\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Fraser\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Riley\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Meeyai\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Iamsirithaworn\egroup\egroup{}, S. \&
+  \bgroup\fonteauteurs\bgroup Burke\egroup\egroup{}, D.~S. (2005).
+\newblock Strategies for containing an emerging influenza pandemic in southeast
+  asia.
+\newblock {\em Nature}, 437(7056)\string:\penalty500\relax 209--214.
+
+\bibitem[Ferguson \emph{et~al.}, 2003]{Ferguson2003}
+\bgroup\fonteauteurs\bgroup Ferguson\egroup\egroup{}, N.~M.,
+  \bgroup\fonteauteurs\bgroup Galvani\egroup\egroup{}, A.~P. \&
+  \bgroup\fonteauteurs\bgroup Bush\egroup\egroup{}, R.~M. (2003).
+\newblock Ecological and immunological determinants of influenza evolution.
+\newblock {\em Nature}, 422(6930)\string:\penalty500\relax 428--433.
+
+\bibitem[Finkelman \emph{et~al.}, 2007]{Finkelman2007}
+\bgroup\fonteauteurs\bgroup Finkelman\egroup\egroup{}, B.~S.,
+  \bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Koelle\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Ferrari\egroup\egroup{}, M.~J.,
+  \bgroup\fonteauteurs\bgroup Bharti\egroup\egroup{}, N. \&
+  \bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T. (2007).
+\newblock Global patterns in seasonal activity of influenza a/h3n2, a/h1n1, and
+  b from 1997 to 2005: viral coexistence and latitudinal gradients.
+\newblock {\em PLoS One}, 2(12)\string:\penalty500\relax e1296.
+
+\bibitem[Finkenstädt \emph{et~al.}, 2005]{Finkenstaedt2005}
+\bgroup\fonteauteurs\bgroup Finkenstädt\egroup\egroup{}, B.~F.,
+  \bgroup\fonteauteurs\bgroup Morton\egroup\egroup{}, A. \&
+  \bgroup\fonteauteurs\bgroup Rand\egroup\egroup{}, D.~A. (2005).
+\newblock Modelling antigenic drift in weekly flu incidence.
+\newblock {\em Stat Med}, 24(22)\string:\penalty500\relax 3447--3461.
+
+\bibitem[Fitch \emph{et~al.}, 1997]{Fitch1997}
+\bgroup\fonteauteurs\bgroup Fitch\egroup\egroup{}, W.~M.,
+  \bgroup\fonteauteurs\bgroup Bush\egroup\egroup{}, R.~M.,
+  \bgroup\fonteauteurs\bgroup Bender\egroup\egroup{}, C.~A. \&
+  \bgroup\fonteauteurs\bgroup Cox\egroup\egroup{}, N.~J. (1997).
+\newblock Long term trends in the evolution of h(3) ha1 human influenza type a.
+\newblock {\em Proc Natl Acad Sci U S A}, 94(15)\string:\penalty500\relax
+  7712--7718.
+
+\bibitem[Fitch \emph{et~al.}, 1991]{Fitch1991}
+\bgroup\fonteauteurs\bgroup Fitch\egroup\egroup{}, W.~M.,
+  \bgroup\fonteauteurs\bgroup Leiter\egroup\egroup{}, J.~M.,
+  \bgroup\fonteauteurs\bgroup Li\egroup\egroup{}, X.~Q. \&
+  \bgroup\fonteauteurs\bgroup Palese\egroup\egroup{}, P. (1991).
+\newblock Positive darwinian evolution in human influenza a viruses.
+\newblock {\em Proc Natl Acad Sci U S A}, 88(10)\string:\penalty500\relax
+  4270--4274.
+
+\bibitem[Fox \emph{et~al.}, 1982a]{FOX1982a}
+\bgroup\fonteauteurs\bgroup Fox\egroup\egroup{}, J.~P.,
+  \bgroup\fonteauteurs\bgroup Cooney\egroup\egroup{}, M.~K.,
+  \bgroup\fonteauteurs\bgroup Hall\egroup\egroup{}, C.~E. \&
+  \bgroup\fonteauteurs\bgroup Foy\egroup\egroup{}, H.~M. (1982a).
+\newblock Influenzavirus infections in seattle families, 1975-1979. ii. pattern
+  of infection in invaded households and relation of age and prior antibody to
+  occurrence of infection and related illness.
+\newblock {\em Am J Epidemiol}, 116(2)\string:\penalty500\relax 228--242.
+
+\bibitem[Fox \emph{et~al.}, 1982b]{FOX1982b}
+\bgroup\fonteauteurs\bgroup Fox\egroup\egroup{}, J.~P.,
+  \bgroup\fonteauteurs\bgroup Hall\egroup\egroup{}, C.~E.,
+  \bgroup\fonteauteurs\bgroup Cooney\egroup\egroup{}, M.~K. \&
+  \bgroup\fonteauteurs\bgroup Foy\egroup\egroup{}, H.~M. (1982b).
+\newblock Influenzavirus infections in seattle families, 1975-1979. i. study
+  design, methods and the occurrence of infections by time and age.
+\newblock {\em Am J Epidemiol}, 116(2)\string:\penalty500\relax 212--227.
+
+\bibitem[Francis, 1960]{Francis1960}
+\bgroup\fonteauteurs\bgroup Francis\egroup\egroup{}, Thomas, J. (1960).
+\newblock On the doctrine of original antigenic sin.
+\newblock {\em Proceedings of the American Philosophical Society},
+  104(6)\string:\penalty500\relax 572--578.
+
+\bibitem[Francis, 1953]{Francis1953}
+\bgroup\fonteauteurs\bgroup Francis\egroup\egroup{}, T. (1953).
+\newblock Vaccination against influenza.
+\newblock {\em Bull World Health Organ}, 8(5-6)\string:\penalty500\relax
+  725--741.
+
+\bibitem[Frank, 2002]{Frank2002}
+\bgroup\fonteauteurs\bgroup Frank\egroup\egroup{}, S.~A. (2002).
+\newblock {\em Immunology and evolution of infectious disease}.
+\newblock Princeton University Press.
+
+\bibitem[Frank \& Bush, 2007]{Frank2007}
+\bgroup\fonteauteurs\bgroup Frank\egroup\egroup{}, S.~A. \&
+  \bgroup\fonteauteurs\bgroup Bush\egroup\egroup{}, R.~M. (2007).
+\newblock Barriers to antigenic escape by pathogens: trade-off between
+  reproductive rate and antigenic mutability.
+\newblock {\em BMC Evol Biol}, 7\string:\penalty500\relax 229.
+
+\bibitem[Fraser \emph{et~al.}, 2009]{Fraser2009}
+\bgroup\fonteauteurs\bgroup Fraser\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Donnelly\egroup\egroup{}, C.~A.,
+  \bgroup\fonteauteurs\bgroup Cauchemez\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Hanage\egroup\egroup{}, W.~P.,
+  \bgroup\fonteauteurs\bgroup Kerkhove\egroup\egroup{}, M. D.~V.,
+  \bgroup\fonteauteurs\bgroup Hollingsworth\egroup\egroup{}, T.~D.,
+  \bgroup\fonteauteurs\bgroup Griffin\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Baggaley\egroup\egroup{}, R.~F.,
+  \bgroup\fonteauteurs\bgroup Jenkins\egroup\egroup{}, H.~E.,
+  \bgroup\fonteauteurs\bgroup Lyons\egroup\egroup{}, E.~J.,
+  \bgroup\fonteauteurs\bgroup Jombart\egroup\egroup{}, T.,
+  \bgroup\fonteauteurs\bgroup Hinsley\egroup\egroup{}, W.~R.,
+  \bgroup\fonteauteurs\bgroup Grassly\egroup\egroup{}, N.~C.,
+  \bgroup\fonteauteurs\bgroup Balloux\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Ghani\egroup\egroup{}, A.~C.,
+  \bgroup\fonteauteurs\bgroup Ferguson\egroup\egroup{}, N.~M.,
+  \bgroup\fonteauteurs\bgroup Rambaut\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Pybus\egroup\egroup{}, O.~G.,
+  \bgroup\fonteauteurs\bgroup Lopez-Gatell\egroup\egroup{}, H.,
+  \bgroup\fonteauteurs\bgroup Alpuche-Aranda\egroup\egroup{}, C.~M.,
+  \bgroup\fonteauteurs\bgroup Chapela\egroup\egroup{}, I.~B.,
+  \bgroup\fonteauteurs\bgroup Zavala\egroup\egroup{}, E.~P.,
+  \bgroup\fonteauteurs\bgroup Guevara\egroup\egroup{}, D. M.~E.,
+  \bgroup\fonteauteurs\bgroup Checchi\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Garcia\egroup\egroup{}, E.,
+  \bgroup\fonteauteurs\bgroup Hugonnet\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Roth\egroup\egroup{}, C. \&
+  \bgroup\fonteauteurs\bgroup Collaboration\egroup\egroup{}, W. H. O. R. P.~A.
+  (2009).
+\newblock Pandemic potential of a strain of influenza a (h1n1): early findings.
+\newblock {\em Science}, 324(5934)\string:\penalty500\relax 1557--1561.
+
+\bibitem[Galassi \emph{et~al.}, 2003]{Galassi2003}
+\bgroup\fonteauteurs\bgroup Galassi\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Davies\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Theiler\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Gough\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Jungman\egroup\egroup{}, G.,
+  \bgroup\fonteauteurs\bgroup Booth\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup Rossi\egroup\egroup{}, F. (2003).
+\newblock {\em Gnu Scientific Library: Reference Manual}.
+\newblock Network Theory Ltd.
+
+\bibitem[Gill \& Murphy, 1977]{Gill1977}
+\bgroup\fonteauteurs\bgroup Gill\egroup\egroup{}, P.~W. \&
+  \bgroup\fonteauteurs\bgroup Murphy\egroup\egroup{}, A.~M. (1977).
+\newblock Naturally acquired immunity to influenza type a: a further
+  prospective study.
+\newblock {\em Med J Aust}, 2(23)\string:\penalty500\relax 761--765.
+
+\bibitem[Gillespie, 1977]{Gillespie1977}
+\bgroup\fonteauteurs\bgroup Gillespie\egroup\egroup{}, D.~T. (1977).
+\newblock Exact stochastic simulation of coupled chemical reactions.
+\newblock {\em The Journal of Physical Chemistry},
+  81(25)\string:\penalty500\relax 2340--2361.
+
+\bibitem[Ginzburg \& Jensen, 2004]{Ginzburg2004}
+\bgroup\fonteauteurs\bgroup Ginzburg\egroup\egroup{}, L.~R. \&
+  \bgroup\fonteauteurs\bgroup Jensen\egroup\egroup{}, C. X.~J. (2004).
+\newblock Rules of thumb for judging ecological theories.
+\newblock {\em Trends Ecol Evol}, 19(3)\string:\penalty500\relax 121--126.
+
+\bibitem[Girvan \emph{et~al.}, 2002]{Girvan2002}
+\bgroup\fonteauteurs\bgroup Girvan\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Callaway\egroup\egroup{}, D.~S.,
+  \bgroup\fonteauteurs\bgroup Newman\egroup\egroup{}, M. E.~J. \&
+  \bgroup\fonteauteurs\bgroup Strogatz\egroup\egroup{}, S.~H. (2002).
+\newblock Simple model of epidemics with pathogen mutation.
+\newblock {\em Phys Rev E Stat Nonlin Soft Matter Phys}, 65(3 Pt
+  1)\string:\penalty500\relax 031915.
+
+\bibitem[Gog, 2008]{Gog2008}
+\bgroup\fonteauteurs\bgroup Gog\egroup\egroup{}, J.~R. (2008).
+\newblock The impact of evolutionary constraints on influenza dynamics.
+\newblock {\em Vaccine}, 26 Suppl 3\string:\penalty500\relax C15--C24.
+
+\bibitem[Gog \& Grenfell, 2002]{Gog2002}
+\bgroup\fonteauteurs\bgroup Gog\egroup\egroup{}, J.~R. \&
+  \bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T. (2002).
+\newblock Dynamics and selection of many-strain pathogens.
+\newblock {\em Proc Natl Acad Sci U S A}, 99(26)\string:\penalty500\relax
+  17209--17214.
+
+\bibitem[Gog \emph{et~al.}, 2003]{Gog2003}
+\bgroup\fonteauteurs\bgroup Gog\egroup\egroup{}, J.~R.,
+  \bgroup\fonteauteurs\bgroup Rimmelzwaan\egroup\egroup{}, G.~F.,
+  \bgroup\fonteauteurs\bgroup Osterhaus\egroup\egroup{}, A. D. M.~E. \&
+  \bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T. (2003).
+\newblock Population dynamics of rapid fixation in cytotoxic t lymphocyte
+  escape mutants of influenza a.
+\newblock {\em Proc Natl Acad Sci U S A}, 100(19)\string:\penalty500\relax
+  11143--11147.
+
+\bibitem[Gog \& Swinton, 2002]{Gog2002a}
+\bgroup\fonteauteurs\bgroup Gog\egroup\egroup{}, J.~R. \&
+  \bgroup\fonteauteurs\bgroup Swinton\egroup\egroup{}, J. (2002).
+\newblock A status-based approach to multiple strain dynamics.
+\newblock {\em J Math Biol}, 44(2)\string:\penalty500\relax 169--184.
+
+\bibitem[Gomes \emph{et~al.}, 2004a]{Gomes2004}
+\bgroup\fonteauteurs\bgroup Gomes\egroup\egroup{}, M. G.~M.,
+  \bgroup\fonteauteurs\bgroup Franco\egroup\egroup{}, A.~O.,
+  \bgroup\fonteauteurs\bgroup Gomes\egroup\egroup{}, M.~C. \&
+  \bgroup\fonteauteurs\bgroup Medley\egroup\egroup{}, G.~F. (2004a).
+\newblock The reinfection threshold promotes variability in tuberculosis
+  epidemiology and vaccine efficacy.
+\newblock {\em Proc Biol Sci}, 271(1539)\string:\penalty500\relax 617--623.
+
+\bibitem[Gomes \emph{et~al.}, 2002]{Gomes2002}
+\bgroup\fonteauteurs\bgroup Gomes\egroup\egroup{}, M. G.~M.,
+  \bgroup\fonteauteurs\bgroup Medley\egroup\egroup{}, G.~F. \&
+  \bgroup\fonteauteurs\bgroup Nokes\egroup\egroup{}, D.~J. (2002).
+\newblock On the determinants of population structure in antigenically diverse
+  pathogens.
+\newblock {\em Proc Biol Sci}, 269(1488)\string:\penalty500\relax 227--233.
+
+\bibitem[Gomes \emph{et~al.}, 2004b]{Gomes2004a}
+\bgroup\fonteauteurs\bgroup Gomes\egroup\egroup{}, M. G.~M.,
+  \bgroup\fonteauteurs\bgroup White\egroup\egroup{}, L.~J. \&
+  \bgroup\fonteauteurs\bgroup Medley\egroup\egroup{}, G.~F. (2004b).
+\newblock Infection, reinfection, and vaccination under suboptimal immune
+  protection: epidemiological perspectives.
+\newblock {\em J Theor Biol}, 228(4)\string:\penalty500\relax 539--549.
+
+\bibitem[Gomes \emph{et~al.}, 2005]{Gomes2005}
+\bgroup\fonteauteurs\bgroup Gomes\egroup\egroup{}, M. G.~M.,
+  \bgroup\fonteauteurs\bgroup White\egroup\egroup{}, L.~J. \&
+  \bgroup\fonteauteurs\bgroup Medley\egroup\egroup{}, G.~F. (2005).
+\newblock The reinfection threshold.
+\newblock {\em J Theor Biol}, 236(1)\string:\penalty500\relax 111--113.
+
+\bibitem[Grais \emph{et~al.}, 2003]{Grais2003}
+\bgroup\fonteauteurs\bgroup Grais\egroup\egroup{}, R.~F.,
+  \bgroup\fonteauteurs\bgroup Ellis\egroup\egroup{}, J.~H. \&
+  \bgroup\fonteauteurs\bgroup Glass\egroup\egroup{}, G.~E. (2003).
+\newblock Assessing the impact of airline travel on the geographic spread of
+  pandemic influenza.
+\newblock {\em Eur J Epidemiol}, 18(11)\string:\penalty500\relax 1065--1072.
+
+\bibitem[Grebe \emph{et~al.}, 2008]{Grebe2008}
+\bgroup\fonteauteurs\bgroup Grebe\egroup\egroup{}, K.~M.,
+  \bgroup\fonteauteurs\bgroup Yewdell\egroup\egroup{}, J.~W. \&
+  \bgroup\fonteauteurs\bgroup Bennink\egroup\egroup{}, J.~R. (2008).
+\newblock Heterosubtypic immunity to influenza a virus: where do we stand?
+\newblock {\em Microbes Infect}, 10(9)\string:\penalty500\relax 1024--1029.
+
+\bibitem[Grenfell \emph{et~al.}, 2001]{Grenfell2001}
+\bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T.,
+  \bgroup\fonteauteurs\bgroup Bjørnstad\egroup\egroup{}, O.~N. \&
+  \bgroup\fonteauteurs\bgroup Kappey\egroup\egroup{}, J. (2001).
+\newblock Travelling waves and spatial hierarchies in measles epidemics.
+\newblock {\em Nature}, 414(6865)\string:\penalty500\relax 716--723.
+
+\bibitem[Grenfell \emph{et~al.}, 2004]{Grenfell2004}
+\bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T.,
+  \bgroup\fonteauteurs\bgroup Pybus\egroup\egroup{}, O.~G.,
+  \bgroup\fonteauteurs\bgroup Gog\egroup\egroup{}, J.~R.,
+  \bgroup\fonteauteurs\bgroup Wood\egroup\egroup{}, J. L.~N.,
+  \bgroup\fonteauteurs\bgroup Daly\egroup\egroup{}, J.~M.,
+  \bgroup\fonteauteurs\bgroup Mumford\egroup\egroup{}, J.~A. \&
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. (2004).
+\newblock Unifying the epidemiological and evolutionary dynamics of pathogens.
+\newblock {\em Science}, 303(5656)\string:\penalty500\relax 327--332.
+
+\bibitem[Gupta \emph{et~al.}, 1998]{Gupta1998}
+\bgroup\fonteauteurs\bgroup Gupta\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Ferguson\egroup\egroup{}, N. \&
+  \bgroup\fonteauteurs\bgroup Anderson\egroup\egroup{}, R. (1998).
+\newblock Chaos, persistence, and evolution of strain structure in
+  antigenically diverse infectious agents.
+\newblock {\em Science}, 280(5365)\string:\penalty500\relax 912--915.
+
+\bibitem[Gökaydin \emph{et~al.}, 2007]{Goekaydin2007}
+\bgroup\fonteauteurs\bgroup Gökaydin\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Oliveira-Martins\egroup\egroup{}, J.~B.,
+  \bgroup\fonteauteurs\bgroup Gordo\egroup\egroup{}, I. \&
+  \bgroup\fonteauteurs\bgroup Gomes\egroup\egroup{}, M. G.~M. (2007).
+\newblock The reinfection threshold regulates pathogen diversity: the case of
+  influenza.
+\newblock {\em J R Soc Interface}, 4(12)\string:\penalty500\relax 137--142.
+
+\bibitem[Hammond \& Tyrrell, 1971]{Hammond1971}
+\bgroup\fonteauteurs\bgroup Hammond\egroup\egroup{}, B.~J. \&
+  \bgroup\fonteauteurs\bgroup Tyrrell\egroup\egroup{}, D. A.~J. (1971).
+\newblock A mathematical model of common-cold epidemics on tristan da cunha.
+\newblock {\em The Journal of Hygiene}, 69(3)\string:\penalty500\relax
+  423--433.
+
+\bibitem[Hay \emph{et~al.}, 2001]{Hay2001}
+\bgroup\fonteauteurs\bgroup Hay\egroup\egroup{}, A.~J.,
+  \bgroup\fonteauteurs\bgroup Gregory\egroup\egroup{}, V.,
+  \bgroup\fonteauteurs\bgroup Douglas\egroup\egroup{}, A.~R. \&
+  \bgroup\fonteauteurs\bgroup Lin\egroup\egroup{}, Y.~P. (2001).
+\newblock The evolution of human influenza viruses.
+\newblock {\em Philos Trans R Soc Lond B Biol Sci},
+  356(1416)\string:\penalty500\relax 1861--1870.
+
+\bibitem[Hilleman, 2002]{Hilleman2002}
+\bgroup\fonteauteurs\bgroup Hilleman\egroup\egroup{}, M.~R. (2002).
+\newblock Realities and enigmas of human viral influenza: pathogenesis,
+  epidemiology and control.
+\newblock {\em Vaccine}, 20(25-26)\string:\penalty500\relax 3068--3087.
+
+\bibitem[Holland \emph{et~al.}, 1958]{HOLLAND1958}
+\bgroup\fonteauteurs\bgroup Holland\egroup\egroup{}, W.~W.,
+  \bgroup\fonteauteurs\bgroup Isaacs\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Clarke\egroup\egroup{}, S.~K. \&
+  \bgroup\fonteauteurs\bgroup Heath\egroup\egroup{}, R.~B. (1958).
+\newblock A serological trail of asian-influenza vaccine after the autumn
+  epidemic.
+\newblock {\em Lancet}, 1(7025)\string:\penalty500\relax 820--822.
+
+\bibitem[Holmes, 2003]{Holmes2003}
+\bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. (2003).
+\newblock Error thresholds and the constraints to rna virus evolution.
+\newblock {\em Trends Microbiol}, 11(12)\string:\penalty500\relax 543--546.
+
+\bibitem[Holmes, 2007]{Holmes2007}
+\bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. (2007).
+\newblock Viral evolution in the genomic age.
+\newblock {\em PLoS Biology}, 5(10)\string:\penalty500\relax e278.
+
+\bibitem[Holmes, 2008]{Holmes2008}
+\bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. (2008).
+\newblock Evolutionary history and phylogeography of human viruses.
+\newblock {\em Annu Rev Microbiol}, 62\string:\penalty500\relax 307--328.
+
+\bibitem[Holmes \emph{et~al.}, 2005]{Holmes2005}
+\bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C.,
+  \bgroup\fonteauteurs\bgroup Ghedin\egroup\egroup{}, E.,
+  \bgroup\fonteauteurs\bgroup Miller\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Taylor\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Bao\egroup\egroup{}, Y.,
+  \bgroup\fonteauteurs\bgroup George\egroup\egroup{}, K.~S.,
+  \bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T.,
+  \bgroup\fonteauteurs\bgroup Salzberg\egroup\egroup{}, S.~L.,
+  \bgroup\fonteauteurs\bgroup Fraser\egroup\egroup{}, C.~M.,
+  \bgroup\fonteauteurs\bgroup Lipman\egroup\egroup{}, D.~J. \&
+  \bgroup\fonteauteurs\bgroup Taubenberger\egroup\egroup{}, J.~K. (2005).
+\newblock Whole-genome analysis of human influenza a virus reveals multiple
+  persistent lineages and reassortment among recent h3n2 viruses.
+\newblock {\em PLoS Biol}, 3(9)\string:\penalty500\relax e300.
+
+\bibitem[Holmes \& Grenfell, 2009]{Holmes2009}
+\bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. \&
+  \bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T. (2009).
+\newblock Discovering the phylodynamics of rna viruses.
+\newblock {\em PLoS Comput Biol}, 5(10)\string:\penalty500\relax e1000505.
+
+\bibitem[Holmes \& Twiddy, 2003]{Holmes2003a}
+\bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. \&
+  \bgroup\fonteauteurs\bgroup Twiddy\egroup\egroup{}, S.~S. (2003).
+\newblock The origin, emergence and evolutionary genetics of dengue virus.
+\newblock {\em Infect Genet Evol}, 3(1)\string:\penalty500\relax 19--28.
+
+\bibitem[Ionides \emph{et~al.}, 2006]{Ionides2006}
+\bgroup\fonteauteurs\bgroup Ionides\egroup\egroup{}, E.~L.,
+  \bgroup\fonteauteurs\bgroup Bretó\egroup\egroup{}, C. \&
+  \bgroup\fonteauteurs\bgroup King\egroup\egroup{}, A.~A. (2006).
+\newblock Inference for nonlinear dynamical systems.
+\newblock {\em Proc Natl Acad Sci U S A}, 103(49)\string:\penalty500\relax
+  18438--18443.
+
+\bibitem[Itoh \emph{et~al.}, 2009]{Itoh2009}
+\bgroup\fonteauteurs\bgroup Itoh\egroup\egroup{}, Y.,
+  \bgroup\fonteauteurs\bgroup Shinya\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Kiso\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Watanabe\egroup\egroup{}, T.,
+  \bgroup\fonteauteurs\bgroup Sakoda\egroup\egroup{}, Y.,
+  \bgroup\fonteauteurs\bgroup Hatta\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Muramoto\egroup\egroup{}, Y.,
+  \bgroup\fonteauteurs\bgroup Tamura\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Sakai-Tagawa\egroup\egroup{}, Y.,
+  \bgroup\fonteauteurs\bgroup Noda\egroup\egroup{}, T.,
+  \bgroup\fonteauteurs\bgroup Sakabe\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Imai\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Hatta\egroup\egroup{}, Y.,
+  \bgroup\fonteauteurs\bgroup Watanabe\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Li\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Yamada\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Fujii\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Murakami\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Imai\egroup\egroup{}, H.,
+  \bgroup\fonteauteurs\bgroup Kakugawa\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Ito\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Takano\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Iwatsuki-Horimoto\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Shimojima\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Horimoto\egroup\egroup{}, T.,
+  \bgroup\fonteauteurs\bgroup Goto\egroup\egroup{}, H.,
+  \bgroup\fonteauteurs\bgroup Takahashi\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Makino\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Ishigaki\egroup\egroup{}, H.,
+  \bgroup\fonteauteurs\bgroup Nakayama\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Okamatsu\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Takahashi\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Warshauer\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Shult\egroup\egroup{}, P.~A.,
+  \bgroup\fonteauteurs\bgroup Saito\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Suzuki\egroup\egroup{}, H.,
+  \bgroup\fonteauteurs\bgroup Furuta\egroup\egroup{}, Y.,
+  \bgroup\fonteauteurs\bgroup Yamashita\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Mitamura\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Nakano\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Nakamura\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Brockman-Schneider\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Mitamura\egroup\egroup{}, H.,
+  \bgroup\fonteauteurs\bgroup Yamazaki\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Sugaya\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Suresh\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Ozawa\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Neumann\egroup\egroup{}, G.,
+  \bgroup\fonteauteurs\bgroup Gern\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Kida\egroup\egroup{}, H.,
+  \bgroup\fonteauteurs\bgroup Ogasawara\egroup\egroup{}, K. \&
+  \bgroup\fonteauteurs\bgroup Kawaoka\egroup\egroup{}, Y. (2009).
+\newblock In vitro and in vivo characterization of new swine-origin h1n1
+  influenza viruses.
+\newblock {\em Nature}, 460(7258)\string:\penalty500\relax 1021--1025.
+
+\bibitem[Janeway \emph{et~al.}, 1999]{Janeway1999}
+\bgroup\fonteauteurs\bgroup Janeway\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Travers\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Walport\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup Capra\egroup\egroup{}, J. (1999).
+\newblock {\em Immunobiology. The immune system in health and disease.4th
+  Edition.}
+\newblock Current Biology Ltd./Garland Publishing Inc. Churchill Livingstone.
+
+\bibitem[Jeffries \emph{et~al.}, 2004]{Jeffries2004}
+\bgroup\fonteauteurs\bgroup Jeffries\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Rockwell\egroup\egroup{}, R. \&
+  \bgroup\fonteauteurs\bgroup Abraham\egroup\egroup{}, K. (2004).
+\newblock The embarassement of riches: agricultural food subsidies, high goose
+  numbers, and loss of atic wetlands- a continuing saga.
+\newblock {\em Environment Review}, 11\string:\penalty500\relax 193--232.
+
+\bibitem[Jensen \& Peterson, 1957]{Jensen1957}
+\bgroup\fonteauteurs\bgroup Jensen\egroup\egroup{}, K.~E. \&
+  \bgroup\fonteauteurs\bgroup Peterson\egroup\egroup{}, W.~D. (1957).
+\newblock Comparative measurements of antigenic differences among human and
+  swine influenza viruses.
+\newblock {\em J Immunol}, 78(5)\string:\penalty500\relax 365--372.
+
+\bibitem[Jin \emph{et~al.}, 2005]{Jin2005}
+\bgroup\fonteauteurs\bgroup Jin\egroup\egroup{}, H.,
+  \bgroup\fonteauteurs\bgroup Zhou\egroup\egroup{}, H.,
+  \bgroup\fonteauteurs\bgroup Liu\egroup\egroup{}, H.,
+  \bgroup\fonteauteurs\bgroup Chan\egroup\egroup{}, W.,
+  \bgroup\fonteauteurs\bgroup Adhikary\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Mahmood\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Lee\egroup\egroup{}, M.-S. \&
+  \bgroup\fonteauteurs\bgroup Kemble\egroup\egroup{}, G. (2005).
+\newblock Two residues in the hemagglutinin of a/fujian/411/02-like influenza
+  viruses are responsible for antigenic drift from a/panama/2007/99.
+\newblock {\em Virology}, 336(1)\string:\penalty500\relax 113--119.
+
+\bibitem[Jones \emph{et~al.}, 2008]{Jones2008}
+\bgroup\fonteauteurs\bgroup Jones\egroup\egroup{}, K.~E.,
+  \bgroup\fonteauteurs\bgroup Patel\egroup\egroup{}, N.~G.,
+  \bgroup\fonteauteurs\bgroup Levy\egroup\egroup{}, M.~A.,
+  \bgroup\fonteauteurs\bgroup Storeygard\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Balk\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Gittleman\egroup\egroup{}, J.~L. \&
+  \bgroup\fonteauteurs\bgroup Daszak\egroup\egroup{}, P. (2008).
+\newblock Global trends in emerging infectious diseases.
+\newblock {\em Nature}, 451(7181)\string:\penalty500\relax 990--993.
+
+\bibitem[Kamo \& Sasaki, 2002]{Kamo2002}
+\bgroup\fonteauteurs\bgroup Kamo\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup Sasaki\egroup\egroup{}, A. (2002).
+\newblock The effect of cross-immunity and seasonal forcing in a multi-strain
+  epidemic model.
+\newblock {\em pyhysica D}, 165(165)\string:\penalty500\relax 228--241.
+
+\bibitem[Kantz \& Schreiber, 2003]{Kantz2003}
+\bgroup\fonteauteurs\bgroup Kantz\egroup\egroup{}, H. \&
+  \bgroup\fonteauteurs\bgroup Schreiber\egroup\egroup{}, T. (2003).
+\newblock {\em Nonlinear Time Series Analysis}.
+\newblock Cambridge University Press, New York, NY, USA.
+
+\bibitem[Kapan \emph{et~al.}, 2006]{Kapan2006}
+\bgroup\fonteauteurs\bgroup Kapan\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Bennett\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Ellis\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Fox\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Lewis\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Spencer\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Saksena\egroup\egroup{}, S. \&
+  \bgroup\fonteauteurs\bgroup Wilcox\egroup\egroup{}, B. (2006).
+\newblock Avian influenza (h5n1) and the evolutionary and social ecology of
+  infectious disease emergence.
+\newblock {\em EcoHealth}, 3(3)\string:\penalty500\relax 187--194.
+
+\bibitem[Kawaguchi \emph{et~al.}, 2003]{Kawaguchi2003}
+\bgroup\fonteauteurs\bgroup Kawaguchi\egroup\egroup{}, I.,
+  \bgroup\fonteauteurs\bgroup Sasaki\egroup\egroup{}, A. \&
+  \bgroup\fonteauteurs\bgroup Boots\egroup\egroup{}, M. (2003).
+\newblock Why are dengue virus serotypes so distantly related? enhancement and
+  limiting serotype similarity between dengue virus strains.
+\newblock {\em Proc Biol Sci}, 270(1530)\string:\penalty500\relax 2241--2247.
+
+\bibitem[Keeling, 2000]{Keeling2000}
+\bgroup\fonteauteurs\bgroup Keeling\egroup\egroup{}, M. (2000).
+\newblock Evolutionary trade-offs at two time-scales: competition versus
+  persistence.
+\newblock {\em Proc Biol Sci}, 267(1441)\string:\penalty500\relax 385--391.
+
+\bibitem[Keeling \& Grenfell, 1997]{Keeling1997a}
+\bgroup\fonteauteurs\bgroup Keeling\egroup\egroup{}, M.~J. \&
+  \bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T. (1997).
+\newblock Disease extinction and community size: modeling the persistence of
+  measles.
+\newblock {\em Science}, 275(5296)\string:\penalty500\relax 65--67.
+
+\bibitem[Keeling \& Grenfell, 2002]{Keeling2002}
+\bgroup\fonteauteurs\bgroup Keeling\egroup\egroup{}, M.~J. \&
+  \bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T. (2002).
+\newblock Understanding the persistence of measles: reconciling theory,
+  simulation and observation.
+\newblock {\em Proc Biol Sci}, 269(1489)\string:\penalty500\relax 335--343.
+
+\bibitem[Kilbourne, 2006]{Kilbourne2006}
+\bgroup\fonteauteurs\bgroup Kilbourne\egroup\egroup{}, E.~D. (2006).
+\newblock Influenza pandemics of the 20th century.
+\newblock {\em Emerg Infect Dis}, 12(1)\string:\penalty500\relax 9--14.
+
+\bibitem[Kilbourne \emph{et~al.}, 2002]{Kilbourne2002}
+\bgroup\fonteauteurs\bgroup Kilbourne\egroup\egroup{}, E.~D.,
+  \bgroup\fonteauteurs\bgroup Smith\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Brett\egroup\egroup{}, I.,
+  \bgroup\fonteauteurs\bgroup Pokorny\egroup\egroup{}, B.~A.,
+  \bgroup\fonteauteurs\bgroup Johansson\egroup\egroup{}, B. \&
+  \bgroup\fonteauteurs\bgroup Cox\egroup\egroup{}, N. (2002).
+\newblock The total influenza vaccine failure of 1947 revisited: major
+  intrasubtypic antigenic change can explain failure of vaccine in a post-world
+  war ii epidemic.
+\newblock {\em Proc Natl Acad Sci U S A}, 99(16)\string:\penalty500\relax
+  10748--10752.
+
+\bibitem[Kilpatrick \emph{et~al.}, 2006]{Kilpatrick2006}
+\bgroup\fonteauteurs\bgroup Kilpatrick\egroup\egroup{}, A.~M.,
+  \bgroup\fonteauteurs\bgroup Chmura\egroup\egroup{}, A.~A.,
+  \bgroup\fonteauteurs\bgroup Gibbons\egroup\egroup{}, D.~W.,
+  \bgroup\fonteauteurs\bgroup Fleischer\egroup\egroup{}, R.~C.,
+  \bgroup\fonteauteurs\bgroup Marra\egroup\egroup{}, P.~P. \&
+  \bgroup\fonteauteurs\bgroup Daszak\egroup\egroup{}, P. (2006).
+\newblock Predicting the global spread of h5n1 avian influenza.
+\newblock {\em Proc Natl Acad Sci U S A}, 103(51)\string:\penalty500\relax
+  19368--19373.
+
+\bibitem[Kim \emph{et~al.}, 2009]{Kim2009}
+\bgroup\fonteauteurs\bgroup Kim\egroup\egroup{}, J.~H.,
+  \bgroup\fonteauteurs\bgroup Skountzou\egroup\egroup{}, I.,
+  \bgroup\fonteauteurs\bgroup Compans\egroup\egroup{}, R. \&
+  \bgroup\fonteauteurs\bgroup Jacob\egroup\egroup{}, J. (2009).
+\newblock Original antigenic sin responses to influenza viruses.
+\newblock {\em J Immunol}, 183(5)\string:\penalty500\relax 3294--3301.
+
+\bibitem[King \emph{et~al.}, 2008]{King2008}
+\bgroup\fonteauteurs\bgroup King\egroup\egroup{}, A.~A.,
+  \bgroup\fonteauteurs\bgroup Ionides\egroup\egroup{}, E.~L.,
+  \bgroup\fonteauteurs\bgroup Pascual\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup Bouma\egroup\egroup{}, M.~J. (2008).
+\newblock Inapparent infections and cholera dynamics.
+\newblock {\em Nature}, 454(7206)\string:\penalty500\relax 877--880.
+
+\bibitem[King \emph{et~al.}, 2009]{King2009}
+\bgroup\fonteauteurs\bgroup King\egroup\egroup{}, A.~A.,
+  \bgroup\fonteauteurs\bgroup Shrestha\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Harvill\egroup\egroup{}, E.~T. \&
+  \bgroup\fonteauteurs\bgroup Bjørnstad\egroup\egroup{}, O.~N. (2009).
+\newblock Evolution of acute infections and the invasion-persistence trade-off.
+\newblock {\em Am Nat}, 173(4)\string:\penalty500\relax 446--455.
+
+\bibitem[Koelle \emph{et~al.}, 2006]{Koelle2006}
+\bgroup\fonteauteurs\bgroup Koelle\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Cobey\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B. \&
+  \bgroup\fonteauteurs\bgroup Pascual\egroup\egroup{}, M. (2006).
+\newblock Epochal evolution shapes the phylodynamics of interpandemic influenza
+  a (h3n2) in humans.
+\newblock {\em Science}, 314(5807)\string:\penalty500\relax 1898--1903.
+
+\bibitem[Koelle \emph{et~al.}, 2009]{Koelle2009}
+\bgroup\fonteauteurs\bgroup Koelle\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Kamradt\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup Pascual\egroup\egroup{}, M. (2009).
+\newblock Understanding the dynamics of rapidly evolving pathogens through
+  modeling the tempo of antigenic change: Influenza as a case study.
+\newblock {\em Epidemics}, 1(2)\string:\penalty500\relax 129--137.
+
+\bibitem[Kryazhimskiy \emph{et~al.}, 2007]{Kryazhimskiy2007}
+\bgroup\fonteauteurs\bgroup Kryazhimskiy\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Dieckmann\egroup\egroup{}, U.,
+  \bgroup\fonteauteurs\bgroup Levin\egroup\egroup{}, S.~A. \&
+  \bgroup\fonteauteurs\bgroup Dushoff\egroup\egroup{}, J. (2007).
+\newblock On state-space reduction in multi-strain pathogen models, with an
+  application to antigenic drift in influenza a.
+\newblock {\em PLoS Comput Biol}, 3(8)\string:\penalty500\relax e159.
+
+\bibitem[Lange \& Ferguson, 2009]{Lange2009}
+\bgroup\fonteauteurs\bgroup Lange\egroup\egroup{}, A. \&
+  \bgroup\fonteauteurs\bgroup Ferguson\egroup\egroup{}, N.~M. (2009).
+\newblock Antigenic diversity, transmission mechanisms, and the evolution of
+  pathogens.
+\newblock {\em PLoS Comput Biol}, 5(10)\string:\penalty500\relax e1000536.
+
+\bibitem[Lavenu \emph{et~al.}, 2006]{Lavenu2006}
+\bgroup\fonteauteurs\bgroup Lavenu\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Leruez-Ville\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Chaix\egroup\egroup{}, M.-L.,
+  \bgroup\fonteauteurs\bgroup Boelle\egroup\egroup{}, P.-Y.,
+  \bgroup\fonteauteurs\bgroup Rogez\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Freymuth\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup Hay\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Rouzioux\egroup\egroup{}, C. \&
+  \bgroup\fonteauteurs\bgroup Carrat\egroup\egroup{}, F. (2006).
+\newblock Detailed analysis of the genetic evolution of influenza virus during
+  the course of an epidemic.
+\newblock {\em Epidemiol Infect}, 134(3)\string:\penalty500\relax 514--520.
+
+\bibitem[Lavenu \emph{et~al.}, 2004]{Lavenu2004}
+\bgroup\fonteauteurs\bgroup Lavenu\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Valleron\egroup\egroup{}, A.-J. \&
+  \bgroup\fonteauteurs\bgroup Carrat\egroup\egroup{}, F. (2004).
+\newblock Exploring cross-protection between influenza strains by an
+  epidemiological model.
+\newblock {\em Virus Res}, 103(1-2)\string:\penalty500\relax 101--105.
+
+\bibitem[Leibler \emph{et~al.}, 2009]{Leibler2009}
+\bgroup\fonteauteurs\bgroup Leibler\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Otte\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Roland-Holst\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Pfeiffer\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Soares~Magalhaes\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Rushton\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Graham\egroup\egroup{}, J. \&
+  \bgroup\fonteauteurs\bgroup Silbergeld\egroup\egroup{}, E. (2009).
+\newblock Industrial food animal production and global health risks: Exploring
+  the ecosystems and economics of avian influenza.
+\newblock {\em EcoHealth}, 6(1)\string:\penalty500\relax 58--70.
+
+\bibitem[Lemly \emph{et~al.}, 2000]{Lemly2000}
+\bgroup\fonteauteurs\bgroup Lemly\egroup\egroup{}, \bgroup\fonteauteurs\bgroup
+  Kingsford\egroup\egroup{} \& \bgroup\fonteauteurs\bgroup
+  Thompson\egroup\egroup{} (2000).
+\newblock Irrigated agriculture and wildlife conservation: Conflict on a global
+  scale.
+\newblock {\em Environ Manage}, 25(5)\string:\penalty500\relax 485--512.
+
+\bibitem[Lessler \emph{et~al.}, 2007]{Lessler2007}
+\bgroup\fonteauteurs\bgroup Lessler\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Cummings\egroup\egroup{}, D. A.~T.,
+  \bgroup\fonteauteurs\bgroup Fishman\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Vora\egroup\egroup{}, A. \&
+  \bgroup\fonteauteurs\bgroup Burke\egroup\egroup{}, D.~S. (2007).
+\newblock Transmissibility of swine flu at fort dix, 1976.
+\newblock {\em J R Soc Interface}, 4(15)\string:\penalty500\relax 755--762.
+
+\bibitem[Lin \emph{et~al.}, 1999]{Lin1999}
+\bgroup\fonteauteurs\bgroup Lin\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Andreasen\egroup\egroup{}, V. \&
+  \bgroup\fonteauteurs\bgroup Levin\egroup\egroup{}, S.~A. (1999).
+\newblock Dynamics of influenza a drift: the linear three-strain model.
+\newblock {\em Math Biosci}, 162(1-2)\string:\penalty500\relax 33--51.
+
+\bibitem[Lin \emph{et~al.}, 2004]{Lin2004}
+\bgroup\fonteauteurs\bgroup Lin\egroup\egroup{}, Y.~P.,
+  \bgroup\fonteauteurs\bgroup Gregory\egroup\egroup{}, V.,
+  \bgroup\fonteauteurs\bgroup Bennett\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup Hay\egroup\egroup{}, A. (2004).
+\newblock Recent changes among human influenza viruses.
+\newblock {\em Virus Res}, 103(1-2)\string:\penalty500\relax 47--52.
+
+\bibitem[Lipsitch \& Viboud, 2009]{Lipsitch2009}
+\bgroup\fonteauteurs\bgroup Lipsitch\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C. (2009).
+\newblock Influenza seasonality: lifting the fog.
+\newblock {\em Proc Natl Acad Sci U S A}, 106(10)\string:\penalty500\relax
+  3645--3646.
+
+\bibitem[Liu \emph{et~al.}, 1987]{Liu1987}
+\bgroup\fonteauteurs\bgroup Liu\egroup\egroup{}, W.~M.,
+  \bgroup\fonteauteurs\bgroup Hethcote\egroup\egroup{}, H.~W. \&
+  \bgroup\fonteauteurs\bgroup Levin\egroup\egroup{}, S.~A. (1987).
+\newblock Dynamical behavior of epidemiological models with nonlinear incidence
+  rates.
+\newblock {\em J Math Biol}, 25(4)\string:\penalty500\relax 359--380.
+
+\bibitem[Lloyd-Smith \emph{et~al.}, 2005]{Lloyd-Smith2005}
+\bgroup\fonteauteurs\bgroup Lloyd-Smith\egroup\egroup{}, J.~O.,
+  \bgroup\fonteauteurs\bgroup Cross\egroup\egroup{}, P.~C.,
+  \bgroup\fonteauteurs\bgroup Briggs\egroup\egroup{}, C.~J.,
+  \bgroup\fonteauteurs\bgroup Daugherty\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Getz\egroup\egroup{}, W.~M.,
+  \bgroup\fonteauteurs\bgroup Latto\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Sanchez\egroup\egroup{}, M.~S.,
+  \bgroup\fonteauteurs\bgroup Smith\egroup\egroup{}, A.~B. \&
+  \bgroup\fonteauteurs\bgroup Swei\egroup\egroup{}, A. (2005).
+\newblock Should we expect population thresholds for wildlife disease?
+\newblock {\em Trends in Ecology \& Evolution}, 20(9)\string:\penalty500\relax
+  511--519.
+
+\bibitem[Lopman \emph{et~al.}, 2008]{Lopman2008}
+\bgroup\fonteauteurs\bgroup Lopman\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Zambon\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup Brown\egroup\egroup{}, D.~W. (2008).
+\newblock The evolution of norovirus, the "gastric flu".
+\newblock {\em PLoS Med}, 5(2)\string:\penalty500\relax e42.
+
+\bibitem[Mantle \& Tyrrell, 1973]{Mantle1973}
+\bgroup\fonteauteurs\bgroup Mantle\egroup\egroup{}, J. \&
+  \bgroup\fonteauteurs\bgroup Tyrrell\egroup\egroup{}, D. (1973).
+\newblock An epidemic of influenza on tristan da cunha.
+\newblock {\em The Journal of Hygiene}, 71\string:\penalty500\relax 89--95.
+
+\bibitem[Mathews \emph{et~al.}, 2009]{Mathews2009}
+\bgroup\fonteauteurs\bgroup Mathews\egroup\egroup{}, J.~D.,
+  \bgroup\fonteauteurs\bgroup Chesson\egroup\egroup{}, J.~M.,
+  \bgroup\fonteauteurs\bgroup McCaw\egroup\egroup{}, J.~M. \&
+  \bgroup\fonteauteurs\bgroup McVernon\egroup\egroup{}, J. (2009).
+\newblock Understanding influenza transmission, immunity and pandemic threats.
+\newblock {\em Influenza Other Respi Viruses}, 3(4)\string:\penalty500\relax
+  143--149.
+
+\bibitem[Mathews \emph{et~al.}, 2007]{Mathews2007}
+\bgroup\fonteauteurs\bgroup Mathews\egroup\egroup{}, J.~D.,
+  \bgroup\fonteauteurs\bgroup McCaw\egroup\egroup{}, C.~T.,
+  \bgroup\fonteauteurs\bgroup McVernon\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup McBryde\egroup\egroup{}, E.~S. \&
+  \bgroup\fonteauteurs\bgroup McCaw\egroup\egroup{}, J.~M. (2007).
+\newblock A biological model for influenza transmission: Pandemic planning
+  implications of asymptomatic infection and immunity.
+\newblock {\em PLoS ONE}, 2(11)\string:\penalty500\relax e1220.
+
+\bibitem[McCaw \emph{et~al.}, 2009]{McCaw2009}
+\bgroup\fonteauteurs\bgroup McCaw\egroup\egroup{}, J.~M.,
+  \bgroup\fonteauteurs\bgroup McVernon\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup McBryde\egroup\egroup{}, E.~S. \&
+  \bgroup\fonteauteurs\bgroup Mathews\egroup\egroup{}, J.~D. (2009).
+\newblock Influenza: accounting for prior immunity.
+\newblock {\em Science}, 325(5944)\string:\penalty500\relax 1071; author reply
+  1072--1071; author reply 1073.
+
+\bibitem[McMichael, 2004]{McMichael2004}
+\bgroup\fonteauteurs\bgroup McMichael\egroup\egroup{}, A.~J. (2004).
+\newblock Environmental and social influences on emerging infectious diseases:
+  past, present and future.
+\newblock {\em Philos Trans R Soc Lond B Biol Sci},
+  359(1447)\string:\penalty500\relax 1049--1058.
+
+\bibitem[McMichael, 2001]{McMichael2001}
+\bgroup\fonteauteurs\bgroup McMichael\egroup\egroup{}, T. (2001).
+\newblock {\em Human frontiers, environments, and disease: past patterns,
+  uncertain futures}.
+
+\bibitem[McVernon \emph{et~al.}, 2007]{McVernon2007}
+\bgroup\fonteauteurs\bgroup McVernon\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup McCaw\egroup\egroup{}, C. \&
+  \bgroup\fonteauteurs\bgroup Mathews\egroup\egroup{}, J. (2007).
+\newblock Model answers or trivial pursuits? the role of mathematical models in
+  influenza pandemic preparedness planning.
+\newblock {\em Influenza and Other Respiratory Viruses},
+  1(2)\string:\penalty500\relax 43--54.
+
+\bibitem[Merler \emph{et~al.}, 2008]{Merler2008}
+\bgroup\fonteauteurs\bgroup Merler\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Poletti\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Ajelli\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Caprile\egroup\egroup{}, B. \&
+  \bgroup\fonteauteurs\bgroup Manfredi\egroup\egroup{}, P. (2008).
+\newblock Coinfection can trigger multiple pandemic waves.
+\newblock {\em J Theor Biol}, 254(2)\string:\penalty500\relax 499--507.
+
+\bibitem[Miller \& Stanley, 1944]{Miller1944}
+\bgroup\fonteauteurs\bgroup Miller\egroup\egroup{}, G.~L. \&
+  \bgroup\fonteauteurs\bgroup Stanley\egroup\egroup{}, W.~M. (1944).
+\newblock Quantitative aspects of the red blood cell agglutination test for
+  influenza virus.
+\newblock {\em J Exp Med}, 79(2)\string:\penalty500\relax 185--195.
+
+\bibitem[Minayev \& Ferguson, 2009a]{Minayev2008}
+\bgroup\fonteauteurs\bgroup Minayev\egroup\egroup{}, P. \&
+  \bgroup\fonteauteurs\bgroup Ferguson\egroup\egroup{}, N. (2009a).
+\newblock Improving the realism of deterministic multi-strain models:
+  implications for modelling influenza a.
+\newblock {\em J R Soc Interface}, 6(35)\string:\penalty500\relax 509--518.
+
+\bibitem[Minayev \& Ferguson, 2009b]{Minayev2009}
+\bgroup\fonteauteurs\bgroup Minayev\egroup\egroup{}, P. \&
+  \bgroup\fonteauteurs\bgroup Ferguson\egroup\egroup{}, N. (2009b).
+\newblock Incorporating demographic stochasticity into multi-strain epidemic
+  models: application to influenza a.
+\newblock {\em J R Soc Interface}.
+
+\bibitem[{Ministry Of Health}, 1920]{Health1920}
+\bgroup\fonteauteurs\bgroup {Ministry Of Health}\egroup\egroup{} (1920).
+\newblock {Reports on public health and medical subjects No.4. Pandemic of
+  Influenza 1918-19. London, UK: His Majesty's Stationery Office. FluWeb
+  Historical Influenza Database, http://influenza.sph.unimelb.edu.au, accessed
+  [november 2009]}.
+
+\bibitem[Mira \emph{et~al.}, 2006]{Mira2006}
+\bgroup\fonteauteurs\bgroup Mira\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Pushker\egroup\egroup{}, R. \&
+  \bgroup\fonteauteurs\bgroup Rodríguez-Valera\egroup\egroup{}, F. (2006).
+\newblock The neolithic revolution of bacterial genomes.
+\newblock {\em Trends Microbiol}, 14(5)\string:\penalty500\relax 200--206.
+
+\bibitem[Morens \emph{et~al.}, 2004]{Morens2004}
+\bgroup\fonteauteurs\bgroup Morens\egroup\egroup{}, D.~M.,
+  \bgroup\fonteauteurs\bgroup Folkers\egroup\egroup{}, G.~K. \&
+  \bgroup\fonteauteurs\bgroup Fauci\egroup\egroup{}, A.~S. (2004).
+\newblock The challenge of emerging and re-emerging infectious diseases.
+\newblock {\em Nature}, 430(6996)\string:\penalty500\relax 242--249.
+
+\bibitem[Morens \emph{et~al.}, 2008]{Morens2008}
+\bgroup\fonteauteurs\bgroup Morens\egroup\egroup{}, D.~M.,
+  \bgroup\fonteauteurs\bgroup Folkers\egroup\egroup{}, G.~K. \&
+  \bgroup\fonteauteurs\bgroup Fauci\egroup\egroup{}, A.~S. (2008).
+\newblock Emerging infections: a perpetual challenge.
+\newblock {\em Lancet Infect Dis}, 8(11)\string:\penalty500\relax 710--719.
+
+\bibitem[Morens \emph{et~al.}, 2009]{Morens2009}
+\bgroup\fonteauteurs\bgroup Morens\egroup\egroup{}, D.~M.,
+  \bgroup\fonteauteurs\bgroup Taubenberger\egroup\egroup{}, J.~K. \&
+  \bgroup\fonteauteurs\bgroup Fauci\egroup\egroup{}, A.~S. (2009).
+\newblock The persistent legacy of the 1918 influenza virus.
+\newblock {\em N Engl J Med}, 361(3)\string:\penalty500\relax 225--229.
+
+\bibitem[Morse, 1995]{Morse1995}
+\bgroup\fonteauteurs\bgroup Morse\egroup\egroup{}, S.~S. (1995).
+\newblock Factors in the emergence of infectious diseases.
+\newblock {\em Emerg Infect Dis}, 1(1)\string:\penalty500\relax 7--15.
+
+\bibitem[Moya \emph{et~al.}, 2004]{Moya2004}
+\bgroup\fonteauteurs\bgroup Moya\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. \&
+  \bgroup\fonteauteurs\bgroup González-Candelas\egroup\egroup{}, F. (2004).
+\newblock The population genetics and evolutionary epidemiology of rna viruses.
+\newblock {\em Nat Rev Microbiol}, 2(4)\string:\penalty500\relax 279--288.
+
+\bibitem[Nelson \& Holmes, 2007]{Nelson2007}
+\bgroup\fonteauteurs\bgroup Nelson\egroup\egroup{}, M.~I. \&
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. (2007).
+\newblock The evolution of epidemic influenza.
+\newblock {\em Nat Rev Genet}, 8(3)\string:\penalty500\relax 196--205.
+
+\bibitem[Nelson \emph{et~al.}, 2007]{Nelson2007b}
+\bgroup\fonteauteurs\bgroup Nelson\egroup\egroup{}, M.~I.,
+  \bgroup\fonteauteurs\bgroup Simonsen\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Miller\egroup\egroup{}, M.~A. \&
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. (2007).
+\newblock Phylogenetic analysis reveals the global migration of seasonal
+  influenza a viruses.
+\newblock {\em PLoS Pathog}, 3(9)\string:\penalty500\relax 1220--1228.
+
+\bibitem[Nelson \emph{et~al.}, 2006]{Nelson2006}
+\bgroup\fonteauteurs\bgroup Nelson\egroup\egroup{}, M.~I.,
+  \bgroup\fonteauteurs\bgroup Simonsen\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Miller\egroup\egroup{}, M.~A.,
+  \bgroup\fonteauteurs\bgroup Taylor\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup George\egroup\egroup{}, K.~S.,
+  \bgroup\fonteauteurs\bgroup Griesemer\egroup\egroup{}, S.~B.,
+  \bgroup\fonteauteurs\bgroup Ghedin\egroup\egroup{}, E.,
+  \bgroup\fonteauteurs\bgroup Sengamalay\egroup\egroup{}, N.~A.,
+  \bgroup\fonteauteurs\bgroup Spiro\egroup\egroup{}, D.~J.,
+  \bgroup\fonteauteurs\bgroup Volkov\egroup\egroup{}, I.,
+  \bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T.,
+  \bgroup\fonteauteurs\bgroup Lipman\egroup\egroup{}, D.~J.,
+  \bgroup\fonteauteurs\bgroup Taubenberger\egroup\egroup{}, J.~K. \&
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. (2006).
+\newblock Stochastic processes are key determinants of short-term evolution in
+  influenza a virus.
+\newblock {\em PLoS Pathog}, 2(12)\string:\penalty500\relax e125.
+
+\bibitem[Nelson \emph{et~al.}, 2008]{Nelson2008}
+\bgroup\fonteauteurs\bgroup Nelson\egroup\egroup{}, M.~I.,
+  \bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Simonsen\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Bennett\egroup\egroup{}, R.~T.,
+  \bgroup\fonteauteurs\bgroup Griesemer\egroup\egroup{}, S.~B.,
+  \bgroup\fonteauteurs\bgroup St.~George\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Taylor\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Spiro\egroup\egroup{}, D.~J.,
+  \bgroup\fonteauteurs\bgroup Sengamalay\egroup\egroup{}, N.~A.,
+  \bgroup\fonteauteurs\bgroup Ghedin\egroup\egroup{}, E.,
+  \bgroup\fonteauteurs\bgroup Taubenberger\egroup\egroup{}, J.~K. \&
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. (2008).
+\newblock Multiple reassortment events in the evolutionary history of h1n1
+  influenza a virus since 1918.
+\newblock {\em PLoS Pathog}, 4(2)\string:\penalty500\relax e1000012.
+
+\bibitem[Nicholson \emph{et~al.}, 1979]{Nicholson1979}
+\bgroup\fonteauteurs\bgroup Nicholson\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Tyrrell\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Harrison\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Potter\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Jennings\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Clark\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Schild\egroup\egroup{}, G.,
+  \bgroup\fonteauteurs\bgroup Wood\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Yetts\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Seagroatt\egroup\egroup{}, V.,
+  \bgroup\fonteauteurs\bgroup Huggins\egroup\egroup{}, A. \&
+  \bgroup\fonteauteurs\bgroup Anderson\egroup\egroup{}, S. (1979).
+\newblock Clinical studies of monovalent inactivated whole virus and subunit
+  a/ussr/77 (h1n1) vaccine: serological responses and clinical reactions.
+\newblock {\em Journal of Biological Standardization},
+  7(2)\string:\penalty500\relax 123 -- 136.
+
+\bibitem[Nåsell, 2005]{Naasell2005}
+\bgroup\fonteauteurs\bgroup Nåsell\egroup\egroup{}, I. (2005).
+\newblock A new look at the critical community size for childhood infections.
+\newblock {\em Theor Popul Biol}, 67(3)\string:\penalty500\relax 203--216.
+
+\bibitem[Olinky \emph{et~al.}, 2008]{Olinky2008}
+\bgroup\fonteauteurs\bgroup Olinky\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Huppert\egroup\egroup{}, A. \&
+  \bgroup\fonteauteurs\bgroup Stone\egroup\egroup{}, L. (2008).
+\newblock Seasonal dynamics and thresholds governing recurrent epidemics.
+\newblock {\em Journal of Mathematical Biology}, 56(6)\string:\penalty500\relax
+  827--839.
+
+\bibitem[Olsen \emph{et~al.}, 2006]{Olsen2006}
+\bgroup\fonteauteurs\bgroup Olsen\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Munster\egroup\egroup{}, V.~J.,
+  \bgroup\fonteauteurs\bgroup Wallensten\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Waldenström\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Osterhaus\egroup\egroup{}, A. D. M.~E. \&
+  \bgroup\fonteauteurs\bgroup Fouchier\egroup\egroup{}, R. A.~M. (2006).
+\newblock Global patterns of influenza a virus in wild birds.
+\newblock {\em Science}, 312(5772)\string:\penalty500\relax 384--388.
+
+\bibitem[Ott \& Sommerer, 1994]{Ott1994}
+\bgroup\fonteauteurs\bgroup Ott\egroup\egroup{}, E. \&
+  \bgroup\fonteauteurs\bgroup Sommerer\egroup\egroup{}, J.~C. (1994).
+\newblock Blowout bifurcations: the occurrence of riddled basins and on-off
+  intermittency.
+\newblock {\em Physics Letters A}, 188\string:\penalty500\relax 39--47.
+
+\bibitem[Oxford \emph{et~al.}, 2005]{Oxford2005}
+\bgroup\fonteauteurs\bgroup Oxford\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Lambkin\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Sefton\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Daniels\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Elliot\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Brown\egroup\egroup{}, R. \&
+  \bgroup\fonteauteurs\bgroup Gill\egroup\egroup{}, D. (2005).
+\newblock A hypothesis: the conjunction of soldiers, gas, pigs, ducks, geese
+  and horses in northern france during the great war provided the conditions
+  for the emergence of the "spanish" influenza pandemic of 1918-1919.
+\newblock {\em Vaccine}, 23(7)\string:\penalty500\relax 940--945.
+
+\bibitem[Pease, 1987]{Pease1987}
+\bgroup\fonteauteurs\bgroup Pease\egroup\egroup{}, C.~M. (1987).
+\newblock An evolutionary epidemiological mechanism, with applications to type
+  a influenza.
+\newblock {\em Theor Popul Biol}, 31(3)\string:\penalty500\relax 422--452.
+
+\bibitem[Plotkin \emph{et~al.}, 2002]{Plotkin2002}
+\bgroup\fonteauteurs\bgroup Plotkin\egroup\egroup{}, J.~B.,
+  \bgroup\fonteauteurs\bgroup Dushoff\egroup\egroup{}, J. \&
+  \bgroup\fonteauteurs\bgroup Levin\egroup\egroup{}, S.~A. (2002).
+\newblock Hemagglutinin sequence clusters and the antigenic evolution of
+  influenza a virus.
+\newblock {\em Proc Natl Acad Sci U S A}, 99(9)\string:\penalty500\relax
+  6263--6268.
+
+\bibitem[Poletti \emph{et~al.}, 2009]{Poletti2009}
+\bgroup\fonteauteurs\bgroup Poletti\egroup\egroup{}, P.,
+  \bgroup\fonteauteurs\bgroup Caprile\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Ajelli\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Pugliese\egroup\egroup{}, A. \&
+  \bgroup\fonteauteurs\bgroup Merler\egroup\egroup{}, S. (2009).
+\newblock Spontaneous behavioural changes in response to epidemics.
+\newblock {\em J Theor Biol}, 260(1)\string:\penalty500\relax 31--40.
+
+\bibitem[Potter, 2001]{Potter2001}
+\bgroup\fonteauteurs\bgroup Potter\egroup\egroup{}, C. (2001).
+\newblock A history of influenza.
+\newblock {\em Journal of Applied Microbiology}, 91(4)\string:\penalty500\relax
+  572--579.
+
+\bibitem[Potter \emph{et~al.}, 1977]{Potter1977}
+\bgroup\fonteauteurs\bgroup Potter\egroup\egroup{}, C.~W.,
+  \bgroup\fonteauteurs\bgroup Jennings\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Nicholson\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Tyrrell\egroup\egroup{}, D.~A. \&
+  \bgroup\fonteauteurs\bgroup Dickinson\egroup\egroup{}, K.~G. (1977).
+\newblock Immunity to attenuated influenza virus wrl 105 infection induced by
+  heterologous, inactivated influenza a virus vaccines.
+\newblock {\em J Hyg (Lond)}, 79(3)\string:\penalty500\relax 321--332.
+
+\bibitem[{R Development Core Team}, 2008]{R2008}
+\bgroup\fonteauteurs\bgroup {R Development Core Team}\egroup\egroup{} (2008).
+\newblock {\em R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria.
+\newblock {ISBN} 3-900051-07-0.
+
+\bibitem[Rambaut \emph{et~al.}, 2004]{Rambaut2004}
+\bgroup\fonteauteurs\bgroup Rambaut\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Posada\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Crandall\egroup\egroup{}, K.~A. \&
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. (2004).
+\newblock The causes and consequences of hiv evolution.
+\newblock {\em Nat Rev Genet}, 5(1)\string:\penalty500\relax 52--61.
+
+\bibitem[Rambaut \emph{et~al.}, 2008]{Rambaut2008}
+\bgroup\fonteauteurs\bgroup Rambaut\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Pybus\egroup\egroup{}, O.~G.,
+  \bgroup\fonteauteurs\bgroup Nelson\egroup\egroup{}, M.~I.,
+  \bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Taubenberger\egroup\egroup{}, J.~K. \&
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C. (2008).
+\newblock The genomic and epidemiological dynamics of human influenza a virus.
+\newblock {\em Nature}, 453(7195)\string:\penalty500\relax 615--619.
+
+\bibitem[Rand \emph{et~al.}, 1995]{Rand1995}
+\bgroup\fonteauteurs\bgroup Rand\egroup\egroup{}, D.~A.,
+  \bgroup\fonteauteurs\bgroup Keeling\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup Wilson\egroup\egroup{}, H.~B. (1995).
+\newblock Invasion, stability and evolution to criticality in spatially
+  extended, artificial host-pathogen ecologies.
+\newblock {\em Proceedings: Biological Sciences},
+  259(1354)\string:\penalty500\relax 55--63.
+
+\bibitem[Read \& Keeling, 2006]{Read2006}
+\bgroup\fonteauteurs\bgroup Read\egroup\egroup{}, J.~M. \&
+  \bgroup\fonteauteurs\bgroup Keeling\egroup\egroup{}, M.~J. (2006).
+\newblock Disease evolution across a range of spatio-temporal scales.
+\newblock {\em Theor Popul Biol}, 70(2)\string:\penalty500\relax 201--213.
+
+\bibitem[Read \& Keeling, 2007]{Read2007}
+\bgroup\fonteauteurs\bgroup Read\egroup\egroup{}, J.~M. \&
+  \bgroup\fonteauteurs\bgroup Keeling\egroup\egroup{}, M.~J. (2007).
+\newblock Stochasticity generates an evolutionary instability for infectious
+  disease.
+\newblock {\em Ecol Lett}, 10(9)\string:\penalty500\relax 818--827.
+
+\bibitem[Recker \emph{et~al.}, 2009]{Recker2009}
+\bgroup\fonteauteurs\bgroup Recker\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Blyuss\egroup\egroup{}, K.~B.,
+  \bgroup\fonteauteurs\bgroup Simmons\egroup\egroup{}, C.~P.,
+  \bgroup\fonteauteurs\bgroup Hien\egroup\egroup{}, T.~T.,
+  \bgroup\fonteauteurs\bgroup Wills\egroup\egroup{}, B.,
+  \bgroup\fonteauteurs\bgroup Farrar\egroup\egroup{}, J. \&
+  \bgroup\fonteauteurs\bgroup Gupta\egroup\egroup{}, S. (2009).
+\newblock Immunological serotype interactions and their effect on the
+  epidemiological pattern of dengue.
+\newblock {\em Proc Biol Sci}, 276(1667)\string:\penalty500\relax 2541--2548.
+
+\bibitem[Recker \emph{et~al.}, 2007]{Recker2007}
+\bgroup\fonteauteurs\bgroup Recker\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Pybus\egroup\egroup{}, O.~G.,
+  \bgroup\fonteauteurs\bgroup Nee\egroup\egroup{}, S. \&
+  \bgroup\fonteauteurs\bgroup Gupta\egroup\egroup{}, S. (2007).
+\newblock The generation of influenza outbreaks by a network of host immune
+  responses against a limited set of antigenic types.
+\newblock {\em Proc Natl Acad Sci U S A}, 104(18)\string:\penalty500\relax
+  7711--7716.
+
+\bibitem[Rhodes \& Anderson, 1996]{Rhodes1996}
+\bgroup\fonteauteurs\bgroup Rhodes\egroup\egroup{}, C.~J. \&
+  \bgroup\fonteauteurs\bgroup Anderson\egroup\egroup{}, R.~M. (1996).
+\newblock Power laws governing epidemics in isolated populations.
+\newblock {\em Nature}, 381(6583)\string:\penalty500\relax 600--602.
+
+\bibitem[Rhodes \emph{et~al.}, 1997]{Rhodes1997}
+\bgroup\fonteauteurs\bgroup Rhodes\egroup\egroup{}, C.~J.,
+  \bgroup\fonteauteurs\bgroup Jensen\egroup\egroup{}, H.~J. \&
+  \bgroup\fonteauteurs\bgroup Anderson\egroup\egroup{}, R.~M. (1997).
+\newblock On the critical behaviour of simple epidemics.
+\newblock {\em Proc Biol Sci}, 264(1388)\string:\penalty500\relax 1639--1646.
+
+\bibitem[Rota \& Bellini, 2003]{Rota2003}
+\bgroup\fonteauteurs\bgroup Rota\egroup\egroup{}, P.~A. \&
+  \bgroup\fonteauteurs\bgroup Bellini\egroup\egroup{}, W.~J. (2003).
+\newblock Update on the global distribution of genotypes of wild type measles
+  viruses.
+\newblock {\em J Infect Dis}, 187 Suppl 1\string:\penalty500\relax S270--S276.
+
+\bibitem[Roy \& Pascual, 2006]{Roy2006}
+\bgroup\fonteauteurs\bgroup Roy\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup Pascual\egroup\egroup{}, M. (2006).
+\newblock On representing network heterogeneities in the incidence rate of
+  simple epidemic models.
+\newblock {\em Ecological Complexity}, 3(1)\string:\penalty500\relax 80 -- 90.
+
+\bibitem[Russell \emph{et~al.}, 2008]{Russell2008}
+\bgroup\fonteauteurs\bgroup Russell\egroup\egroup{}, C.~A.,
+  \bgroup\fonteauteurs\bgroup Jones\egroup\egroup{}, T.~C.,
+  \bgroup\fonteauteurs\bgroup Barr\egroup\egroup{}, I.~G.,
+  \bgroup\fonteauteurs\bgroup Cox\egroup\egroup{}, N.~J.,
+  \bgroup\fonteauteurs\bgroup Garten\egroup\egroup{}, R.~J.,
+  \bgroup\fonteauteurs\bgroup Gregory\egroup\egroup{}, V.,
+  \bgroup\fonteauteurs\bgroup Gust\egroup\egroup{}, I.~D.,
+  \bgroup\fonteauteurs\bgroup Hampson\egroup\egroup{}, A.~W.,
+  \bgroup\fonteauteurs\bgroup Hay\egroup\egroup{}, A.~J.,
+  \bgroup\fonteauteurs\bgroup Hurt\egroup\egroup{}, A.~C.,
+  de~\bgroup\fonteauteurs\bgroup Jong\egroup\egroup{}, J.~C.,
+  \bgroup\fonteauteurs\bgroup Kelso\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Klimov\egroup\egroup{}, A.~I.,
+  \bgroup\fonteauteurs\bgroup Kageyama\egroup\egroup{}, T.,
+  \bgroup\fonteauteurs\bgroup Komadina\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Lapedes\egroup\egroup{}, A.~S.,
+  \bgroup\fonteauteurs\bgroup Lin\egroup\egroup{}, Y.~P.,
+  \bgroup\fonteauteurs\bgroup Mosterin\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Obuchi\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Odagiri\egroup\egroup{}, T.,
+  \bgroup\fonteauteurs\bgroup Osterhaus\egroup\egroup{}, A. D. M.~E.,
+  \bgroup\fonteauteurs\bgroup Rimmelzwaan\egroup\egroup{}, G.~F.,
+  \bgroup\fonteauteurs\bgroup Shaw\egroup\egroup{}, M.~W.,
+  \bgroup\fonteauteurs\bgroup Skepner\egroup\egroup{}, E.,
+  \bgroup\fonteauteurs\bgroup Stohr\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Tashiro\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Fouchier\egroup\egroup{}, R. A.~M. \&
+  \bgroup\fonteauteurs\bgroup Smith\egroup\egroup{}, D.~J. (2008).
+\newblock The global circulation of seasonal influenza a (h3n2) viruses.
+\newblock {\em Science}, 320(5874)\string:\penalty500\relax 340--346.
+
+\bibitem[Samuels, 1963]{Samuels1963}
+\bgroup\fonteauteurs\bgroup Samuels\egroup\egroup{}, N. (1963).
+\newblock Experiences of a medical officer on tristan da cunha.
+\newblock {\em British Medical Journal}, 2\string:\penalty500\relax 1013.
+
+\bibitem[Schrag \& Wiener, 1995]{Schrag1995}
+\bgroup\fonteauteurs\bgroup Schrag\egroup\egroup{}, S.~J. \&
+  \bgroup\fonteauteurs\bgroup Wiener\egroup\egroup{}, P. (1995).
+\newblock Emerging infectious disease: what are the relative roles of ecology
+  and evolution?
+\newblock {\em Trends in Ecology \& Evolution}, 10(8)\string:\penalty500\relax
+  319--324.
+
+\bibitem[Shaman \& Kohn, 2009]{Shaman2009}
+\bgroup\fonteauteurs\bgroup Shaman\egroup\egroup{}, J. \&
+  \bgroup\fonteauteurs\bgroup Kohn\egroup\egroup{}, M. (2009).
+\newblock Absolute humidity modulates influenza survival, transmission, and
+  seasonality.
+\newblock {\em Proc Natl Acad Sci U S A}, 106(9)\string:\penalty500\relax
+  3243--3248.
+
+\bibitem[Shibli \emph{et~al.}, 1971]{Shibli1971}
+\bgroup\fonteauteurs\bgroup Shibli\egroup\egroup{}, M.,
+  \bgroup\fonteauteurs\bgroup Gooch\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Lewis\egroup\egroup{}, H. \&
+  \bgroup\fonteauteurs\bgroup Tyrrell\egroup\egroup{}, D. (1971).
+\newblock Common colds on tristan da cunha.
+\newblock {\em The Journal of Hygiene}, 69\string:\penalty500\relax 255--262.
+
+\bibitem[Shih \emph{et~al.}, 2007]{Shih2007}
+\bgroup\fonteauteurs\bgroup Shih\egroup\egroup{}, A. C.-C.,
+  \bgroup\fonteauteurs\bgroup Hsiao\egroup\egroup{}, T.-C.,
+  \bgroup\fonteauteurs\bgroup Ho\egroup\egroup{}, M.-S. \&
+  \bgroup\fonteauteurs\bgroup Li\egroup\egroup{}, W.-H. (2007).
+\newblock Simultaneous amino acid substitutions at antigenic sites drive
+  influenza a hemagglutinin evolution.
+\newblock {\em Proc Natl Acad Sci U S A}, 104(15)\string:\penalty500\relax
+  6283--6288.
+
+\bibitem[Slepushkin, 1959]{Slepushkin1959}
+\bgroup\fonteauteurs\bgroup Slepushkin\egroup\egroup{}, A.~N. (1959).
+\newblock The effect of a previous attack of a1 influenza on susceptibility to
+  a2 virus during the 1957 outbreak.
+\newblock {\em Bull World Health Organ}, 20(2-3)\string:\penalty500\relax
+  297--301.
+
+\bibitem[Smith \emph{et~al.}, 2004]{Smith2004}
+\bgroup\fonteauteurs\bgroup Smith\egroup\egroup{}, D.~J.,
+  \bgroup\fonteauteurs\bgroup Lapedes\egroup\egroup{}, A.~S.,
+  de~\bgroup\fonteauteurs\bgroup Jong\egroup\egroup{}, J.~C.,
+  \bgroup\fonteauteurs\bgroup Bestebroer\egroup\egroup{}, T.~M.,
+  \bgroup\fonteauteurs\bgroup Rimmelzwaan\egroup\egroup{}, G.~F.,
+  \bgroup\fonteauteurs\bgroup Osterhaus\egroup\egroup{}, A. D. M.~E. \&
+  \bgroup\fonteauteurs\bgroup Fouchier\egroup\egroup{}, R. A.~M. (2004).
+\newblock Mapping the antigenic and genetic evolution of influenza virus.
+\newblock {\em Science}, 305(5682)\string:\penalty500\relax 371--376.
+
+\bibitem[Stone \emph{et~al.}, 2007]{Stone2007a}
+\bgroup\fonteauteurs\bgroup Stone\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Olinky\egroup\egroup{}, R. \&
+  \bgroup\fonteauteurs\bgroup Huppert\egroup\egroup{}, A. (2007).
+\newblock Seasonal dynamics of recurrent epidemics.
+\newblock {\em Nature}, 446(7135)\string:\penalty500\relax 533--536.
+
+\bibitem[Suzuki, 2008]{Suzuki2008}
+\bgroup\fonteauteurs\bgroup Suzuki\egroup\egroup{}, Y. (2008).
+\newblock Positive selection operates continuously on hemagglutinin during
+  evolution of h3n2 human influenza a virus.
+\newblock {\em Gene}, 427(1-2)\string:\penalty500\relax 111--116.
+
+\bibitem[Taubenberger \& Morens, 2006]{Taubenberger2006}
+\bgroup\fonteauteurs\bgroup Taubenberger\egroup\egroup{}, J.~K. \&
+  \bgroup\fonteauteurs\bgroup Morens\egroup\egroup{}, D.~M. (2006).
+\newblock 1918 influenza: the mother of all pandemics.
+\newblock {\em Emerg Infect Dis}, 12(1)\string:\penalty500\relax 15--22.
+
+\bibitem[Taylor-Robinson \& Tyrrell, 1963]{Taylor-Robinson1963}
+\bgroup\fonteauteurs\bgroup Taylor-Robinson\egroup\egroup{}, D. \&
+  \bgroup\fonteauteurs\bgroup Tyrrell\egroup\egroup{}, D. (1963).
+\newblock {IV. Virus diseases on Tristan da Cunha}.
+\newblock {\em Transactions of the Royal Society of Tropical Medicine and
+  Hygiene}, 57\string:\penalty500\relax 19--22.
+
+\bibitem[Team \emph{et~al.}, 2009]{Team2009}
+\bgroup\fonteauteurs\bgroup Team\egroup\egroup{}, N. S.-O. I. A. H. V.~I.,
+  \bgroup\fonteauteurs\bgroup Dawood\egroup\egroup{}, F.~S.,
+  \bgroup\fonteauteurs\bgroup Jain\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Finelli\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Shaw\egroup\egroup{}, M.~W.,
+  \bgroup\fonteauteurs\bgroup Lindstrom\egroup\egroup{}, S.,
+  \bgroup\fonteauteurs\bgroup Garten\egroup\egroup{}, R.~J.,
+  \bgroup\fonteauteurs\bgroup Gubareva\egroup\egroup{}, L.~V.,
+  \bgroup\fonteauteurs\bgroup Xu\egroup\egroup{}, X.,
+  \bgroup\fonteauteurs\bgroup Bridges\egroup\egroup{}, C.~B. \&
+  \bgroup\fonteauteurs\bgroup Uyeki\egroup\egroup{}, T.~M. (2009).
+\newblock Emergence of a novel swine-origin influenza a (h1n1) virus in humans.
+\newblock {\em N Engl J Med}, 360(25)\string:\penalty500\relax 2605--2615.
+
+\bibitem[Toni \emph{et~al.}, 2009]{Toni2009}
+\bgroup\fonteauteurs\bgroup Toni\egroup\egroup{}, T.,
+  \bgroup\fonteauteurs\bgroup Welch\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Strelkowa\egroup\egroup{}, N.,
+  \bgroup\fonteauteurs\bgroup Ipsen\egroup\egroup{}, A. \&
+  \bgroup\fonteauteurs\bgroup Stumpf\egroup\egroup{}, M. P.~H. (2009).
+\newblock Approximate bayesian computation scheme for parameter inference and
+  model selection in dynamical systems.
+\newblock {\em J R Soc Interface}, 6(31)\string:\penalty500\relax 187--202.
+
+\bibitem[Tria \emph{et~al.}, 2005]{Tria2005}
+\bgroup\fonteauteurs\bgroup Tria\egroup\egroup{}, F.,
+  \bgroup\fonteauteurs\bgroup M~L\"{a}ssig\egroup\egroup{}, L.~P. \&
+  \bgroup\fonteauteurs\bgroup Franz\egroup\egroup{}, S. (2005).
+\newblock A minimal stochastic model for influenza evolution.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2005(07)\string:\penalty500\relax P07008.
+
+\bibitem[Tyrrell \emph{et~al.}, 1967]{Tyrrell1967}
+\bgroup\fonteauteurs\bgroup Tyrrell\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Peto\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup King\egroup\egroup{}, N. (1967).
+\newblock Serological studies on infections by respiratory viruses of the
+  inhabitants of tristan da cunha.
+\newblock {\em The Journal of Hygiene}, 65\string:\penalty500\relax 327--341.
+
+\bibitem[van Ballegooijen \& Boerlijst, 2004]{Ballegooijen2004}
+van \bgroup\fonteauteurs\bgroup Ballegooijen\egroup\egroup{}, W.~M. \&
+  \bgroup\fonteauteurs\bgroup Boerlijst\egroup\egroup{}, M.~C. (2004).
+\newblock Emergent trade-offs and selection for outbreak frequency in spatial
+  epidemics.
+\newblock {\em Proc Natl Acad Sci U S A}, 101(52)\string:\penalty500\relax
+  18246--18250.
+
+\bibitem[Viboud \emph{et~al.}, 2006a]{Viboud2006}
+\bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Alonso\egroup\egroup{}, W.~J. \&
+  \bgroup\fonteauteurs\bgroup Simonsen\egroup\egroup{}, L. (2006a).
+\newblock Influenza in tropical regions.
+\newblock {\em PLoS Med}, 3(4)\string:\penalty500\relax e89.
+
+\bibitem[Viboud \emph{et~al.}, 2005]{Viboud2005}
+\bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Grais\egroup\egroup{}, R.~F.,
+  \bgroup\fonteauteurs\bgroup Lafont\egroup\egroup{}, B. A.~P.,
+  \bgroup\fonteauteurs\bgroup Miller\egroup\egroup{}, M.~A.,
+  \bgroup\fonteauteurs\bgroup Simonsen\egroup\egroup{}, L. \&
+  \bgroup\fonteauteurs\bgroup Group\egroup\egroup{}, M. I. S. M.~S. (2005).
+\newblock Multinational impact of the 1968 hong kong influenza pandemic:
+  evidence for a smoldering pandemic.
+\newblock {\em J Infect Dis}, 192(2)\string:\penalty500\relax 233--248.
+
+\bibitem[Viboud \emph{et~al.}, 2006b]{Viboud2006b}
+\bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Tam\egroup\egroup{}, T.,
+  \bgroup\fonteauteurs\bgroup Fleming\egroup\egroup{}, D.,
+  \bgroup\fonteauteurs\bgroup Handel\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Miller\egroup\egroup{}, M.~A. \&
+  \bgroup\fonteauteurs\bgroup Simonsen\egroup\egroup{}, L. (2006b).
+\newblock Transmissibility and mortality impact of epidemic and pandemic
+  influenza, with emphasis on the unusually deadly 1951 epidemic.
+\newblock {\em Vaccine}, 24(44-46)\string:\penalty500\relax 6701--6707.
+
+\bibitem[Wagner \emph{et~al.}, 2002]{Wagner2002}
+\bgroup\fonteauteurs\bgroup Wagner\egroup\egroup{}, R.,
+  \bgroup\fonteauteurs\bgroup Matrosovich\egroup\egroup{}, M. \&
+  \bgroup\fonteauteurs\bgroup Klenk\egroup\egroup{}, H.-D. (2002).
+\newblock Functional balance between haemagglutinin and neuraminidase in
+  influenza virus infections.
+\newblock {\em Rev Med Virol}, 12(3)\string:\penalty500\relax 159--166.
+
+\bibitem[Wallinga \emph{et~al.}, 2006]{Wallinga2006}
+\bgroup\fonteauteurs\bgroup Wallinga\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Teunis\egroup\egroup{}, P. \&
+  \bgroup\fonteauteurs\bgroup Kretzschmar\egroup\egroup{}, M. (2006).
+\newblock Using data on social contacts to estimate age-specific transmission
+  parameters for respiratory-spread infectious agents.
+\newblock {\em Am J Epidemiol}, 164(10)\string:\penalty500\relax 936--944.
+
+\bibitem[Wearing \& Rohani, 2006]{Wearing2006}
+\bgroup\fonteauteurs\bgroup Wearing\egroup\egroup{}, H.~J. \&
+  \bgroup\fonteauteurs\bgroup Rohani\egroup\egroup{}, P. (2006).
+\newblock Ecological and immunological determinants of dengue epidemics.
+\newblock {\em Proc Natl Acad Sci U S A}, 103(31)\string:\penalty500\relax
+  11802--11807.
+
+\bibitem[Webster \emph{et~al.}, 1992]{Webster1992}
+\bgroup\fonteauteurs\bgroup Webster\egroup\egroup{}, R.~G.,
+  \bgroup\fonteauteurs\bgroup Bean\egroup\egroup{}, W.~J.,
+  \bgroup\fonteauteurs\bgroup Gorman\egroup\egroup{}, O.~T.,
+  \bgroup\fonteauteurs\bgroup Chambers\egroup\egroup{}, T.~M. \&
+  \bgroup\fonteauteurs\bgroup Kawaoka\egroup\egroup{}, Y. (1992).
+\newblock Evolution and ecology of influenza a viruses.
+\newblock {\em Microbiol Rev}, 56(1)\string:\penalty500\relax 152--179.
+
+\bibitem[WHO, 2003]{WHO2003}
+\bgroup\fonteauteurs\bgroup WHO\egroup\egroup{} (2003).
+\newblock Fact sheet number 211. influenza.
+\newblock {\em WHO Fact sheets}.
+
+\bibitem[Wilcox \& Colwell, 2005]{Wilcox2005}
+\bgroup\fonteauteurs\bgroup Wilcox\egroup\egroup{}, B. \&
+  \bgroup\fonteauteurs\bgroup Colwell\egroup\egroup{}, R. (2005).
+\newblock Emerging and reemerging infectious diseases: Biocomplexity as an
+  interdisciplinary paradigm.
+\newblock {\em EcoHealth}, 2(4)\string:\penalty500\relax 244--257.
+
+\bibitem[Wolf \emph{et~al.}, 1985]{Wolf1985}
+\bgroup\fonteauteurs\bgroup Wolf\egroup\egroup{}, A.,
+  \bgroup\fonteauteurs\bgroup Swift\egroup\egroup{}, J.~B.,
+  \bgroup\fonteauteurs\bgroup Swinney\egroup\egroup{}, H.~L. \&
+  \bgroup\fonteauteurs\bgroup Vastano\egroup\egroup{}, J.~A. (1985).
+\newblock Determining lyapunov exponents from a time series.
+\newblock {\em Physica D: Nonlinear Phenomena}, 16(3)\string:\penalty500\relax
+  285 -- 317.
+
+\bibitem[Wolf \emph{et~al.}, 2006]{Wolf2006}
+\bgroup\fonteauteurs\bgroup Wolf\egroup\egroup{}, Y.~I.,
+  \bgroup\fonteauteurs\bgroup Viboud\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Holmes\egroup\egroup{}, E.~C.,
+  \bgroup\fonteauteurs\bgroup Koonin\egroup\egroup{}, E.~V. \&
+  \bgroup\fonteauteurs\bgroup Lipman\egroup\egroup{}, D.~J. (2006).
+\newblock Long intervals of stasis punctuated by bursts of positive selection
+  in the seasonal evolution of influenza a virus.
+\newblock {\em Biol Direct}, 1\string:\penalty500\relax 34.
+
+\bibitem[Wolfe \emph{et~al.}, 2007]{Wolfe2007a}
+\bgroup\fonteauteurs\bgroup Wolfe\egroup\egroup{}, N.~D.,
+  \bgroup\fonteauteurs\bgroup Dunavan\egroup\egroup{}, C.~P. \&
+  \bgroup\fonteauteurs\bgroup Diamond\egroup\egroup{}, J. (2007).
+\newblock Origins of major human infectious diseases.
+\newblock {\em Nature}, 447(7142)\string:\penalty500\relax 279--283.
+
+\bibitem[Woolhouse \emph{et~al.}, 2005]{Woolhouse2005}
+\bgroup\fonteauteurs\bgroup Woolhouse\egroup\egroup{}, M. E.~J.,
+  \bgroup\fonteauteurs\bgroup Haydon\egroup\egroup{}, D.~T. \&
+  \bgroup\fonteauteurs\bgroup Antia\egroup\egroup{}, R. (2005).
+\newblock Emerging pathogens: the epidemiology and evolution of species jumps.
+\newblock {\em Trends Ecol Evol}, 20(5)\string:\penalty500\relax 238--244.
+
+\bibitem[Wrammert \emph{et~al.}, 2008]{Wrammert2008}
+\bgroup\fonteauteurs\bgroup Wrammert\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Smith\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Miller\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Langley\egroup\egroup{}, W.~A.,
+  \bgroup\fonteauteurs\bgroup Kokko\egroup\egroup{}, K.,
+  \bgroup\fonteauteurs\bgroup Larsen\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup Zheng\egroup\egroup{}, N.-Y.,
+  \bgroup\fonteauteurs\bgroup Mays\egroup\egroup{}, I.,
+  \bgroup\fonteauteurs\bgroup Garman\egroup\egroup{}, L.,
+  \bgroup\fonteauteurs\bgroup Helms\egroup\egroup{}, C.,
+  \bgroup\fonteauteurs\bgroup James\egroup\egroup{}, J.,
+  \bgroup\fonteauteurs\bgroup Air\egroup\egroup{}, G.~M.,
+  \bgroup\fonteauteurs\bgroup Capra\egroup\egroup{}, J.~D.,
+  \bgroup\fonteauteurs\bgroup Ahmed\egroup\egroup{}, R. \&
+  \bgroup\fonteauteurs\bgroup Wilson\egroup\egroup{}, P.~C. (2008).
+\newblock Rapid cloning of high-affinity human monoclonal antibodies against
+  influenza virus.
+\newblock {\em Nature}, 453(7195)\string:\penalty500\relax 667--671.
+
+\bibitem[Xia \emph{et~al.}, 2005]{Xia2005}
+\bgroup\fonteauteurs\bgroup Xia\egroup\egroup{}, Y.,
+  \bgroup\fonteauteurs\bgroup Gog\egroup\egroup{}, J.~R. \&
+  \bgroup\fonteauteurs\bgroup Grenfell\egroup\egroup{}, B.~T. (2005).
+\newblock Semiparametric estimation of the duration of immunity from infectious
+  disease time series: influenza as a case-study.
+\newblock {\em Journal of the Royal Statistical Society: Series C (Applied
+  Statistics)}, 54(3)\string:\penalty500\relax 659--672.
+
+\bibitem[Zimmer \& Burke, 2009]{Zimmer2009}
+\bgroup\fonteauteurs\bgroup Zimmer\egroup\egroup{}, S.~M. \&
+  \bgroup\fonteauteurs\bgroup Burke\egroup\egroup{}, D.~S. (2009).
+\newblock Historical perspective--emergence of influenza a (h1n1) viruses.
+\newblock {\em N Engl J Med}, 361(3)\string:\penalty500\relax 279--285.
+
+\end{thebibliography}

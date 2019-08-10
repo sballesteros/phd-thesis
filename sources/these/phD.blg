@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: phD.aux
+The style file: apalike-fr.bst
+Database file #1: /home/seb/Documents/biblio_bibtex/biblio_seb.bib
+Repeated entry---line 7119 of file /home/seb/Documents/biblio_bibtex/biblio_seb.bib
+ : @article{Francis1953
+ :                     ,
+I'm skipping whatever remains of this entry
+Warning--can't use both author and editor fields in Anderson1992
+Warning--empty publisher in Anderson1992
+Warning--can't use both author and editor fields in Diamond1999
+Warning--empty publisher in Diamond1999
+Warning--can't use both author and editor fields in Dieckmann2002
+Warning--can't use both author and editor fields in McMichael2001
+Warning--empty publisher in McMichael2001
+You've used 224 entries,
+            2038 wiz_defined-function locations,
+            2004 strings with 54370 characters,
+and the built_in function-call counts, 115164 in all, are:
+= -- 12506
+> -- 4898
+< -- 86
++ -- 1871
+- -- 1780
+* -- 9625
+:= -- 23118
+add.period$ -- 668
+call.type$ -- 224
+change.case$ -- 2000
+chr.to.int$ -- 217
+cite$ -- 231
+duplicate$ -- 3129
+empty$ -- 6629
+format.name$ -- 2106
+if$ -- 22242
+int.to.chr$ -- 8
+int.to.str$ -- 0
+missing$ -- 230
+newline$ -- 1124
+num.names$ -- 672
+pop$ -- 1529
+preamble$ -- 1
+purify$ -- 2010
+quote$ -- 0
+skip$ -- 2260
+stack$ -- 0
+substring$ -- 10705
+swap$ -- 232
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1326
+warning$ -- 7
+while$ -- 830
+width$ -- 0
+write$ -- 2899
+(There was 1 error message)
